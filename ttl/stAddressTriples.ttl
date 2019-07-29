@@ -1,0 +1,597 @@
+@prefix : <http://isi.edu/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+@prefix wdref: <http://www.wikidata.org/reference/> .
+@prefix wds: <http://www.wikidata.org/entity/statement/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix wdv: <http://www.wikidata.org/value/> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+wd:Q65620298 a wikibase:Item ;
+    p:P6375 wds:Q65620298-067c546c-40e2-4233-ae8c-1e82a1d60b15,
+        wds:Q65620298-09a18a74-4c25-421e-b5c7-d46f8b61a1e8,
+        wds:Q65620298-13cfa006-3baa-4cbf-92f6-87a87386c70f,
+        wds:Q65620298-255b35d2-3487-4176-924b-6d7eb9efe590,
+        wds:Q65620298-260f7544-674e-4ab0-a326-ebbe66e82c8f,
+        wds:Q65620298-29041fdb-cf00-482d-a1ba-d055fa586047,
+        wds:Q65620298-2bfd0712-8952-49b1-be9e-f07b33002758,
+        wds:Q65620298-2cc65a0d-0eb6-4d93-a22e-e0735ad7e3bd,
+        wds:Q65620298-3199feb6-4893-434d-8565-d1a2b422df58,
+        wds:Q65620298-31edb24d-75fa-4037-a038-7f4858e5fed9,
+        wds:Q65620298-3370dfce-db46-4e13-98b3-50ec7de96c8f,
+        wds:Q65620298-42601880-1610-48dc-ab26-3b218880e65f,
+        wds:Q65620298-4bea129d-759f-4cb9-a853-0b60a61c2f53,
+        wds:Q65620298-4c6442a1-3e13-4669-a18a-428750cb00c9,
+        wds:Q65620298-56606570-f600-4e6b-9c30-66fcea33112e,
+        wds:Q65620298-588b2972-979c-4b64-869b-9651dec0abf3,
+        wds:Q65620298-5fc837f4-6dfe-4a6f-a685-ea1f0b54444d,
+        wds:Q65620298-608929d6-ffe1-47f3-934e-8b2462b35a59,
+        wds:Q65620298-6a096f42-32c9-4c11-8fc2-b859cfb17344,
+        wds:Q65620298-72dc4139-aac1-4a3d-b67a-aeab4b499c53,
+        wds:Q65620298-7df84469-b0d7-4107-b1bc-cbecea67d972,
+        wds:Q65620298-7f535440-ea2e-4fe4-bcb9-fa91f495dea0,
+        wds:Q65620298-80c5b6d5-b964-4dba-ab47-1ead7c27da3e,
+        wds:Q65620298-84939890-9062-4f66-9247-3de78e9eeeaa,
+        wds:Q65620298-8a7ce0c5-6d2a-46bb-9cb5-0f13b905e9e1,
+        wds:Q65620298-8fb75a12-fba0-4bd6-a388-c74385033ebb,
+        wds:Q65620298-90a9966a-56c4-4f1d-b582-90c121952f48,
+        wds:Q65620298-974e9c4d-5933-4dec-8913-d8ba1fd88155,
+        wds:Q65620298-99115443-fcfd-4669-8da9-81682ec4c003,
+        wds:Q65620298-9dc6e1bb-7ebf-46aa-a010-3ccf47407631,
+        wds:Q65620298-9f08f610-5830-48d2-9aeb-b52834110407,
+        wds:Q65620298-a7585dcd-5673-4a56-a2fb-9f2d74517d66,
+        wds:Q65620298-b0881191-6600-4335-bb39-e400444a2a4a,
+        wds:Q65620298-b0d214a2-b56c-4daa-8d06-e021e61dc8e3,
+        wds:Q65620298-c3d3aa06-9086-47d4-82c8-247531ec3c7c,
+        wds:Q65620298-cd88d8c3-3104-42b3-b1c8-ac2f2d371387,
+        wds:Q65620298-cf149626-39b6-4f4b-9d8c-cc8dd18780db,
+        wds:Q65620298-d0b558d9-3cd5-4fed-9d37-c07e1128309f,
+        wds:Q65620298-d2a52a89-b5e0-430c-bc06-be45b18359ba,
+        wds:Q65620298-d2d7bc7b-3f51-4737-960c-ee21c01014e8,
+        wds:Q65620298-da7ac07c-2c74-40ce-afd3-35ceaa6a1307,
+        wds:Q65620298-db7d6287-0185-41a9-b420-990c981ef41d,
+        wds:Q65620298-e42cc53d-a507-41b0-998b-d6bc21f595fa,
+        wds:Q65620298-e5b81d92-74b9-451f-a3c5-b4a4f2239681,
+        wds:Q65620298-e8607c7d-5edf-4770-97aa-933ee653ac82,
+        wds:Q65620298-ef70400e-cf42-4c37-8ab8-3b3c3d20ca7c,
+        wds:Q65620298-f4e8f2e9-52bc-41d6-9304-3185ea854a16,
+        wds:Q65620298-f72c0929-557f-49ca-bbfd-75f76d7876d4,
+        wds:Q65620298-fb7df150-853f-4d83-9038-0135c59f8fe2 .
+
+wds:Q65620298-067c546c-40e2-4233-ae8c-1e82a1d60b15 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P6375 "1300 E  21ST                         ST"^^xsd:decimal ;
+    psn:P6375 wdv:Quantityc1300 E  21ST                         STc0c0c0 ;
+    psv:P6375 wdv:Quantityc1300 E  21ST                         STc0c0c0 .
+
+wds:Q65620298-09a18a74-4c25-421e-b5c7-d46f8b61a1e8 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P6375 "1100 S  FIGUEROA                     ST"^^xsd:decimal ;
+    psn:P6375 wdv:Quantityc1100 S  FIGUEROA                     STc0c0c0 ;
+    psv:P6375 wdv:Quantityc1100 S  FIGUEROA                     STc0c0c0 .
+
+wds:Q65620298-13cfa006-3baa-4cbf-92f6-87a87386c70f a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P6375 "200 S  OLIVE                        ST"^^xsd:decimal ;
+    psn:P6375 wdv:Quantityc200 S  OLIVE                        STc0c0c0 ;
+    psv:P6375 wdv:Quantityc200 S  OLIVE                        STc0c0c0 .
+
+wds:Q65620298-255b35d2-3487-4176-924b-6d7eb9efe590 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P6375 "600 W  5TH                          ST"^^xsd:decimal ;
+    psn:P6375 wdv:Quantityc600 W  5TH                          STc0c0c0 ;
+    psv:P6375 wdv:Quantityc600 W  5TH                          STc0c0c0 .
+
+wds:Q65620298-260f7544-674e-4ab0-a326-ebbe66e82c8f a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P6375 "700 S  MAIN                         ST"^^xsd:decimal ;
+    psn:P6375 wdv:Quantityc700 S  MAIN                         STc0c0c0 ;
+    psv:P6375 wdv:Quantityc700 S  MAIN                         STc0c0c0 .
+
+wds:Q65620298-29041fdb-cf00-482d-a1ba-d055fa586047 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P6375 "1300 S  FLOWER                       ST"^^xsd:decimal ;
+    psn:P6375 wdv:Quantityc1300 S  FLOWER                       STc0c0c0 ;
+    psv:P6375 wdv:Quantityc1300 S  FLOWER                       STc0c0c0 .
+
+wds:Q65620298-2bfd0712-8952-49b1-be9e-f07b33002758 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P6375 "1ST"^^xsd:decimal ;
+    psn:P6375 wdv:Quantityc1STc0c0c0 ;
+    psv:P6375 wdv:Quantityc1STc0c0c0 .
+
+wds:Q65620298-2cc65a0d-0eb6-4d93-a22e-e0735ad7e3bd a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P6375 "700 S  HOPE                         ST"^^xsd:decimal ;
+    psn:P6375 wdv:Quantityc700 S  HOPE                         STc0c0c0 ;
+    psv:P6375 wdv:Quantityc700 S  HOPE                         STc0c0c0 .
+
+wds:Q65620298-3199feb6-4893-434d-8565-d1a2b422df58 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P6375 "ALAMEDA                      ST"^^xsd:decimal ;
+    psn:P6375 wdv:QuantitycALAMEDA                      STc0c0c0 ;
+    psv:P6375 wdv:QuantitycALAMEDA                      STc0c0c0 .
+
+wds:Q65620298-31edb24d-75fa-4037-a038-7f4858e5fed9 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P6375 "500 E  4TH                          ST"^^xsd:decimal ;
+    psn:P6375 wdv:Quantityc500 E  4TH                          STc0c0c0 ;
+    psv:P6375 wdv:Quantityc500 E  4TH                          STc0c0c0 .
+
+wds:Q65620298-3370dfce-db46-4e13-98b3-50ec7de96c8f a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P6375 "700 E  CESAR E CHAVEZ               AV"^^xsd:decimal ;
+    psn:P6375 wdv:Quantityc700 E  CESAR E CHAVEZ               AVc0c0c0 ;
+    psv:P6375 wdv:Quantityc700 E  CESAR E CHAVEZ               AVc0c0c0 .
+
+wds:Q65620298-42601880-1610-48dc-ab26-3b218880e65f a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P6375 "1200    MAPLE                        AV"^^xsd:decimal ;
+    psn:P6375 wdv:Quantityc1200    MAPLE                        AVc0c0c0 ;
+    psv:P6375 wdv:Quantityc1200    MAPLE                        AVc0c0c0 .
+
+wds:Q65620298-4bea129d-759f-4cb9-a853-0b60a61c2f53 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P6375 "700 W  7TH                          ST"^^xsd:decimal ;
+    psn:P6375 wdv:Quantityc700 W  7TH                          STc0c0c0 ;
+    psv:P6375 wdv:Quantityc700 W  7TH                          STc0c0c0 .
+
+wds:Q65620298-4c6442a1-3e13-4669-a18a-428750cb00c9 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P6375 "800 W  OLYMPIC                      BL"^^xsd:decimal ;
+    psn:P6375 wdv:Quantityc800 W  OLYMPIC                      BLc0c0c0 ;
+    psv:P6375 wdv:Quantityc800 W  OLYMPIC                      BLc0c0c0 .
+
+wds:Q65620298-56606570-f600-4e6b-9c30-66fcea33112e a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P6375 "700 W  7TH                          ST"^^xsd:decimal ;
+    psn:P6375 wdv:Quantityc700 W  7TH                          STc0c0c0 ;
+    psv:P6375 wdv:Quantityc700 W  7TH                          STc0c0c0 .
+
+wds:Q65620298-588b2972-979c-4b64-869b-9651dec0abf3 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P6375 "SAN JULIAN                   ST"^^xsd:decimal ;
+    psn:P6375 wdv:QuantitycSAN JULIAN                   STc0c0c0 ;
+    psv:P6375 wdv:QuantitycSAN JULIAN                   STc0c0c0 .
+
+wds:Q65620298-5fc837f4-6dfe-4a6f-a685-ea1f0b54444d a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P6375 "500    STANFORD                     AV"^^xsd:decimal ;
+    psn:P6375 wdv:Quantityc500    STANFORD                     AVc0c0c0 ;
+    psv:P6375 wdv:Quantityc500    STANFORD                     AVc0c0c0 .
+
+wds:Q65620298-608929d6-ffe1-47f3-934e-8b2462b35a59 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P6375 "200 S  GRAND                        AV"^^xsd:decimal ;
+    psn:P6375 wdv:Quantityc200 S  GRAND                        AVc0c0c0 ;
+    psv:P6375 wdv:Quantityc200 S  GRAND                        AVc0c0c0 .
+
+wds:Q65620298-6a096f42-32c9-4c11-8fc2-b859cfb17344 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P6375 "1ST                          ST"^^xsd:decimal ;
+    psn:P6375 wdv:Quantityc1ST                          STc0c0c0 ;
+    psv:P6375 wdv:Quantityc1ST                          STc0c0c0 .
+
+wds:Q65620298-72dc4139-aac1-4a3d-b67a-aeab4b499c53 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P6375 "100 W  7TH                          ST"^^xsd:decimal ;
+    psn:P6375 wdv:Quantityc100 W  7TH                          STc0c0c0 ;
+    psv:P6375 wdv:Quantityc100 W  7TH                          STc0c0c0 .
+
+wds:Q65620298-7df84469-b0d7-4107-b1bc-cbecea67d972 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P6375 "200 W  6TH                          ST"^^xsd:decimal ;
+    psn:P6375 wdv:Quantityc200 W  6TH                          STc0c0c0 ;
+    psv:P6375 wdv:Quantityc200 W  6TH                          STc0c0c0 .
+
+wds:Q65620298-7f535440-ea2e-4fe4-bcb9-fa91f495dea0 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P6375 "5TH"^^xsd:decimal ;
+    psn:P6375 wdv:Quantityc5THc0c0c0 ;
+    psv:P6375 wdv:Quantityc5THc0c0c0 .
+
+wds:Q65620298-80c5b6d5-b964-4dba-ab47-1ead7c27da3e a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P6375 "900 N  BROADWAY"^^xsd:decimal ;
+    psn:P6375 wdv:Quantityc900 N  BROADWAYc0c0c0 ;
+    psv:P6375 wdv:Quantityc900 N  BROADWAYc0c0c0 .
+
+wds:Q65620298-84939890-9062-4f66-9247-3de78e9eeeaa a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P6375 "600    SAN JULIAN                   ST"^^xsd:decimal ;
+    psn:P6375 wdv:Quantityc600    SAN JULIAN                   STc0c0c0 ;
+    psv:P6375 wdv:Quantityc600    SAN JULIAN                   STc0c0c0 .
+
+wds:Q65620298-8a7ce0c5-6d2a-46bb-9cb5-0f13b905e9e1 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P6375 "SEPULVEDA                    BL"^^xsd:decimal ;
+    psn:P6375 wdv:QuantitycSEPULVEDA                    BLc0c0c0 ;
+    psv:P6375 wdv:QuantitycSEPULVEDA                    BLc0c0c0 .
+
+wds:Q65620298-8fb75a12-fba0-4bd6-a388-c74385033ebb a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P6375 "800 N  ALAMEDA                      ST"^^xsd:decimal ;
+    psn:P6375 wdv:Quantityc800 N  ALAMEDA                      STc0c0c0 ;
+    psv:P6375 wdv:Quantityc800 N  ALAMEDA                      STc0c0c0 .
+
+wds:Q65620298-90a9966a-56c4-4f1d-b582-90c121952f48 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P6375 "6TH                          ST"^^xsd:decimal ;
+    psn:P6375 wdv:Quantityc6TH                          STc0c0c0 ;
+    psv:P6375 wdv:Quantityc6TH                          STc0c0c0 .
+
+wds:Q65620298-974e9c4d-5933-4dec-8913-d8ba1fd88155 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P6375 "800    TRACTION                     AV"^^xsd:decimal ;
+    psn:P6375 wdv:Quantityc800    TRACTION                     AVc0c0c0 ;
+    psv:P6375 wdv:Quantityc800    TRACTION                     AVc0c0c0 .
+
+wds:Q65620298-99115443-fcfd-4669-8da9-81682ec4c003 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P6375 "300 E  GAGE                         AV"^^xsd:decimal ;
+    psn:P6375 wdv:Quantityc300 E  GAGE                         AVc0c0c0 ;
+    psv:P6375 wdv:Quantityc300 E  GAGE                         AVc0c0c0 .
+
+wds:Q65620298-9dc6e1bb-7ebf-46aa-a010-3ccf47407631 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P6375 "800 W  OLYMPIC                      BL"^^xsd:decimal ;
+    psn:P6375 wdv:Quantityc800 W  OLYMPIC                      BLc0c0c0 ;
+    psv:P6375 wdv:Quantityc800 W  OLYMPIC                      BLc0c0c0 .
+
+wds:Q65620298-9f08f610-5830-48d2-9aeb-b52834110407 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P6375 "1100 S  OLIVE                        ST"^^xsd:decimal ;
+    psn:P6375 wdv:Quantityc1100 S  OLIVE                        STc0c0c0 ;
+    psv:P6375 wdv:Quantityc1100 S  OLIVE                        STc0c0c0 .
+
+wds:Q65620298-a7585dcd-5673-4a56-a2fb-9f2d74517d66 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P6375 "PICO"^^xsd:decimal ;
+    psn:P6375 wdv:QuantitycPICOc0c0c0 ;
+    psv:P6375 wdv:QuantitycPICOc0c0c0 .
+
+wds:Q65620298-b0881191-6600-4335-bb39-e400444a2a4a a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P6375 "8TH                          ST"^^xsd:decimal ;
+    psn:P6375 wdv:Quantityc8TH                          STc0c0c0 ;
+    psv:P6375 wdv:Quantityc8TH                          STc0c0c0 .
+
+wds:Q65620298-b0d214a2-b56c-4daa-8d06-e021e61dc8e3 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P6375 "1400 S  HOPE                         ST"^^xsd:decimal ;
+    psn:P6375 wdv:Quantityc1400 S  HOPE                         STc0c0c0 ;
+    psv:P6375 wdv:Quantityc1400 S  HOPE                         STc0c0c0 .
+
+wds:Q65620298-c3d3aa06-9086-47d4-82c8-247531ec3c7c a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P6375 "800 S  SPRING                       ST"^^xsd:decimal ;
+    psn:P6375 wdv:Quantityc800 S  SPRING                       STc0c0c0 ;
+    psv:P6375 wdv:Quantityc800 S  SPRING                       STc0c0c0 .
+
+wds:Q65620298-cd88d8c3-3104-42b3-b1c8-ac2f2d371387 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P6375 "800 W  OLYMPIC                      BL"^^xsd:decimal ;
+    psn:P6375 wdv:Quantityc800 W  OLYMPIC                      BLc0c0c0 ;
+    psv:P6375 wdv:Quantityc800 W  OLYMPIC                      BLc0c0c0 .
+
+wds:Q65620298-cf149626-39b6-4f4b-9d8c-cc8dd18780db a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P6375 "500 S  GRAND                        AV"^^xsd:decimal ;
+    psn:P6375 wdv:Quantityc500 S  GRAND                        AVc0c0c0 ;
+    psv:P6375 wdv:Quantityc500 S  GRAND                        AVc0c0c0 .
+
+wds:Q65620298-d0b558d9-3cd5-4fed-9d37-c07e1128309f a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P6375 "300 E  OLYMPIC                      BL"^^xsd:decimal ;
+    psn:P6375 wdv:Quantityc300 E  OLYMPIC                      BLc0c0c0 ;
+    psv:P6375 wdv:Quantityc300 E  OLYMPIC                      BLc0c0c0 .
+
+wds:Q65620298-d2a52a89-b5e0-430c-bc06-be45b18359ba a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P6375 "600 S  SAN PEDRO                    ST"^^xsd:decimal ;
+    psn:P6375 wdv:Quantityc600 S  SAN PEDRO                    STc0c0c0 ;
+    psv:P6375 wdv:Quantityc600 S  SAN PEDRO                    STc0c0c0 .
+
+wds:Q65620298-d2d7bc7b-3f51-4737-960c-ee21c01014e8 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P6375 "600 S  MAIN                         ST"^^xsd:decimal ;
+    psn:P6375 wdv:Quantityc600 S  MAIN                         STc0c0c0 ;
+    psv:P6375 wdv:Quantityc600 S  MAIN                         STc0c0c0 .
+
+wds:Q65620298-da7ac07c-2c74-40ce-afd3-35ceaa6a1307 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P6375 "CAHUENGA                     BL"^^xsd:decimal ;
+    psn:P6375 wdv:QuantitycCAHUENGA                     BLc0c0c0 ;
+    psv:P6375 wdv:QuantitycCAHUENGA                     BLc0c0c0 .
+
+wds:Q65620298-db7d6287-0185-41a9-b420-990c981ef41d a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P6375 "600 E  2ND                          ST"^^xsd:decimal ;
+    psn:P6375 wdv:Quantityc600 E  2ND                          STc0c0c0 ;
+    psv:P6375 wdv:Quantityc600 E  2ND                          STc0c0c0 .
+
+wds:Q65620298-e42cc53d-a507-41b0-998b-d6bc21f595fa a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P6375 "1200 S  FLOWER                       ST"^^xsd:decimal ;
+    psn:P6375 wdv:Quantityc1200 S  FLOWER                       STc0c0c0 ;
+    psv:P6375 wdv:Quantityc1200 S  FLOWER                       STc0c0c0 .
+
+wds:Q65620298-e5b81d92-74b9-451f-a3c5-b4a4f2239681 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P6375 "700 W  7TH                          ST"^^xsd:decimal ;
+    psn:P6375 wdv:Quantityc700 W  7TH                          STc0c0c0 ;
+    psv:P6375 wdv:Quantityc700 W  7TH                          STc0c0c0 .
+
+wds:Q65620298-e8607c7d-5edf-4770-97aa-933ee653ac82 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P6375 "500 S  BROADWAY"^^xsd:decimal ;
+    psn:P6375 wdv:Quantityc500 S  BROADWAYc0c0c0 ;
+    psv:P6375 wdv:Quantityc500 S  BROADWAYc0c0c0 .
+
+wds:Q65620298-ef70400e-cf42-4c37-8ab8-3b3c3d20ca7c a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P6375 "500    CROCKER                      ST"^^xsd:decimal ;
+    psn:P6375 wdv:Quantityc500    CROCKER                      STc0c0c0 ;
+    psv:P6375 wdv:Quantityc500    CROCKER                      STc0c0c0 .
+
+wds:Q65620298-f4e8f2e9-52bc-41d6-9304-3185ea854a16 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P6375 "700 S  HOPE                         ST"^^xsd:decimal ;
+    psn:P6375 wdv:Quantityc700 S  HOPE                         STc0c0c0 ;
+    psv:P6375 wdv:Quantityc700 S  HOPE                         STc0c0c0 .
+
+wds:Q65620298-f72c0929-557f-49ca-bbfd-75f76d7876d4 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P6375 "PICO                         BL"^^xsd:decimal ;
+    psn:P6375 wdv:QuantitycPICO                         BLc0c0c0 ;
+    psv:P6375 wdv:QuantitycPICO                         BLc0c0c0 .
+
+wds:Q65620298-fb7df150-853f-4d83-9038-0135c59f8fe2 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P6375 "6TH"^^xsd:decimal ;
+    psn:P6375 wdv:Quantityc6THc0c0c0 ;
+    psv:P6375 wdv:Quantityc6THc0c0c0 .
+
+wdv:Quantityc100 W  7TH                          STc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "100 W  7TH                          ST"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:Quantityc100 W  7TH                          STc0c0c0 .
+
+wdv:Quantityc1100 S  FIGUEROA                     STc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "1100 S  FIGUEROA                     ST"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:Quantityc1100 S  FIGUEROA                     STc0c0c0 .
+
+wdv:Quantityc1100 S  OLIVE                        STc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "1100 S  OLIVE                        ST"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:Quantityc1100 S  OLIVE                        STc0c0c0 .
+
+wdv:Quantityc1200    MAPLE                        AVc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "1200    MAPLE                        AV"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:Quantityc1200    MAPLE                        AVc0c0c0 .
+
+wdv:Quantityc1200 S  FLOWER                       STc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "1200 S  FLOWER                       ST"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:Quantityc1200 S  FLOWER                       STc0c0c0 .
+
+wdv:Quantityc1300 E  21ST                         STc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "1300 E  21ST                         ST"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:Quantityc1300 E  21ST                         STc0c0c0 .
+
+wdv:Quantityc1300 S  FLOWER                       STc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "1300 S  FLOWER                       ST"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:Quantityc1300 S  FLOWER                       STc0c0c0 .
+
+wdv:Quantityc1400 S  HOPE                         STc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "1400 S  HOPE                         ST"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:Quantityc1400 S  HOPE                         STc0c0c0 .
+
+wdv:Quantityc1ST                          STc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "1ST                          ST"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:Quantityc1ST                          STc0c0c0 .
+
+wdv:Quantityc1STc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "1ST"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:Quantityc1STc0c0c0 .
+
+wdv:Quantityc200 S  GRAND                        AVc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "200 S  GRAND                        AV"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:Quantityc200 S  GRAND                        AVc0c0c0 .
+
+wdv:Quantityc200 S  OLIVE                        STc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "200 S  OLIVE                        ST"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:Quantityc200 S  OLIVE                        STc0c0c0 .
+
+wdv:Quantityc200 W  6TH                          STc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "200 W  6TH                          ST"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:Quantityc200 W  6TH                          STc0c0c0 .
+
+wdv:Quantityc300 E  GAGE                         AVc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "300 E  GAGE                         AV"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:Quantityc300 E  GAGE                         AVc0c0c0 .
+
+wdv:Quantityc300 E  OLYMPIC                      BLc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "300 E  OLYMPIC                      BL"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:Quantityc300 E  OLYMPIC                      BLc0c0c0 .
+
+wdv:Quantityc500    CROCKER                      STc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "500    CROCKER                      ST"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:Quantityc500    CROCKER                      STc0c0c0 .
+
+wdv:Quantityc500    STANFORD                     AVc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "500    STANFORD                     AV"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:Quantityc500    STANFORD                     AVc0c0c0 .
+
+wdv:Quantityc500 E  4TH                          STc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "500 E  4TH                          ST"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:Quantityc500 E  4TH                          STc0c0c0 .
+
+wdv:Quantityc500 S  BROADWAYc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "500 S  BROADWAY"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:Quantityc500 S  BROADWAYc0c0c0 .
+
+wdv:Quantityc500 S  GRAND                        AVc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "500 S  GRAND                        AV"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:Quantityc500 S  GRAND                        AVc0c0c0 .
+
+wdv:Quantityc5THc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "5TH"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:Quantityc5THc0c0c0 .
+
+wdv:Quantityc600    SAN JULIAN                   STc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "600    SAN JULIAN                   ST"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:Quantityc600    SAN JULIAN                   STc0c0c0 .
+
+wdv:Quantityc600 E  2ND                          STc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "600 E  2ND                          ST"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:Quantityc600 E  2ND                          STc0c0c0 .
+
+wdv:Quantityc600 S  MAIN                         STc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "600 S  MAIN                         ST"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:Quantityc600 S  MAIN                         STc0c0c0 .
+
+wdv:Quantityc600 S  SAN PEDRO                    STc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "600 S  SAN PEDRO                    ST"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:Quantityc600 S  SAN PEDRO                    STc0c0c0 .
+
+wdv:Quantityc600 W  5TH                          STc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "600 W  5TH                          ST"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:Quantityc600 W  5TH                          STc0c0c0 .
+
+wdv:Quantityc6TH                          STc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "6TH                          ST"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:Quantityc6TH                          STc0c0c0 .
+
+wdv:Quantityc6THc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "6TH"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:Quantityc6THc0c0c0 .
+
+wdv:Quantityc700 E  CESAR E CHAVEZ               AVc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "700 E  CESAR E CHAVEZ               AV"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:Quantityc700 E  CESAR E CHAVEZ               AVc0c0c0 .
+
+wdv:Quantityc700 S  MAIN                         STc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "700 S  MAIN                         ST"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:Quantityc700 S  MAIN                         STc0c0c0 .
+
+wdv:Quantityc800    TRACTION                     AVc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "800    TRACTION                     AV"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:Quantityc800    TRACTION                     AVc0c0c0 .
+
+wdv:Quantityc800 N  ALAMEDA                      STc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "800 N  ALAMEDA                      ST"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:Quantityc800 N  ALAMEDA                      STc0c0c0 .
+
+wdv:Quantityc800 S  SPRING                       STc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "800 S  SPRING                       ST"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:Quantityc800 S  SPRING                       STc0c0c0 .
+
+wdv:Quantityc8TH                          STc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "8TH                          ST"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:Quantityc8TH                          STc0c0c0 .
+
+wdv:Quantityc900 N  BROADWAYc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "900 N  BROADWAY"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:Quantityc900 N  BROADWAYc0c0c0 .
+
+wdv:QuantitycALAMEDA                      STc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "ALAMEDA                      ST"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:QuantitycALAMEDA                      STc0c0c0 .
+
+wdv:QuantitycCAHUENGA                     BLc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "CAHUENGA                     BL"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:QuantitycCAHUENGA                     BLc0c0c0 .
+
+wdv:QuantitycPICO                         BLc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "PICO                         BL"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:QuantitycPICO                         BLc0c0c0 .
+
+wdv:QuantitycPICOc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "PICO"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:QuantitycPICOc0c0c0 .
+
+wdv:QuantitycSAN JULIAN                   STc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "SAN JULIAN                   ST"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:QuantitycSAN JULIAN                   STc0c0c0 .
+
+wdv:QuantitycSEPULVEDA                    BLc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "SEPULVEDA                    BL"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:QuantitycSEPULVEDA                    BLc0c0c0 .
+
+wdv:Quantityc700 S  HOPE                         STc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "700 S  HOPE                         ST"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:Quantityc700 S  HOPE                         STc0c0c0 .
+
+wdv:Quantityc700 W  7TH                          STc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "700 W  7TH                          ST"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:Quantityc700 W  7TH                          STc0c0c0 .
+
+wdv:Quantityc800 W  OLYMPIC                      BLc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "800 W  OLYMPIC                      BL"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:Quantityc800 W  OLYMPIC                      BLc0c0c0 .
+
