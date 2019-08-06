@@ -1,0 +1,177 @@
+# PROPERTIES: has crime, date reported, has victim, has age, has crime code,
+# has crime code 2, has crime code 3, has crime code 4, MO code, premise description, 
+# premise code, status code, status description, DR number
+
+P100041:
+  type: string
+  label:
+    en:
+    - reported district number
+  description:
+    en:
+    - A four-digit code that represents a sub-area within a Geographic Area
+  statements:
+    P31:               # instance of
+    - value: Q22984026 # Wikidata property related to law and justice
+P100042:
+  type: item
+  label: 
+    en:
+    - has crime
+  description:
+    en:
+    - a crime recorded on a Crime Report
+  statements:
+    P1629:             # subject item of this property
+    - value: Q83267    # crime
+    P31:               # instance of
+    - value: Q22984026 # Wikidata property related to law and justice
+P100043:
+  type: time
+  label:
+    en: 
+    - date reported
+  description:
+    en:
+    - the date a crime was reported
+  statements:
+    P31:              # instance of
+    - value: Q22984026 # Wikidata property related to law and justice
+P100044:
+  type: item
+  label:
+    en:
+    - has victim
+  description:
+    en:
+    - the victim of a crime recorded in a crime report
+  statements: 
+    P1629:            # subject item of this property
+    - value: Q24238356 # unknown
+    P31:              # instance of
+    - value: Q64830420 # Wikidata property associated with people
+    - value: Q22984026 # Wikidata property related to law and justice
+P100045:
+  type: quantity
+  label:
+    en:
+    - has age 
+  description:
+    en:
+    - describes the age of a person
+  statements:
+    P31:              # instance of
+    - value: Q64830420 # Wikidata property associated with people
+P100046:
+  type: string
+  label: 
+    en:
+    - has crime code 
+  description:
+    en:
+    - LAPD code that indicates the crime committed
+  statements:
+    P31:              # instance of
+    - value: Q22984026 # Wikidata property related to law and justice
+P100047:
+  type: string
+  label: 
+    en:
+    - has crime code 2
+  description:
+    en:
+    - LAPD code for an additional crime, less serious than Crime Code 1
+  statements:
+    P31:              # instance of
+    - value: Q22984026 # Wikidata property related to law and justice
+P100048:
+  type: string
+  label: 
+    en:
+    - has crime code 3
+  description:
+    en:
+    - LAPD code for an additional crime, less serious than Crime Code 1
+  statements:
+    P31:              # instance of
+    - value: Q22984026 # Wikidata property related to law and justice
+P100049:
+  type: string
+  label: 
+    en:
+    - has crime code 4
+  description:
+    en:
+    - LAPD code for an additional crime, less serious than Crime Code 1
+  statements:
+    P31:              # instance of
+    - value: Q22984026 # Wikidata property related to law and justice
+P100050:
+  type: string
+  label:
+    en:
+    - MO code
+  description:
+    en:
+    - LAPD MO (Modus Operandi - activities associated with the suspect in commission of the crime) code
+  statements:
+    P31:              # instance of
+    - value: Q22984026 # Wikidata property related to law and justice
+P100051:
+  type: string
+  label:
+    en:
+    - premise description
+  description:
+    en:
+    - The type of structure, vehicle, or location where the crime took place
+  statements:
+    P31:              # instance of
+    - value: Q22984026 # Wikidata property related to law and justice
+P100052:
+  type: string
+  label:
+    en:
+    - premise code
+  description:
+    en:
+    - LAPD code representing the type of structure, vehicle, or location where the crime took place
+  statements:
+    P31:              # instance of
+    - value: Q22984026 # Wikidata property related to law and justice 
+P100053:
+  type: string
+  label:
+    en:
+    - status code
+  description:
+    en:
+    - LAPD code representing the status of the case
+  statements:
+    P31:              # instance of
+    - value: Q22984026 # Wikidata property related to law and justice 
+P100054:
+  type: string
+  label:
+    en:
+    - status description
+  description:
+    en:
+    - defines LAPD code representing the status of the case
+  statements:
+    P31:              # instance of
+    - value: Q22984026 # Wikidata property related to law and justice  
+P100055:
+  type: string
+  label:
+    en:
+    - DR number
+  description:
+    en:
+    - Division of Records Number - official file number made up of a 2 digit year, area ID, and 5 digits
+  statements:
+    P31:              # instance of
+    - value: Q22984026 # Wikidata property related to law and justice   
+
+
+
