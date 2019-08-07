@@ -1,6 +1,7 @@
 # PROPERTIES: has crime, date reported, has victim, has age, has crime code,
 # has crime code 2, has crime code 3, has crime code 4, MO code, premise description, 
-# premise code, status code, status description, DR number
+# premise code, status code, status description, DR number, reported district number,
+# weapon used code, weapon
 
 P100041:
   type: string
@@ -172,6 +173,30 @@ P100055:
   statements:
     P31:              # instance of
     - value: Q22984026 # Wikidata property related to law and justice   
+P100056:
+  type: string
+  label:
+    en:
+    - weapon used code
+  description:
+    en:
+    - LAPD Code representing the weapon used in a crime
+  statements:
+    P31:              # instance of
+    - value: Q22984026 # Wikidata property related to law and justice   
+P100057:
+  type: item
+  label:
+    en:
+    - weapon used
+  description:
+    en:
+    - the weapon used in a crime
+  statements:
+    P31:               # instance of
+    - value: Q22984026 # Wikidata property related to law and justice 
+    P1629:             # subject item of this property
+    - value: Q728      # weapon 
 
 
 

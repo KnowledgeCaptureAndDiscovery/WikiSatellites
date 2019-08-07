@@ -44,7 +44,7 @@ wd:P100041 a wikibase:Property ;
     wikibase:statementValue psv:P100041 ;
     wikibase:statementValueNormalized psn:P100041 ;
     skos:prefLabel "reported district number"@en ;
-    p:P31 wds:P100041-d00ace76-24da-4d50-b035-a1154d18bcd8 .
+    p:P31 wds:P100041-530408a0-9b6a-4a50-a73e-1f00d725db42 .
 
 wd:P100042 a wikibase:Property ;
     rdfs:label "has crime"@en ;
@@ -65,8 +65,8 @@ wd:P100042 a wikibase:Property ;
     wikibase:statementValue psv:P100042 ;
     wikibase:statementValueNormalized psn:P100042 ;
     skos:prefLabel "has crime"@en ;
-    p:P1629 wds:P100042-21703736-3671-4a49-979f-4eae9b45fff7 ;
-    p:P31 wds:P100042-041985db-02f2-4b56-9284-fda8a1cc8dad .
+    p:P1629 wds:P100042-dd2d1c46-bb87-4db6-82ba-a5c1f2875f85 ;
+    p:P31 wds:P100042-b24203cc-a780-4a88-b4c8-37de2b70a32c .
 
 wd:P100043 a wikibase:Property ;
     rdfs:label "date reported"@en ;
@@ -87,7 +87,7 @@ wd:P100043 a wikibase:Property ;
     wikibase:statementValue psv:P100043 ;
     wikibase:statementValueNormalized psn:P100043 ;
     skos:prefLabel "date reported"@en ;
-    p:P31 wds:P100043-7b1ca46c-809a-4a6b-8e9b-05f68e449b4e .
+    p:P31 wds:P100043-8bb33422-5c3c-4fa5-81cc-c606b262ff99 .
 
 wd:P100044 a wikibase:Property ;
     rdfs:label "has victim"@en ;
@@ -108,9 +108,9 @@ wd:P100044 a wikibase:Property ;
     wikibase:statementValue psv:P100044 ;
     wikibase:statementValueNormalized psn:P100044 ;
     skos:prefLabel "has victim"@en ;
-    p:P1629 wds:P100044-2e26cf93-2ee6-42f2-af64-7eac973e96dc ;
-    p:P31 wds:P100044-10b25a6c-2b6b-4a59-be7f-c26597417a7b,
-        wds:P100044-22b10746-a834-4ab3-b87d-b91fe4ad21ce .
+    p:P1629 wds:P100044-23ba2580-c5fd-4499-a12a-dc7399577f05 ;
+    p:P31 wds:P100044-d1dcca3e-4804-41be-ad73-79e352949249,
+        wds:P100044-d8e16add-661d-436d-b060-daf9234d018e .
 
 wd:P100045 a wikibase:Property ;
     rdfs:label "has age"@en ;
@@ -131,7 +131,7 @@ wd:P100045 a wikibase:Property ;
     wikibase:statementValue psv:P100045 ;
     wikibase:statementValueNormalized psn:P100045 ;
     skos:prefLabel "has age"@en ;
-    p:P31 wds:P100045-14650109-f8ab-4467-8a31-b2e6bb2ddeac .
+    p:P31 wds:P100045-8777c599-918a-44ee-ba02-f3b2dcc7fd03 .
 
 wd:P100046 a wikibase:Property ;
     rdfs:label "has crime code"@en ;
@@ -152,7 +152,7 @@ wd:P100046 a wikibase:Property ;
     wikibase:statementValue psv:P100046 ;
     wikibase:statementValueNormalized psn:P100046 ;
     skos:prefLabel "has crime code"@en ;
-    p:P31 wds:P100046-c074b169-34af-435b-995d-54d2b29a975f .
+    p:P31 wds:P100046-e5c9d163-ea42-4afe-b4a8-d21ab2ef7165 .
 
 wd:P100047 a wikibase:Property ;
     rdfs:label "has crime code 2"@en ;
@@ -173,7 +173,7 @@ wd:P100047 a wikibase:Property ;
     wikibase:statementValue psv:P100047 ;
     wikibase:statementValueNormalized psn:P100047 ;
     skos:prefLabel "has crime code 2"@en ;
-    p:P31 wds:P100047-76c81020-589f-49fc-9b82-cf44bb5d6cef .
+    p:P31 wds:P100047-0b11fb87-324b-4876-a9a6-2e90ceadf6c7 .
 
 wd:P100048 a wikibase:Property ;
     rdfs:label "has crime code 3"@en ;
@@ -194,7 +194,7 @@ wd:P100048 a wikibase:Property ;
     wikibase:statementValue psv:P100048 ;
     wikibase:statementValueNormalized psn:P100048 ;
     skos:prefLabel "has crime code 3"@en ;
-    p:P31 wds:P100048-56642d63-888b-4d96-a144-0df2699e7d0e .
+    p:P31 wds:P100048-10b210e8-9dbe-4fbd-915f-9d05080fb93d .
 
 wd:P100049 a wikibase:Property ;
     rdfs:label "has crime code 4"@en ;
@@ -215,7 +215,7 @@ wd:P100049 a wikibase:Property ;
     wikibase:statementValue psv:P100049 ;
     wikibase:statementValueNormalized psn:P100049 ;
     skos:prefLabel "has crime code 4"@en ;
-    p:P31 wds:P100049-56f31e61-3c82-44ee-bf84-ea1ebcbba208 .
+    p:P31 wds:P100049-fa82799c-b316-483c-a0e7-068a7cfe9ab7 .
 
 wd:P100050 a wikibase:Property ;
     rdfs:label "MO code"@en ;
@@ -236,7 +236,7 @@ wd:P100050 a wikibase:Property ;
     wikibase:statementValue psv:P100050 ;
     wikibase:statementValueNormalized psn:P100050 ;
     skos:prefLabel "MO code"@en ;
-    p:P31 wds:P100050-9a2a4da1-a65c-4e7f-adfe-23f76130a107 .
+    p:P31 wds:P100050-757b2190-504a-4059-8008-04c65079a8dd .
 
 wd:P100051 a wikibase:Property ;
     rdfs:label "premise description"@en ;
@@ -257,7 +257,7 @@ wd:P100051 a wikibase:Property ;
     wikibase:statementValue psv:P100051 ;
     wikibase:statementValueNormalized psn:P100051 ;
     skos:prefLabel "premise description"@en ;
-    p:P31 wds:P100051-6479c98f-4d50-4bea-91d0-ae970a024105 .
+    p:P31 wds:P100051-dd0d0c09-f3a3-4b58-8ce2-a07b066ab7d3 .
 
 wd:P100052 a wikibase:Property ;
     rdfs:label "premise code"@en ;
@@ -278,7 +278,7 @@ wd:P100052 a wikibase:Property ;
     wikibase:statementValue psv:P100052 ;
     wikibase:statementValueNormalized psn:P100052 ;
     skos:prefLabel "premise code"@en ;
-    p:P31 wds:P100052-dfeafffa-7857-4666-867f-d62228af9f73 .
+    p:P31 wds:P100052-b60052c3-f203-4076-8bf2-3e97b79e71ef .
 
 wd:P100053 a wikibase:Property ;
     rdfs:label "status code"@en ;
@@ -299,7 +299,7 @@ wd:P100053 a wikibase:Property ;
     wikibase:statementValue psv:P100053 ;
     wikibase:statementValueNormalized psn:P100053 ;
     skos:prefLabel "status code"@en ;
-    p:P31 wds:P100053-6b219cba-501f-4ffd-920a-7a22779d5035 .
+    p:P31 wds:P100053-3d52624c-3917-4de0-9d93-91492d023401 .
 
 wd:P100054 a wikibase:Property ;
     rdfs:label "status description"@en ;
@@ -320,7 +320,7 @@ wd:P100054 a wikibase:Property ;
     wikibase:statementValue psv:P100054 ;
     wikibase:statementValueNormalized psn:P100054 ;
     skos:prefLabel "status description"@en ;
-    p:P31 wds:P100054-c4e2ae17-c016-455e-a597-db7e5013dfdb .
+    p:P31 wds:P100054-341acb98-0928-4c08-bf48-e3d6083270e0 .
 
 wd:P100055 a wikibase:Property ;
     rdfs:label "DR number"@en ;
@@ -341,95 +341,153 @@ wd:P100055 a wikibase:Property ;
     wikibase:statementValue psv:P100055 ;
     wikibase:statementValueNormalized psn:P100055 ;
     skos:prefLabel "DR number"@en ;
-    p:P31 wds:P100055-9b7d4875-a584-4c68-af3c-81f3cbfe20c8 .
+    p:P31 wds:P100055-3cd69f8b-1db7-4584-8671-4e7ea7ff1fc9 .
 
-wds:P100041-d00ace76-24da-4d50-b035-a1154d18bcd8 a wikibase:Statement ;
+wd:P100056 a wikibase:Property ;
+    rdfs:label "weapon used code"@en ;
+    schema:description "LAPD Code representing the weapon used in a crime"@en ;
+    schema:name "weapon used code"@en ;
+    wikibase:claim p:P100056 ;
+    wikibase:directClaim wdt:P100056 ;
+    wikibase:directClaimNormalized wdtn:P100056 ;
+    wikibase:novalue wdno:P100056 ;
+    wikibase:propertyType wikibase:String ;
+    wikibase:qualifier pq:P100056 ;
+    wikibase:qualifierValue pqv:P100056 ;
+    wikibase:qualifierValueNormalized pqn:P100056 ;
+    wikibase:reference pr:P100056 ;
+    wikibase:referenceValue prv:P100056 ;
+    wikibase:referenceValueNormalized prn:P100056 ;
+    wikibase:statementProperty ps:P100056 ;
+    wikibase:statementValue psv:P100056 ;
+    wikibase:statementValueNormalized psn:P100056 ;
+    skos:prefLabel "weapon used code"@en ;
+    p:P31 wds:P100056-34ed293f-a164-4352-a9c8-bca666e45d85 .
+
+wd:P100057 a wikibase:Property ;
+    rdfs:label "weapon used"@en ;
+    schema:description "the weapon used in a crime"@en ;
+    schema:name "weapon used"@en ;
+    wikibase:claim p:P100057 ;
+    wikibase:directClaim wdt:P100057 ;
+    wikibase:directClaimNormalized wdtn:P100057 ;
+    wikibase:novalue wdno:P100057 ;
+    wikibase:propertyType wikibase:WikibaseItem ;
+    wikibase:qualifier pq:P100057 ;
+    wikibase:qualifierValue pqv:P100057 ;
+    wikibase:qualifierValueNormalized pqn:P100057 ;
+    wikibase:reference pr:P100057 ;
+    wikibase:referenceValue prv:P100057 ;
+    wikibase:referenceValueNormalized prn:P100057 ;
+    wikibase:statementProperty ps:P100057 ;
+    wikibase:statementValue psv:P100057 ;
+    wikibase:statementValueNormalized psn:P100057 ;
+    skos:prefLabel "weapon used"@en ;
+    p:P1629 wds:P100057-e0152358-dbbb-401f-b9f6-d90ff7cc7c5d ;
+    p:P31 wds:P100057-45360765-6dec-4ba3-865f-88f9ab2ab0a1 .
+
+wds:P100041-530408a0-9b6a-4a50-a73e-1f00d725db42 a wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
     <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
     ps:P31 wd:Q22984026 .
 
-wds:P100042-041985db-02f2-4b56-9284-fda8a1cc8dad a wikibase:Statement ;
+wds:P100042-b24203cc-a780-4a88-b4c8-37de2b70a32c a wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
     <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
     ps:P31 wd:Q22984026 .
 
-wds:P100042-21703736-3671-4a49-979f-4eae9b45fff7 a wikibase:Statement ;
+wds:P100042-dd2d1c46-bb87-4db6-82ba-a5c1f2875f85 a wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
     <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
     ps:P1629 wd:Q83267 .
 
-wds:P100043-7b1ca46c-809a-4a6b-8e9b-05f68e449b4e a wikibase:Statement ;
+wds:P100043-8bb33422-5c3c-4fa5-81cc-c606b262ff99 a wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
     <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
     ps:P31 wd:Q22984026 .
 
-wds:P100044-10b25a6c-2b6b-4a59-be7f-c26597417a7b a wikibase:Statement ;
-    wikibase:rank wikibase:NormalRank ;
-    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
-    ps:P31 wd:Q64830420 .
-
-wds:P100044-22b10746-a834-4ab3-b87d-b91fe4ad21ce a wikibase:Statement ;
-    wikibase:rank wikibase:NormalRank ;
-    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
-    ps:P31 wd:Q22984026 .
-
-wds:P100044-2e26cf93-2ee6-42f2-af64-7eac973e96dc a wikibase:Statement ;
+wds:P100044-23ba2580-c5fd-4499-a12a-dc7399577f05 a wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
     <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
     ps:P1629 wd:Q24238356 .
 
-wds:P100045-14650109-f8ab-4467-8a31-b2e6bb2ddeac a wikibase:Statement ;
+wds:P100044-d1dcca3e-4804-41be-ad73-79e352949249 a wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
     <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
     ps:P31 wd:Q64830420 .
 
-wds:P100046-c074b169-34af-435b-995d-54d2b29a975f a wikibase:Statement ;
+wds:P100044-d8e16add-661d-436d-b060-daf9234d018e a wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
     <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
     ps:P31 wd:Q22984026 .
 
-wds:P100047-76c81020-589f-49fc-9b82-cf44bb5d6cef a wikibase:Statement ;
+wds:P100045-8777c599-918a-44ee-ba02-f3b2dcc7fd03 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P31 wd:Q64830420 .
+
+wds:P100046-e5c9d163-ea42-4afe-b4a8-d21ab2ef7165 a wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
     <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
     ps:P31 wd:Q22984026 .
 
-wds:P100048-56642d63-888b-4d96-a144-0df2699e7d0e a wikibase:Statement ;
+wds:P100047-0b11fb87-324b-4876-a9a6-2e90ceadf6c7 a wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
     <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
     ps:P31 wd:Q22984026 .
 
-wds:P100049-56f31e61-3c82-44ee-bf84-ea1ebcbba208 a wikibase:Statement ;
+wds:P100048-10b210e8-9dbe-4fbd-915f-9d05080fb93d a wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
     <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
     ps:P31 wd:Q22984026 .
 
-wds:P100050-9a2a4da1-a65c-4e7f-adfe-23f76130a107 a wikibase:Statement ;
+wds:P100049-fa82799c-b316-483c-a0e7-068a7cfe9ab7 a wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
     <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
     ps:P31 wd:Q22984026 .
 
-wds:P100051-6479c98f-4d50-4bea-91d0-ae970a024105 a wikibase:Statement ;
+wds:P100050-757b2190-504a-4059-8008-04c65079a8dd a wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
     <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
     ps:P31 wd:Q22984026 .
 
-wds:P100052-dfeafffa-7857-4666-867f-d62228af9f73 a wikibase:Statement ;
+wds:P100051-dd0d0c09-f3a3-4b58-8ce2-a07b066ab7d3 a wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
     <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
     ps:P31 wd:Q22984026 .
 
-wds:P100053-6b219cba-501f-4ffd-920a-7a22779d5035 a wikibase:Statement ;
+wds:P100052-b60052c3-f203-4076-8bf2-3e97b79e71ef a wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
     <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
     ps:P31 wd:Q22984026 .
 
-wds:P100054-c4e2ae17-c016-455e-a597-db7e5013dfdb a wikibase:Statement ;
+wds:P100053-3d52624c-3917-4de0-9d93-91492d023401 a wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
     <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
     ps:P31 wd:Q22984026 .
 
-wds:P100055-9b7d4875-a584-4c68-af3c-81f3cbfe20c8 a wikibase:Statement ;
+wds:P100054-341acb98-0928-4c08-bf48-e3d6083270e0 a wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
     <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
     ps:P31 wd:Q22984026 .
+
+wds:P100055-3cd69f8b-1db7-4584-8671-4e7ea7ff1fc9 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P31 wd:Q22984026 .
+
+wds:P100056-34ed293f-a164-4352-a9c8-bca666e45d85 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P31 wd:Q22984026 .
+
+wds:P100057-45360765-6dec-4ba3-865f-88f9ab2ab0a1 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P31 wd:Q22984026 .
+
+wds:P100057-e0152358-dbbb-401f-b9f6-d90ff7cc7c5d a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P1629 wd:Q728 .
 
