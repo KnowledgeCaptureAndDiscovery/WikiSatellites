@@ -1,0 +1,479 @@
+@prefix : <http://isi.edu/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+@prefix wdref: <http://www.wikidata.org/reference/> .
+@prefix wds: <http://www.wikidata.org/entity/statement/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix wdv: <http://www.wikidata.org/value/> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+wd:Q65620298 a wikibase:Item ;
+    p:P100051 wds:Q65620298-01637b73-4463-4bc9-a5d4-ea9cffe70db6,
+        wds:Q65620298-0749598a-e444-41dc-9aab-cfa5d2d3548d,
+        wds:Q65620298-081272cd-5e69-472d-bc78-120f3e1d61ee,
+        wds:Q65620298-08e6f7c2-7a01-4eb2-9902-b870c009221b,
+        wds:Q65620298-08fe5373-dfb5-4dc1-9937-2df1103994ae,
+        wds:Q65620298-0fa0c324-e7e7-4d36-bb68-7875ced4465e,
+        wds:Q65620298-122f7815-0846-48e0-bc7f-83adbedd2072,
+        wds:Q65620298-184f7d36-2405-402d-8923-2522817e5242,
+        wds:Q65620298-2763ea52-9612-49a1-a2bf-4bbdecdd6184,
+        wds:Q65620298-296e2791-11e4-4bbe-be8d-3cf4e98c5c6b,
+        wds:Q65620298-35ee9be0-e755-410c-90f2-b57a1e0959af,
+        wds:Q65620298-35fc18b2-0554-4ee3-8fe2-b8b032577806,
+        wds:Q65620298-3dfb301b-f169-4060-83e0-dd6ad604dab7,
+        wds:Q65620298-4bd657cf-6970-4f30-b67b-45415aeedf88,
+        wds:Q65620298-4f2e7e3c-289c-404e-8c1b-58d3252f5ad1,
+        wds:Q65620298-53d0f4b7-a27c-48dd-bd82-a97d8bf55cd8,
+        wds:Q65620298-54646d51-34bc-4e51-b251-a2654aa8a654,
+        wds:Q65620298-56d2b0ea-e6f8-4ecd-9218-710085c29f51,
+        wds:Q65620298-696b0843-c4bd-4f90-8ff4-df109eacce48,
+        wds:Q65620298-69a367d6-d260-4186-a9c5-e9454a42f5eb,
+        wds:Q65620298-6baf51c5-ec79-4179-a49a-0b7943cd411a,
+        wds:Q65620298-6c0c0ad3-2ef1-4095-a5f1-7c63340d2345,
+        wds:Q65620298-6dbcdd1c-28ff-4cca-aade-93efe77f58aa,
+        wds:Q65620298-7275934f-83a5-4dcb-b6b5-611ba8ee07f7,
+        wds:Q65620298-80961478-fddd-4e68-a784-4e7eac0da5d8,
+        wds:Q65620298-8129118a-1b41-46a3-89b9-979b8e741df7,
+        wds:Q65620298-85d97872-601c-4e43-bb48-3705120ce1c6,
+        wds:Q65620298-8cbfa9e9-6de6-4dc0-b877-c1c82a7ad5a2,
+        wds:Q65620298-8cf77ab0-34c9-4f7c-9994-7d449127eea0,
+        wds:Q65620298-97bdd632-85a6-430c-b3a9-f9c7d9ababe5,
+        wds:Q65620298-988f7750-90f4-4d6f-8aa5-3a4ea1360ddb,
+        wds:Q65620298-a25caf2b-f071-480b-b83b-7654ff44d684,
+        wds:Q65620298-a4b90374-79b5-427c-86b7-9a54df4dbd56,
+        wds:Q65620298-a6dfba1b-742b-4f34-9c3b-e889c4de0f88,
+        wds:Q65620298-ac722777-373d-4fd3-a9f7-abf4c05a777e,
+        wds:Q65620298-ad9a3f94-4117-4f37-b252-62f9111971b5,
+        wds:Q65620298-b0e65c5c-72cc-4455-8ff1-b6029ae6c3d2,
+        wds:Q65620298-b901a25e-c443-4780-8b64-599dd296188f,
+        wds:Q65620298-c3583e5c-e05e-4282-a206-54c6b44a470f,
+        wds:Q65620298-c4355014-bc51-47b7-a0a9-ac0c49551fa0,
+        wds:Q65620298-c5357291-630d-4a8a-bb96-1bf8c16b9315,
+        wds:Q65620298-c87afba1-032e-48dc-b561-4bcaa6b19be7,
+        wds:Q65620298-c88b4e20-814a-4530-8ce4-35e4a90c6978,
+        wds:Q65620298-f1da947b-6b3e-4b7d-837f-ed3e8c3bc4c9,
+        wds:Q65620298-f2179f36-f08b-4ec2-95f5-4c908eadd428,
+        wds:Q65620298-f4181f24-ea70-460b-9b73-f0579d4e9674,
+        wds:Q65620298-f72622e9-89e7-4350-8e29-19f61cc2b890,
+        wds:Q65620298-fcd380d2-a5bd-44d7-9a44-e1c3a6e5f01b .
+
+wd:Q65620338 a wikibase:Item ;
+    p:P100051 wds:Q65620338-3d5357f4-355f-4413-9147-f20bac2029ab .
+
+wds:Q65620298-01637b73-4463-4bc9-a5d4-ea9cffe70db6 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100051 "STREET"^^xsd:decimal ;
+    psn:P100051 wdv:QuantitycSTREETc0c0c0 ;
+    psv:P100051 wdv:QuantitycSTREETc0c0c0 .
+
+wds:Q65620298-0749598a-e444-41dc-9aab-cfa5d2d3548d a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100051 "OTHER PREMISE"^^xsd:decimal ;
+    psn:P100051 wdv:QuantitycOTHER PREMISEc0c0c0 ;
+    psv:P100051 wdv:QuantitycOTHER PREMISEc0c0c0 .
+
+wds:Q65620298-081272cd-5e69-472d-bc78-120f3e1d61ee a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100051 "RESTAURANT/FAST FOOD"^^xsd:decimal ;
+    psn:P100051 wdv:QuantitycRESTAURANT/FAST FOODc0c0c0 ;
+    psv:P100051 wdv:QuantitycRESTAURANT/FAST FOODc0c0c0 .
+
+wds:Q65620298-08e6f7c2-7a01-4eb2-9902-b870c009221b a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100051 "ALLEY"^^xsd:decimal ;
+    psn:P100051 wdv:QuantitycALLEYc0c0c0 ;
+    psv:P100051 wdv:QuantitycALLEYc0c0c0 .
+
+wds:Q65620298-08fe5373-dfb5-4dc1-9937-2df1103994ae a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100051 "OTHER STORE"^^xsd:decimal ;
+    psn:P100051 wdv:QuantitycOTHER STOREc0c0c0 ;
+    psv:P100051 wdv:QuantitycOTHER STOREc0c0c0 .
+
+wds:Q65620298-0fa0c324-e7e7-4d36-bb68-7875ced4465e a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100051 "SINGLE FAMILY DWELLING"^^xsd:decimal ;
+    psn:P100051 wdv:QuantitycSINGLE FAMILY DWELLINGc0c0c0 ;
+    psv:P100051 wdv:QuantitycSINGLE FAMILY DWELLINGc0c0c0 .
+
+wds:Q65620298-122f7815-0846-48e0-bc7f-83adbedd2072 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100051 "OTHER BUSINESS"^^xsd:decimal ;
+    psn:P100051 wdv:QuantitycOTHER BUSINESSc0c0c0 ;
+    psv:P100051 wdv:QuantitycOTHER BUSINESSc0c0c0 .
+
+wds:Q65620298-184f7d36-2405-402d-8923-2522817e5242 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100051 "DEPARTMENT STORE"^^xsd:decimal ;
+    psn:P100051 wdv:QuantitycDEPARTMENT STOREc0c0c0 ;
+    psv:P100051 wdv:QuantitycDEPARTMENT STOREc0c0c0 .
+
+wds:Q65620298-2763ea52-9612-49a1-a2bf-4bbdecdd6184 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100051 "SIDEWALK"^^xsd:decimal ;
+    psn:P100051 wdv:QuantitycSIDEWALKc0c0c0 ;
+    psv:P100051 wdv:QuantitycSIDEWALKc0c0c0 .
+
+wds:Q65620298-296e2791-11e4-4bbe-be8d-3cf4e98c5c6b a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100051 "MULTI-UNIT DWELLING (APARTMENT, DUPLEX, ETC)"^^xsd:decimal ;
+    psn:P100051 wdv:QuantitycMULTI-UNIT DWELLING (APARTMENT, DUPLEX, ETC)c0c0c0 ;
+    psv:P100051 wdv:QuantitycMULTI-UNIT DWELLING (APARTMENT, DUPLEX, ETC)c0c0c0 .
+
+wds:Q65620298-35ee9be0-e755-410c-90f2-b57a1e0959af a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100051 "SIDEWALK"^^xsd:decimal ;
+    psn:P100051 wdv:QuantitycSIDEWALKc0c0c0 ;
+    psv:P100051 wdv:QuantitycSIDEWALKc0c0c0 .
+
+wds:Q65620298-35fc18b2-0554-4ee3-8fe2-b8b032577806 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100051 "STREET"^^xsd:decimal ;
+    psn:P100051 wdv:QuantitycSTREETc0c0c0 ;
+    psv:P100051 wdv:QuantitycSTREETc0c0c0 .
+
+wds:Q65620298-3dfb301b-f169-4060-83e0-dd6ad604dab7 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100051 "STREET"^^xsd:decimal ;
+    psn:P100051 wdv:QuantitycSTREETc0c0c0 ;
+    psv:P100051 wdv:QuantitycSTREETc0c0c0 .
+
+wds:Q65620298-4bd657cf-6970-4f30-b67b-45415aeedf88 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100051 "STREET"^^xsd:decimal ;
+    psn:P100051 wdv:QuantitycSTREETc0c0c0 ;
+    psv:P100051 wdv:QuantitycSTREETc0c0c0 .
+
+wds:Q65620298-4f2e7e3c-289c-404e-8c1b-58d3252f5ad1 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100051 "MULTI-UNIT DWELLING (APARTMENT, DUPLEX, ETC)"^^xsd:decimal ;
+    psn:P100051 wdv:QuantitycMULTI-UNIT DWELLING (APARTMENT, DUPLEX, ETC)c0c0c0 ;
+    psv:P100051 wdv:QuantitycMULTI-UNIT DWELLING (APARTMENT, DUPLEX, ETC)c0c0c0 .
+
+wds:Q65620298-53d0f4b7-a27c-48dd-bd82-a97d8bf55cd8 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100051 "RESTAURANT/FAST FOOD"^^xsd:decimal ;
+    psn:P100051 wdv:QuantitycRESTAURANT/FAST FOODc0c0c0 ;
+    psv:P100051 wdv:QuantitycRESTAURANT/FAST FOODc0c0c0 .
+
+wds:Q65620298-54646d51-34bc-4e51-b251-a2654aa8a654 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100051 "MULTI-UNIT DWELLING (APARTMENT, DUPLEX, ETC)"^^xsd:decimal ;
+    psn:P100051 wdv:QuantitycMULTI-UNIT DWELLING (APARTMENT, DUPLEX, ETC)c0c0c0 ;
+    psv:P100051 wdv:QuantitycMULTI-UNIT DWELLING (APARTMENT, DUPLEX, ETC)c0c0c0 .
+
+wds:Q65620298-56d2b0ea-e6f8-4ecd-9218-710085c29f51 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100051 "SINGLE FAMILY DWELLING"^^xsd:decimal ;
+    psn:P100051 wdv:QuantitycSINGLE FAMILY DWELLINGc0c0c0 ;
+    psv:P100051 wdv:QuantitycSINGLE FAMILY DWELLINGc0c0c0 .
+
+wds:Q65620298-696b0843-c4bd-4f90-8ff4-df109eacce48 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100051 "PARKING LOT"^^xsd:decimal ;
+    psn:P100051 wdv:QuantitycPARKING LOTc0c0c0 ;
+    psv:P100051 wdv:QuantitycPARKING LOTc0c0c0 .
+
+wds:Q65620298-69a367d6-d260-4186-a9c5-e9454a42f5eb a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100051 "PARKING LOT"^^xsd:decimal ;
+    psn:P100051 wdv:QuantitycPARKING LOTc0c0c0 ;
+    psv:P100051 wdv:QuantitycPARKING LOTc0c0c0 .
+
+wds:Q65620298-6baf51c5-ec79-4179-a49a-0b7943cd411a a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100051 "BAR/COCKTAIL/NIGHTCLUB"^^xsd:decimal ;
+    psn:P100051 wdv:QuantitycBAR/COCKTAIL/NIGHTCLUBc0c0c0 ;
+    psv:P100051 wdv:QuantitycBAR/COCKTAIL/NIGHTCLUBc0c0c0 .
+
+wds:Q65620298-6c0c0ad3-2ef1-4095-a5f1-7c63340d2345 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100051 "STREET"^^xsd:decimal ;
+    psn:P100051 wdv:QuantitycSTREETc0c0c0 ;
+    psv:P100051 wdv:QuantitycSTREETc0c0c0 .
+
+wds:Q65620298-6dbcdd1c-28ff-4cca-aade-93efe77f58aa a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100051 "STREET"^^xsd:decimal ;
+    psn:P100051 wdv:QuantitycSTREETc0c0c0 ;
+    psv:P100051 wdv:QuantitycSTREETc0c0c0 .
+
+wds:Q65620298-7275934f-83a5-4dcb-b6b5-611ba8ee07f7 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100051 "ALLEY"^^xsd:decimal ;
+    psn:P100051 wdv:QuantitycALLEYc0c0c0 ;
+    psv:P100051 wdv:QuantitycALLEYc0c0c0 .
+
+wds:Q65620298-80961478-fddd-4e68-a784-4e7eac0da5d8 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100051 "DEPARTMENT STORE"^^xsd:decimal ;
+    psn:P100051 wdv:QuantitycDEPARTMENT STOREc0c0c0 ;
+    psv:P100051 wdv:QuantitycDEPARTMENT STOREc0c0c0 .
+
+wds:Q65620298-8129118a-1b41-46a3-89b9-979b8e741df7 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100051 "PARKING LOT"^^xsd:decimal ;
+    psn:P100051 wdv:QuantitycPARKING LOTc0c0c0 ;
+    psv:P100051 wdv:QuantitycPARKING LOTc0c0c0 .
+
+wds:Q65620298-85d97872-601c-4e43-bb48-3705120ce1c6 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100051 "STREET"^^xsd:decimal ;
+    psn:P100051 wdv:QuantitycSTREETc0c0c0 ;
+    psv:P100051 wdv:QuantitycSTREETc0c0c0 .
+
+wds:Q65620298-8cbfa9e9-6de6-4dc0-b877-c1c82a7ad5a2 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100051 "MULTI-UNIT DWELLING (APARTMENT, DUPLEX, ETC)"^^xsd:decimal ;
+    psn:P100051 wdv:QuantitycMULTI-UNIT DWELLING (APARTMENT, DUPLEX, ETC)c0c0c0 ;
+    psv:P100051 wdv:QuantitycMULTI-UNIT DWELLING (APARTMENT, DUPLEX, ETC)c0c0c0 .
+
+wds:Q65620298-8cf77ab0-34c9-4f7c-9994-7d449127eea0 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100051 "SINGLE FAMILY DWELLING"^^xsd:decimal ;
+    psn:P100051 wdv:QuantitycSINGLE FAMILY DWELLINGc0c0c0 ;
+    psv:P100051 wdv:QuantitycSINGLE FAMILY DWELLINGc0c0c0 .
+
+wds:Q65620298-97bdd632-85a6-430c-b3a9-f9c7d9ababe5 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100051 "OTHER PREMISE"^^xsd:decimal ;
+    psn:P100051 wdv:QuantitycOTHER PREMISEc0c0c0 ;
+    psv:P100051 wdv:QuantitycOTHER PREMISEc0c0c0 .
+
+wds:Q65620298-988f7750-90f4-4d6f-8aa5-3a4ea1360ddb a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100051 "STREET"^^xsd:decimal ;
+    psn:P100051 wdv:QuantitycSTREETc0c0c0 ;
+    psv:P100051 wdv:QuantitycSTREETc0c0c0 .
+
+wds:Q65620298-a25caf2b-f071-480b-b83b-7654ff44d684 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100051 "MULTI-UNIT DWELLING (APARTMENT, DUPLEX, ETC)"^^xsd:decimal ;
+    psn:P100051 wdv:QuantitycMULTI-UNIT DWELLING (APARTMENT, DUPLEX, ETC)c0c0c0 ;
+    psv:P100051 wdv:QuantitycMULTI-UNIT DWELLING (APARTMENT, DUPLEX, ETC)c0c0c0 .
+
+wds:Q65620298-a4b90374-79b5-427c-86b7-9a54df4dbd56 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100051 "BAR/COCKTAIL/NIGHTCLUB"^^xsd:decimal ;
+    psn:P100051 wdv:QuantitycBAR/COCKTAIL/NIGHTCLUBc0c0c0 ;
+    psv:P100051 wdv:QuantitycBAR/COCKTAIL/NIGHTCLUBc0c0c0 .
+
+wds:Q65620298-a6dfba1b-742b-4f34-9c3b-e889c4de0f88 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100051 "HOTEL"^^xsd:decimal ;
+    psn:P100051 wdv:QuantitycHOTELc0c0c0 ;
+    psv:P100051 wdv:QuantitycHOTELc0c0c0 .
+
+wds:Q65620298-ac722777-373d-4fd3-a9f7-abf4c05a777e a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100051 "SIDEWALK"^^xsd:decimal ;
+    psn:P100051 wdv:QuantitycSIDEWALKc0c0c0 ;
+    psv:P100051 wdv:QuantitycSIDEWALKc0c0c0 .
+
+wds:Q65620298-ad9a3f94-4117-4f37-b252-62f9111971b5 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100051 "RESTAURANT/FAST FOOD"^^xsd:decimal ;
+    psn:P100051 wdv:QuantitycRESTAURANT/FAST FOODc0c0c0 ;
+    psv:P100051 wdv:QuantitycRESTAURANT/FAST FOODc0c0c0 .
+
+wds:Q65620298-b0e65c5c-72cc-4455-8ff1-b6029ae6c3d2 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100051 "SIDEWALK"^^xsd:decimal ;
+    psn:P100051 wdv:QuantitycSIDEWALKc0c0c0 ;
+    psv:P100051 wdv:QuantitycSIDEWALKc0c0c0 .
+
+wds:Q65620298-b901a25e-c443-4780-8b64-599dd296188f a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100051 "LIBRARY"^^xsd:decimal ;
+    psn:P100051 wdv:QuantitycLIBRARYc0c0c0 ;
+    psv:P100051 wdv:QuantitycLIBRARYc0c0c0 .
+
+wds:Q65620298-c3583e5c-e05e-4282-a206-54c6b44a470f a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100051 "ALLEY"^^xsd:decimal ;
+    psn:P100051 wdv:QuantitycALLEYc0c0c0 ;
+    psv:P100051 wdv:QuantitycALLEYc0c0c0 .
+
+wds:Q65620298-c4355014-bc51-47b7-a0a9-ac0c49551fa0 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100051 "STREET"^^xsd:decimal ;
+    psn:P100051 wdv:QuantitycSTREETc0c0c0 ;
+    psv:P100051 wdv:QuantitycSTREETc0c0c0 .
+
+wds:Q65620298-c5357291-630d-4a8a-bb96-1bf8c16b9315 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100051 "SIDEWALK"^^xsd:decimal ;
+    psn:P100051 wdv:QuantitycSIDEWALKc0c0c0 ;
+    psv:P100051 wdv:QuantitycSIDEWALKc0c0c0 .
+
+wds:Q65620298-c87afba1-032e-48dc-b561-4bcaa6b19be7 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100051 "STREET"^^xsd:decimal ;
+    psn:P100051 wdv:QuantitycSTREETc0c0c0 ;
+    psv:P100051 wdv:QuantitycSTREETc0c0c0 .
+
+wds:Q65620298-c88b4e20-814a-4530-8ce4-35e4a90c6978 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100051 "SIDEWALK"^^xsd:decimal ;
+    psn:P100051 wdv:QuantitycSIDEWALKc0c0c0 ;
+    psv:P100051 wdv:QuantitycSIDEWALKc0c0c0 .
+
+wds:Q65620298-f1da947b-6b3e-4b7d-837f-ed3e8c3bc4c9 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100051 "STREET"^^xsd:decimal ;
+    psn:P100051 wdv:QuantitycSTREETc0c0c0 ;
+    psv:P100051 wdv:QuantitycSTREETc0c0c0 .
+
+wds:Q65620298-f2179f36-f08b-4ec2-95f5-4c908eadd428 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100051 "OTHER PREMISE"^^xsd:decimal ;
+    psn:P100051 wdv:QuantitycOTHER PREMISEc0c0c0 ;
+    psv:P100051 wdv:QuantitycOTHER PREMISEc0c0c0 .
+
+wds:Q65620298-f4181f24-ea70-460b-9b73-f0579d4e9674 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100051 "STREET"^^xsd:decimal ;
+    psn:P100051 wdv:QuantitycSTREETc0c0c0 ;
+    psv:P100051 wdv:QuantitycSTREETc0c0c0 .
+
+wds:Q65620298-f72622e9-89e7-4350-8e29-19f61cc2b890 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100051 "OTHER PREMISE"^^xsd:decimal ;
+    psn:P100051 wdv:QuantitycOTHER PREMISEc0c0c0 ;
+    psv:P100051 wdv:QuantitycOTHER PREMISEc0c0c0 .
+
+wds:Q65620298-fcd380d2-a5bd-44d7-9a44-e1c3a6e5f01b a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100051 "SIDEWALK"^^xsd:decimal ;
+    psn:P100051 wdv:QuantitycSIDEWALKc0c0c0 ;
+    psv:P100051 wdv:QuantitycSIDEWALKc0c0c0 .
+
+wds:Q65620338-3d5357f4-355f-4413-9147-f20bac2029ab a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100051 "MULTI-UNIT DWELLING (APARTMENT, DUPLEX, ETC)"^^xsd:decimal ;
+    psn:P100051 wdv:QuantitycMULTI-UNIT DWELLING (APARTMENT, DUPLEX, ETC)c0c0c0 ;
+    psv:P100051 wdv:QuantitycMULTI-UNIT DWELLING (APARTMENT, DUPLEX, ETC)c0c0c0 .
+
+wdv:QuantitycHOTELc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "HOTEL"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:QuantitycHOTELc0c0c0 .
+
+wdv:QuantitycLIBRARYc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "LIBRARY"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:QuantitycLIBRARYc0c0c0 .
+
+wdv:QuantitycOTHER BUSINESSc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "OTHER BUSINESS"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:QuantitycOTHER BUSINESSc0c0c0 .
+
+wdv:QuantitycOTHER STOREc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "OTHER STORE"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:QuantitycOTHER STOREc0c0c0 .
+
+wdv:QuantitycBAR/COCKTAIL/NIGHTCLUBc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "BAR/COCKTAIL/NIGHTCLUB"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:QuantitycBAR/COCKTAIL/NIGHTCLUBc0c0c0 .
+
+wdv:QuantitycDEPARTMENT STOREc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "DEPARTMENT STORE"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:QuantitycDEPARTMENT STOREc0c0c0 .
+
+wdv:QuantitycALLEYc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "ALLEY"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:QuantitycALLEYc0c0c0 .
+
+wdv:QuantitycPARKING LOTc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "PARKING LOT"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:QuantitycPARKING LOTc0c0c0 .
+
+wdv:QuantitycRESTAURANT/FAST FOODc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "RESTAURANT/FAST FOOD"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:QuantitycRESTAURANT/FAST FOODc0c0c0 .
+
+wdv:QuantitycSINGLE FAMILY DWELLINGc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "SINGLE FAMILY DWELLING"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:QuantitycSINGLE FAMILY DWELLINGc0c0c0 .
+
+wdv:QuantitycOTHER PREMISEc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "OTHER PREMISE"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:QuantitycOTHER PREMISEc0c0c0 .
+
+wdv:QuantitycMULTI-UNIT DWELLING (APARTMENT, DUPLEX, ETC)c0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "MULTI-UNIT DWELLING (APARTMENT, DUPLEX, ETC)"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:QuantitycMULTI-UNIT DWELLING (APARTMENT, DUPLEX, ETC)c0c0c0 .
+
+wdv:QuantitycSIDEWALKc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "SIDEWALK"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:QuantitycSIDEWALKc0c0c0 .
+
+wdv:QuantitycSTREETc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "STREET"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:QuantitycSTREETc0c0c0 .
+

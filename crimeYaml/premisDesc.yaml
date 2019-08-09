@@ -1,0 +1,10 @@
+statementMapping:
+  region:
+    - left: O
+      right: Q
+      top: 1
+      bottom: 52
+  template:
+      item: item(A/$row)
+      property: P100051 # premise description 
+      value: value(P/$row) 

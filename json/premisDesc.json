@@ -1,0 +1,443 @@
+[
+   {
+      "cell": "P2",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A2",
+         "property": "P100051",
+         "value": "SINGLE FAMILY DWELLING"
+      }
+   },
+   {
+      "cell": "P3",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A3",
+         "property": "P100051",
+         "value": "STREET"
+      }
+   },
+   {
+      "cell": "P4",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A4",
+         "property": "P100051",
+         "value": "ALLEY"
+      }
+   },
+   {
+      "cell": "P5",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A5",
+         "property": "P100051",
+         "value": "STREET"
+      }
+   },
+   {
+      "cell": "P6",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A6",
+         "property": "P100051",
+         "value": "ALLEY"
+      }
+   },
+   {
+      "cell": "P7",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A7",
+         "property": "P100051",
+         "value": "DEPARTMENT STORE"
+      }
+   },
+   {
+      "cell": "P8",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A8",
+         "property": "P100051",
+         "value": "STREET"
+      }
+   },
+   {
+      "cell": "P9",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A9",
+         "property": "P100051",
+         "value": "OTHER PREMISE"
+      }
+   },
+   {
+      "cell": "P10",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A10",
+         "property": "P100051",
+         "value": "PARKING LOT"
+      }
+   },
+   {
+      "cell": "P11",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A11",
+         "property": "P100051",
+         "value": "OTHER PREMISE"
+      }
+   },
+   {
+      "cell": "P12",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A12",
+         "property": "P100051",
+         "value": "STREET"
+      }
+   },
+   {
+      "cell": "P13",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A13",
+         "property": "P100051",
+         "value": "STREET"
+      }
+   },
+   {
+      "cell": "P14",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A14",
+         "property": "P100051",
+         "value": "SIDEWALK"
+      }
+   },
+   {
+      "cell": "P15",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A15",
+         "property": "P100051",
+         "value": "LIBRARY"
+      }
+   },
+   {
+      "cell": "P16",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A16",
+         "property": "P100051",
+         "value": "SIDEWALK"
+      }
+   },
+   {
+      "cell": "P17",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A17",
+         "property": "P100051",
+         "value": "ALLEY"
+      }
+   },
+   {
+      "cell": "P18",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A18",
+         "property": "P100051",
+         "value": "MULTI-UNIT DWELLING (APARTMENT, DUPLEX, ETC)"
+      }
+   },
+   {
+      "cell": "P19",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A19",
+         "property": "P100051",
+         "value": "STREET"
+      }
+   },
+   {
+      "cell": "P20",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A20",
+         "property": "P100051",
+         "value": "MULTI-UNIT DWELLING (APARTMENT, DUPLEX, ETC)"
+      }
+   },
+   {
+      "cell": "P21",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A21",
+         "property": "P100051",
+         "value": "SIDEWALK"
+      }
+   },
+   {
+      "cell": "P22",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A22",
+         "property": "P100051",
+         "value": "PARKING LOT"
+      }
+   },
+   {
+      "cell": "P23",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A23",
+         "property": "P100051",
+         "value": "STREET"
+      }
+   },
+   {
+      "cell": "P24",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A24",
+         "property": "P100051",
+         "value": "RESTAURANT/FAST FOOD"
+      }
+   },
+   {
+      "cell": "P25",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A25",
+         "property": "P100051",
+         "value": "SINGLE FAMILY DWELLING"
+      }
+   },
+   {
+      "cell": "P26",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A26",
+         "property": "P100051",
+         "value": "SIDEWALK"
+      }
+   },
+   {
+      "cell": "P27",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A27",
+         "property": "P100051",
+         "value": "MULTI-UNIT DWELLING (APARTMENT, DUPLEX, ETC)"
+      }
+   },
+   {
+      "cell": "P28",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A28",
+         "property": "P100051",
+         "value": "BAR/COCKTAIL/NIGHTCLUB"
+      }
+   },
+   {
+      "cell": "P29",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A29",
+         "property": "P100051",
+         "value": "OTHER PREMISE"
+      }
+   },
+   {
+      "cell": "P30",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A30",
+         "property": "P100051",
+         "value": "OTHER PREMISE"
+      }
+   },
+   {
+      "cell": "P31",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A31",
+         "property": "P100051",
+         "value": "MULTI-UNIT DWELLING (APARTMENT, DUPLEX, ETC)"
+      }
+   },
+   {
+      "cell": "P32",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A32",
+         "property": "P100051",
+         "value": "STREET"
+      }
+   },
+   {
+      "cell": "P33",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A33",
+         "property": "P100051",
+         "value": "BAR/COCKTAIL/NIGHTCLUB"
+      }
+   },
+   {
+      "cell": "P34",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A34",
+         "property": "P100051",
+         "value": "HOTEL"
+      }
+   },
+   {
+      "cell": "P35",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A35",
+         "property": "P100051",
+         "value": "PARKING LOT"
+      }
+   },
+   {
+      "cell": "P36",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A36",
+         "property": "P100051",
+         "value": "OTHER BUSINESS"
+      }
+   },
+   {
+      "cell": "P37",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A37",
+         "property": "P100051",
+         "value": "RESTAURANT/FAST FOOD"
+      }
+   },
+   {
+      "cell": "P38",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A38",
+         "property": "P100051",
+         "value": "DEPARTMENT STORE"
+      }
+   },
+   {
+      "cell": "P39",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A39",
+         "property": "P100051",
+         "value": "SIDEWALK"
+      }
+   },
+   {
+      "cell": "P40",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A40",
+         "property": "P100051",
+         "value": "STREET"
+      }
+   },
+   {
+      "cell": "P41",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A41",
+         "property": "P100051",
+         "value": "RESTAURANT/FAST FOOD"
+      }
+   },
+   {
+      "cell": "P42",
+      "statement": {
+         "item": "Q65620338",
+         "cell": "A42",
+         "property": "P100051",
+         "value": "MULTI-UNIT DWELLING (APARTMENT, DUPLEX, ETC)"
+      }
+   },
+   {
+      "cell": "P43",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A43",
+         "property": "P100051",
+         "value": "STREET"
+      }
+   },
+   {
+      "cell": "P44",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A44",
+         "property": "P100051",
+         "value": "SIDEWALK"
+      }
+   },
+   {
+      "cell": "P45",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A45",
+         "property": "P100051",
+         "value": "OTHER STORE"
+      }
+   },
+   {
+      "cell": "P46",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A46",
+         "property": "P100051",
+         "value": "SIDEWALK"
+      }
+   },
+   {
+      "cell": "P47",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A47",
+         "property": "P100051",
+         "value": "STREET"
+      }
+   },
+   {
+      "cell": "P48",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A48",
+         "property": "P100051",
+         "value": "STREET"
+      }
+   },
+   {
+      "cell": "P49",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A49",
+         "property": "P100051",
+         "value": "MULTI-UNIT DWELLING (APARTMENT, DUPLEX, ETC)"
+      }
+   },
+   {
+      "cell": "P50",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A50",
+         "property": "P100051",
+         "value": "SINGLE FAMILY DWELLING"
+      }
+   }
+]

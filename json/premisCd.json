@@ -1,0 +1,443 @@
+[
+   {
+      "cell": "O2",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A2",
+         "property": "P100052",
+         "value": "501"
+      }
+   },
+   {
+      "cell": "O3",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A3",
+         "property": "P100052",
+         "value": "101"
+      }
+   },
+   {
+      "cell": "O4",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A4",
+         "property": "P100052",
+         "value": "103"
+      }
+   },
+   {
+      "cell": "O5",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A5",
+         "property": "P100052",
+         "value": "101"
+      }
+   },
+   {
+      "cell": "O6",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A6",
+         "property": "P100052",
+         "value": "103"
+      }
+   },
+   {
+      "cell": "O7",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A7",
+         "property": "P100052",
+         "value": "404"
+      }
+   },
+   {
+      "cell": "O8",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A8",
+         "property": "P100052",
+         "value": "101"
+      }
+   },
+   {
+      "cell": "O9",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A9",
+         "property": "P100052",
+         "value": "710"
+      }
+   },
+   {
+      "cell": "O10",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A10",
+         "property": "P100052",
+         "value": "108"
+      }
+   },
+   {
+      "cell": "O11",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A11",
+         "property": "P100052",
+         "value": "710"
+      }
+   },
+   {
+      "cell": "O12",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A12",
+         "property": "P100052",
+         "value": "101"
+      }
+   },
+   {
+      "cell": "O13",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A13",
+         "property": "P100052",
+         "value": "101"
+      }
+   },
+   {
+      "cell": "O14",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A14",
+         "property": "P100052",
+         "value": "102"
+      }
+   },
+   {
+      "cell": "O15",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A15",
+         "property": "P100052",
+         "value": "738"
+      }
+   },
+   {
+      "cell": "O16",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A16",
+         "property": "P100052",
+         "value": "102"
+      }
+   },
+   {
+      "cell": "O17",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A17",
+         "property": "P100052",
+         "value": "103"
+      }
+   },
+   {
+      "cell": "O18",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A18",
+         "property": "P100052",
+         "value": "502"
+      }
+   },
+   {
+      "cell": "O19",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A19",
+         "property": "P100052",
+         "value": "101"
+      }
+   },
+   {
+      "cell": "O20",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A20",
+         "property": "P100052",
+         "value": "502"
+      }
+   },
+   {
+      "cell": "O21",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A21",
+         "property": "P100052",
+         "value": "102"
+      }
+   },
+   {
+      "cell": "O22",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A22",
+         "property": "P100052",
+         "value": "108"
+      }
+   },
+   {
+      "cell": "O23",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A23",
+         "property": "P100052",
+         "value": "101"
+      }
+   },
+   {
+      "cell": "O24",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A24",
+         "property": "P100052",
+         "value": "210"
+      }
+   },
+   {
+      "cell": "O25",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A25",
+         "property": "P100052",
+         "value": "501"
+      }
+   },
+   {
+      "cell": "O26",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A26",
+         "property": "P100052",
+         "value": "102"
+      }
+   },
+   {
+      "cell": "O27",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A27",
+         "property": "P100052",
+         "value": "502"
+      }
+   },
+   {
+      "cell": "O28",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A28",
+         "property": "P100052",
+         "value": "207"
+      }
+   },
+   {
+      "cell": "O29",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A29",
+         "property": "P100052",
+         "value": "710"
+      }
+   },
+   {
+      "cell": "O30",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A30",
+         "property": "P100052",
+         "value": "710"
+      }
+   },
+   {
+      "cell": "O31",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A31",
+         "property": "P100052",
+         "value": "502"
+      }
+   },
+   {
+      "cell": "O32",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A32",
+         "property": "P100052",
+         "value": "101"
+      }
+   },
+   {
+      "cell": "O33",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A33",
+         "property": "P100052",
+         "value": "207"
+      }
+   },
+   {
+      "cell": "O34",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A34",
+         "property": "P100052",
+         "value": "503"
+      }
+   },
+   {
+      "cell": "O35",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A35",
+         "property": "P100052",
+         "value": "108"
+      }
+   },
+   {
+      "cell": "O36",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A36",
+         "property": "P100052",
+         "value": "203"
+      }
+   },
+   {
+      "cell": "O37",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A37",
+         "property": "P100052",
+         "value": "210"
+      }
+   },
+   {
+      "cell": "O38",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A38",
+         "property": "P100052",
+         "value": "404"
+      }
+   },
+   {
+      "cell": "O39",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A39",
+         "property": "P100052",
+         "value": "102"
+      }
+   },
+   {
+      "cell": "O40",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A40",
+         "property": "P100052",
+         "value": "101"
+      }
+   },
+   {
+      "cell": "O41",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A41",
+         "property": "P100052",
+         "value": "210"
+      }
+   },
+   {
+      "cell": "O42",
+      "statement": {
+         "item": "Q65620338",
+         "cell": "A42",
+         "property": "P100052",
+         "value": "502"
+      }
+   },
+   {
+      "cell": "O43",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A43",
+         "property": "P100052",
+         "value": "101"
+      }
+   },
+   {
+      "cell": "O44",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A44",
+         "property": "P100052",
+         "value": "102"
+      }
+   },
+   {
+      "cell": "O45",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A45",
+         "property": "P100052",
+         "value": "406"
+      }
+   },
+   {
+      "cell": "O46",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A46",
+         "property": "P100052",
+         "value": "102"
+      }
+   },
+   {
+      "cell": "O47",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A47",
+         "property": "P100052",
+         "value": "101"
+      }
+   },
+   {
+      "cell": "O48",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A48",
+         "property": "P100052",
+         "value": "101"
+      }
+   },
+   {
+      "cell": "O49",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A49",
+         "property": "P100052",
+         "value": "502"
+      }
+   },
+   {
+      "cell": "O50",
+      "statement": {
+         "item": "Q65620298",
+         "cell": "A50",
+         "property": "P100052",
+         "value": "501"
+      }
+   }
+]
