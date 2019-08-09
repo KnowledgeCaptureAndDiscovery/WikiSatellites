@@ -1,0 +1,10 @@
+statementMapping:
+  region:
+    - left: I
+      right: K
+      top: 1
+      bottom: 51
+  template:
+      item: item(A/$row)
+      property: P100042 # 'has crime' from WikiSatellite
+      value: value(J/$row) #crime description

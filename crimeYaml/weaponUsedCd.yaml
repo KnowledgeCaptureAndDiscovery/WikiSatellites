@@ -1,0 +1,10 @@
+statementMapping:
+  region:
+    - left: P
+      right: R
+      top: 1
+      bottom: 52
+  template:
+      item: item(A/$row)
+      property: P100056 # weapon used code
+      value: value(Q/$row) #area

@@ -1,0 +1,10 @@
+statementMapping:
+  region:
+   - left: B
+     right: D
+     top: 1
+     bottom: 51
+  template:
+     item: item(A/$row)
+     property: P585 # point in time
+     value: value(C/$row) #area

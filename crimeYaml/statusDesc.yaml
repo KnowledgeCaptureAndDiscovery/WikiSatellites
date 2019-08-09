@@ -1,0 +1,10 @@
+statementMapping:
+  region:
+    - left: S
+      right: U
+      top: 1
+      bottom: 52
+  template:
+      item: item(A/$row)
+      property: P100054 # status description
+      value: value(T/$row)

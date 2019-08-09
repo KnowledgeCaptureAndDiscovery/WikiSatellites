@@ -1,0 +1,10 @@
+statementMapping:
+  region:
+    - left: R
+      right: T
+      top: 1
+      bottom: 52
+  template:
+      item: item(A/$row)
+      property: P100053 # status code
+      value: value(S/$row) 

@@ -1,0 +1,10 @@
+statementMapping:
+  region:
+    - left: A
+      right: C
+      top: 1
+      bottom: 51
+  template:
+      item: item(A/$row)
+      property: P100043 #date reported
+      value: value(B/$row)

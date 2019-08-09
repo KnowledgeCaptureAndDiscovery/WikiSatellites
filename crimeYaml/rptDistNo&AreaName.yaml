@@ -1,0 +1,13 @@
+statementMapping:
+  region:
+    - left: D
+      right: F
+      top: 1
+      bottom: 52
+  template:
+      item: item(A/$row)
+      property: P100041 # reported district number
+      value: value(E/$row) #area
+      qualifier:
+        - property: P2561 # name (of district)
+          value: value(F/$row)
