@@ -1,0 +1,271 @@
+@prefix : <http://isi.edu/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+@prefix wdref: <http://www.wikidata.org/reference/> .
+@prefix wds: <http://www.wikidata.org/entity/statement/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix wdv: <http://www.wikidata.org/value/> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+wd:Q65620298 a wikibase:Item ;
+    p:P100057 wds:Q65620298-00489cc3-db17-46f6-9b15-c56a2d580400,
+        wds:Q65620298-10e5eae2-d495-40d7-8143-efd5a099ca46,
+        wds:Q65620298-1320ae53-b4fd-44fd-9732-ae1aefa9587b,
+        wds:Q65620298-30963b92-be97-41ce-9ef9-122038f30d3e,
+        wds:Q65620298-4e3b5bc4-30c5-474d-beeb-bf19c556d10d,
+        wds:Q65620298-53e3342f-5c6f-45c4-9c10-c732c38bbe28,
+        wds:Q65620298-6675450b-619f-4c27-b34c-f8fa5d2a5a3e,
+        wds:Q65620298-680c24b0-5eb7-48cc-b7b3-11225940ad58,
+        wds:Q65620298-73fd8537-5d5f-4c93-89f9-a165f92936bf,
+        wds:Q65620298-7cc873b3-c19b-421c-a587-e8464408410a,
+        wds:Q65620298-92ecb0c7-cfdb-43e4-845c-67fe91d3eed0,
+        wds:Q65620298-96b4ad57-b271-477d-a44b-9454bc824647,
+        wds:Q65620298-985435a5-7d74-40d9-8a1f-5bd4bd3bb565,
+        wds:Q65620298-99598392-f91b-49bc-a71f-34b7bfd9ff6c,
+        wds:Q65620298-a4cc5b78-ac43-4d3b-9d8c-893cbec1dbac,
+        wds:Q65620298-ad5a4cdb-088f-4de2-8165-89c9ba4dabc7,
+        wds:Q65620298-bb978e15-b9c1-4812-8790-9776082f21e8,
+        wds:Q65620298-bdd2c992-60ac-4030-a4b4-7e08ed2bb460,
+        wds:Q65620298-d5a8d25a-c4d3-4bf6-98a8-b12dea7b45c2,
+        wds:Q65620298-ddab4d38-d80f-464a-886a-f453ec9e7eda,
+        wds:Q65620298-e541fed9-4b0f-42a9-8c8c-7c85dd8f9c00,
+        wds:Q65620298-e861e65a-2a91-4fd2-b634-ef784f8c1a8b,
+        wds:Q65620298-ea9f681a-f2df-4b70-81fc-a1a91e66d40e,
+        wds:Q65620298-fbbb8db5-9dae-4122-88dc-0c23f15543ee,
+        wds:Q65620298-fbdcb781-e4b0-47f8-bbcf-99be499ed207,
+        wds:Q65620298-fdc33d7e-692b-4c7f-a354-f474a43924ff,
+        wds:Q65620298-fe6fe112-a7cf-4a0a-b5e0-1acc46ddf203 .
+
+wd:Q65620338 a wikibase:Item ;
+    p:P100057 wds:Q65620338-67a6de3c-99bb-47b4-99d1-9bb409a2fe03 .
+
+wds:Q65620298-00489cc3-db17-46f6-9b15-c56a2d580400 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100057 "STRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)"^^xsd:decimal ;
+    psn:P100057 wdv:QuantitycSTRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)c0c0c0 ;
+    psv:P100057 wdv:QuantitycSTRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)c0c0c0 .
+
+wds:Q65620298-10e5eae2-d495-40d7-8143-efd5a099ca46 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100057 "STRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)"^^xsd:decimal ;
+    psn:P100057 wdv:QuantitycSTRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)c0c0c0 ;
+    psv:P100057 wdv:QuantitycSTRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)c0c0c0 .
+
+wds:Q65620298-1320ae53-b4fd-44fd-9732-ae1aefa9587b a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100057 "STRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)"^^xsd:decimal ;
+    psn:P100057 wdv:QuantitycSTRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)c0c0c0 ;
+    psv:P100057 wdv:QuantitycSTRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)c0c0c0 .
+
+wds:Q65620298-30963b92-be97-41ce-9ef9-122038f30d3e a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100057 "HAND GUN"^^xsd:decimal ;
+    psn:P100057 wdv:QuantitycHAND GUNc0c0c0 ;
+    psv:P100057 wdv:QuantitycHAND GUNc0c0c0 .
+
+wds:Q65620298-4e3b5bc4-30c5-474d-beeb-bf19c556d10d a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100057 "STRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)"^^xsd:decimal ;
+    psn:P100057 wdv:QuantitycSTRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)c0c0c0 ;
+    psv:P100057 wdv:QuantitycSTRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)c0c0c0 .
+
+wds:Q65620298-53e3342f-5c6f-45c4-9c10-c732c38bbe28 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100057 "STRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)"^^xsd:decimal ;
+    psn:P100057 wdv:QuantitycSTRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)c0c0c0 ;
+    psv:P100057 wdv:QuantitycSTRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)c0c0c0 .
+
+wds:Q65620298-6675450b-619f-4c27-b34c-f8fa5d2a5a3e a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100057 "VERBAL THREAT"^^xsd:decimal ;
+    psn:P100057 wdv:QuantitycVERBAL THREATc0c0c0 ;
+    psv:P100057 wdv:QuantitycVERBAL THREATc0c0c0 .
+
+wds:Q65620298-680c24b0-5eb7-48cc-b7b3-11225940ad58 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100057 "STRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)"^^xsd:decimal ;
+    psn:P100057 wdv:QuantitycSTRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)c0c0c0 ;
+    psv:P100057 wdv:QuantitycSTRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)c0c0c0 .
+
+wds:Q65620298-73fd8537-5d5f-4c93-89f9-a165f92936bf a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100057 "STRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)"^^xsd:decimal ;
+    psn:P100057 wdv:QuantitycSTRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)c0c0c0 ;
+    psv:P100057 wdv:QuantitycSTRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)c0c0c0 .
+
+wds:Q65620298-7cc873b3-c19b-421c-a587-e8464408410a a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100057 "STRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)"^^xsd:decimal ;
+    psn:P100057 wdv:QuantitycSTRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)c0c0c0 ;
+    psv:P100057 wdv:QuantitycSTRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)c0c0c0 .
+
+wds:Q65620298-92ecb0c7-cfdb-43e4-845c-67fe91d3eed0 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100057 "STRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)"^^xsd:decimal ;
+    psn:P100057 wdv:QuantitycSTRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)c0c0c0 ;
+    psv:P100057 wdv:QuantitycSTRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)c0c0c0 .
+
+wds:Q65620298-96b4ad57-b271-477d-a44b-9454bc824647 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100057 "UNKNOWN WEAPON/OTHER WEAPON"^^xsd:decimal ;
+    psn:P100057 wdv:QuantitycUNKNOWN WEAPON/OTHER WEAPONc0c0c0 ;
+    psv:P100057 wdv:QuantitycUNKNOWN WEAPON/OTHER WEAPONc0c0c0 .
+
+wds:Q65620298-985435a5-7d74-40d9-8a1f-5bd4bd3bb565 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100057 "STRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)"^^xsd:decimal ;
+    psn:P100057 wdv:QuantitycSTRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)c0c0c0 ;
+    psv:P100057 wdv:QuantitycSTRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)c0c0c0 .
+
+wds:Q65620298-99598392-f91b-49bc-a71f-34b7bfd9ff6c a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100057 "UNKNOWN WEAPON/OTHER WEAPON"^^xsd:decimal ;
+    psn:P100057 wdv:QuantitycUNKNOWN WEAPON/OTHER WEAPONc0c0c0 ;
+    psv:P100057 wdv:QuantitycUNKNOWN WEAPON/OTHER WEAPONc0c0c0 .
+
+wds:Q65620298-a4cc5b78-ac43-4d3b-9d8c-893cbec1dbac a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100057 "STRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)"^^xsd:decimal ;
+    psn:P100057 wdv:QuantitycSTRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)c0c0c0 ;
+    psv:P100057 wdv:QuantitycSTRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)c0c0c0 .
+
+wds:Q65620298-ad5a4cdb-088f-4de2-8165-89c9ba4dabc7 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100057 "STRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)"^^xsd:decimal ;
+    psn:P100057 wdv:QuantitycSTRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)c0c0c0 ;
+    psv:P100057 wdv:QuantitycSTRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)c0c0c0 .
+
+wds:Q65620298-bb978e15-b9c1-4812-8790-9776082f21e8 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100057 "STRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)"^^xsd:decimal ;
+    psn:P100057 wdv:QuantitycSTRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)c0c0c0 ;
+    psv:P100057 wdv:QuantitycSTRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)c0c0c0 .
+
+wds:Q65620298-bdd2c992-60ac-4030-a4b4-7e08ed2bb460 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100057 "STRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)"^^xsd:decimal ;
+    psn:P100057 wdv:QuantitycSTRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)c0c0c0 ;
+    psv:P100057 wdv:QuantitycSTRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)c0c0c0 .
+
+wds:Q65620298-d5a8d25a-c4d3-4bf6-98a8-b12dea7b45c2 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100057 "STRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)"^^xsd:decimal ;
+    psn:P100057 wdv:QuantitycSTRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)c0c0c0 ;
+    psv:P100057 wdv:QuantitycSTRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)c0c0c0 .
+
+wds:Q65620298-ddab4d38-d80f-464a-886a-f453ec9e7eda a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100057 "STRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)"^^xsd:decimal ;
+    psn:P100057 wdv:QuantitycSTRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)c0c0c0 ;
+    psv:P100057 wdv:QuantitycSTRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)c0c0c0 .
+
+wds:Q65620298-e541fed9-4b0f-42a9-8c8c-7c85dd8f9c00 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100057 "STRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)"^^xsd:decimal ;
+    psn:P100057 wdv:QuantitycSTRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)c0c0c0 ;
+    psv:P100057 wdv:QuantitycSTRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)c0c0c0 .
+
+wds:Q65620298-e861e65a-2a91-4fd2-b634-ef784f8c1a8b a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100057 "UNKNOWN WEAPON/OTHER WEAPON"^^xsd:decimal ;
+    psn:P100057 wdv:QuantitycUNKNOWN WEAPON/OTHER WEAPONc0c0c0 ;
+    psv:P100057 wdv:QuantitycUNKNOWN WEAPON/OTHER WEAPONc0c0c0 .
+
+wds:Q65620298-ea9f681a-f2df-4b70-81fc-a1a91e66d40e a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100057 "STRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)"^^xsd:decimal ;
+    psn:P100057 wdv:QuantitycSTRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)c0c0c0 ;
+    psv:P100057 wdv:QuantitycSTRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)c0c0c0 .
+
+wds:Q65620298-fbbb8db5-9dae-4122-88dc-0c23f15543ee a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100057 "UNKNOWN WEAPON/OTHER WEAPON"^^xsd:decimal ;
+    psn:P100057 wdv:QuantitycUNKNOWN WEAPON/OTHER WEAPONc0c0c0 ;
+    psv:P100057 wdv:QuantitycUNKNOWN WEAPON/OTHER WEAPONc0c0c0 .
+
+wds:Q65620298-fbdcb781-e4b0-47f8-bbcf-99be499ed207 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100057 "STRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)"^^xsd:decimal ;
+    psn:P100057 wdv:QuantitycSTRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)c0c0c0 ;
+    psv:P100057 wdv:QuantitycSTRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)c0c0c0 .
+
+wds:Q65620298-fdc33d7e-692b-4c7f-a354-f474a43924ff a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100057 "STRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)"^^xsd:decimal ;
+    psn:P100057 wdv:QuantitycSTRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)c0c0c0 ;
+    psv:P100057 wdv:QuantitycSTRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)c0c0c0 .
+
+wds:Q65620298-fe6fe112-a7cf-4a0a-b5e0-1acc46ddf203 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100057 "STRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)"^^xsd:decimal ;
+    psn:P100057 wdv:QuantitycSTRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)c0c0c0 ;
+    psv:P100057 wdv:QuantitycSTRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)c0c0c0 .
+
+wds:Q65620338-67a6de3c-99bb-47b4-99d1-9bb409a2fe03 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100057 "STRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)"^^xsd:decimal ;
+    psn:P100057 wdv:QuantitycSTRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)c0c0c0 ;
+    psv:P100057 wdv:QuantitycSTRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)c0c0c0 .
+
+wdv:QuantitycHAND GUNc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "HAND GUN"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:QuantitycHAND GUNc0c0c0 .
+
+wdv:QuantitycVERBAL THREATc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "VERBAL THREAT"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:QuantitycVERBAL THREATc0c0c0 .
+
+wdv:QuantitycUNKNOWN WEAPON/OTHER WEAPONc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "UNKNOWN WEAPON/OTHER WEAPON"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:QuantitycUNKNOWN WEAPON/OTHER WEAPONc0c0c0 .
+
+wdv:QuantitycSTRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)c0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "STRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:QuantitycSTRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)c0c0c0 .
+
