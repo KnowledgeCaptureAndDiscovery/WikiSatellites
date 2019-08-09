@@ -1,0 +1,435 @@
+@prefix : <http://isi.edu/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+@prefix wdref: <http://www.wikidata.org/reference/> .
+@prefix wds: <http://www.wikidata.org/entity/statement/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix wdv: <http://www.wikidata.org/value/> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+wd:Q65620298 a wikibase:Item ;
+    p:P100054 wds:Q65620298-1042a660-77cb-4b7f-87ea-043862d34c8c,
+        wds:Q65620298-2671279a-551d-46a7-9bfe-2fed62297fd7,
+        wds:Q65620298-312295b7-dd3f-494b-a1cb-624f45ab42d3,
+        wds:Q65620298-35809790-34bf-43a1-8338-66afb81a3444,
+        wds:Q65620298-39a5c68c-c7ca-4470-bc9e-6dc21b918b35,
+        wds:Q65620298-3c04b546-9706-44b7-a4b1-af1965457446,
+        wds:Q65620298-43f64e62-7223-40bf-b1d2-618bc8b40820,
+        wds:Q65620298-443e3e8e-3ae2-4567-81d6-2d6a86a94bf7,
+        wds:Q65620298-4a0b2de7-fd08-4d01-bef4-274d24aaa924,
+        wds:Q65620298-4e967d81-7435-4a9e-ba98-e359ff249073,
+        wds:Q65620298-543d7c99-087d-4347-8b07-e1880fefd206,
+        wds:Q65620298-54412876-f220-4221-8a36-b51d7b21ac1d,
+        wds:Q65620298-66708425-32a9-4fe3-a01f-bc78f587760e,
+        wds:Q65620298-676ab4a1-03d4-4158-a86e-ef106bc89afe,
+        wds:Q65620298-67982ae2-9f34-477b-b54a-c46683caf5e2,
+        wds:Q65620298-6eb11da0-7a51-41e6-92ac-f5ac973752ad,
+        wds:Q65620298-6f1c3628-2a14-46b7-badb-5ff5e9cb5f7d,
+        wds:Q65620298-7b5811f5-3949-4ccb-a55b-8e95d29a1f0a,
+        wds:Q65620298-84b40d83-a38b-4df9-b08e-0e42384577de,
+        wds:Q65620298-84da7b37-c174-4bfc-8824-28f63a7a859a,
+        wds:Q65620298-8673a468-e82b-40e7-a5c4-3c947d57e1b0,
+        wds:Q65620298-873a26a5-3dfc-4d4f-9aac-dc02f1bb94eb,
+        wds:Q65620298-8bfda890-d19d-4ab8-8e6b-6abd325325e1,
+        wds:Q65620298-8e5636a7-3d8d-4fb4-ac46-61497e8ffc50,
+        wds:Q65620298-9f8ffaee-57bf-4d5b-b6b8-84cd778400e4,
+        wds:Q65620298-a5326b4a-31ce-4f0d-ba5f-5005ccebfd4c,
+        wds:Q65620298-a5e15ee1-89d7-4547-a820-43f4f8ae97d2,
+        wds:Q65620298-a747e450-3154-48ff-874b-ab896dbf9522,
+        wds:Q65620298-ab6393ae-fea6-44c4-96cb-772ffc411abc,
+        wds:Q65620298-b0015669-14c9-4456-b07b-03fb40d5aaf8,
+        wds:Q65620298-b29a89d5-55b7-449b-b0ba-2f94f276701f,
+        wds:Q65620298-b59830ca-0a63-4047-8a2c-88631a778c1f,
+        wds:Q65620298-bbdf9519-1c19-4591-a1ff-01a289215042,
+        wds:Q65620298-bc4e55d3-db0c-4043-bcf9-0504eb760f3d,
+        wds:Q65620298-bdb61f1b-da74-4b15-8213-27caede01988,
+        wds:Q65620298-c345a68b-1d50-4653-b522-f1c3fa00ff07,
+        wds:Q65620298-c36d2870-81b0-41f7-b754-375ab7f9eb50,
+        wds:Q65620298-c5186c3f-3b87-4356-a99f-98e81820efda,
+        wds:Q65620298-c84b577a-7fe9-451b-81bf-317fd367722e,
+        wds:Q65620298-cac0f61d-8802-43bc-880b-1b0e0473afc6,
+        wds:Q65620298-d15380fa-192f-4244-bc8d-f421c4826ab6,
+        wds:Q65620298-d273333d-93df-4236-a54b-bcf2c63cf274,
+        wds:Q65620298-db53c73c-3b95-4b4f-a732-b446cd0fade9,
+        wds:Q65620298-db708c45-cc09-4a6d-9fee-784ae78f22e9,
+        wds:Q65620298-e05785f8-baec-4e37-a749-02b091c4e4e3,
+        wds:Q65620298-e815b6a0-e7ad-4771-ae32-4a17f23f916c,
+        wds:Q65620298-f85df9d7-d8b0-40b4-abb6-db679ae77a14,
+        wds:Q65620298-fab42d7b-1211-41bb-89b1-787b97b1140a .
+
+wd:Q65620338 a wikibase:Item ;
+    p:P100054 wds:Q65620338-60827596-1b53-4740-b98e-4c988cea6bc3 .
+
+wds:Q65620298-1042a660-77cb-4b7f-87ea-043862d34c8c a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100054 "Adult Other"^^xsd:decimal ;
+    psn:P100054 wdv:QuantitycAdult Otherc0c0c0 ;
+    psv:P100054 wdv:QuantitycAdult Otherc0c0c0 .
+
+wds:Q65620298-2671279a-551d-46a7-9bfe-2fed62297fd7 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100054 "Adult Other"^^xsd:decimal ;
+    psn:P100054 wdv:QuantitycAdult Otherc0c0c0 ;
+    psv:P100054 wdv:QuantitycAdult Otherc0c0c0 .
+
+wds:Q65620298-312295b7-dd3f-494b-a1cb-624f45ab42d3 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100054 "Invest Cont"^^xsd:decimal ;
+    psn:P100054 wdv:QuantitycInvest Contc0c0c0 ;
+    psv:P100054 wdv:QuantitycInvest Contc0c0c0 .
+
+wds:Q65620298-35809790-34bf-43a1-8338-66afb81a3444 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100054 "Adult Arrest"^^xsd:decimal ;
+    psn:P100054 wdv:QuantitycAdult Arrestc0c0c0 ;
+    psv:P100054 wdv:QuantitycAdult Arrestc0c0c0 .
+
+wds:Q65620298-39a5c68c-c7ca-4470-bc9e-6dc21b918b35 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100054 "Invest Cont"^^xsd:decimal ;
+    psn:P100054 wdv:QuantitycInvest Contc0c0c0 ;
+    psv:P100054 wdv:QuantitycInvest Contc0c0c0 .
+
+wds:Q65620298-3c04b546-9706-44b7-a4b1-af1965457446 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100054 "Adult Arrest"^^xsd:decimal ;
+    psn:P100054 wdv:QuantitycAdult Arrestc0c0c0 ;
+    psv:P100054 wdv:QuantitycAdult Arrestc0c0c0 .
+
+wds:Q65620298-43f64e62-7223-40bf-b1d2-618bc8b40820 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100054 "Invest Cont"^^xsd:decimal ;
+    psn:P100054 wdv:QuantitycInvest Contc0c0c0 ;
+    psv:P100054 wdv:QuantitycInvest Contc0c0c0 .
+
+wds:Q65620298-443e3e8e-3ae2-4567-81d6-2d6a86a94bf7 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100054 "Adult Arrest"^^xsd:decimal ;
+    psn:P100054 wdv:QuantitycAdult Arrestc0c0c0 ;
+    psv:P100054 wdv:QuantitycAdult Arrestc0c0c0 .
+
+wds:Q65620298-4a0b2de7-fd08-4d01-bef4-274d24aaa924 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100054 "Invest Cont"^^xsd:decimal ;
+    psn:P100054 wdv:QuantitycInvest Contc0c0c0 ;
+    psv:P100054 wdv:QuantitycInvest Contc0c0c0 .
+
+wds:Q65620298-4e967d81-7435-4a9e-ba98-e359ff249073 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100054 "Adult Arrest"^^xsd:decimal ;
+    psn:P100054 wdv:QuantitycAdult Arrestc0c0c0 ;
+    psv:P100054 wdv:QuantitycAdult Arrestc0c0c0 .
+
+wds:Q65620298-543d7c99-087d-4347-8b07-e1880fefd206 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100054 "Adult Other"^^xsd:decimal ;
+    psn:P100054 wdv:QuantitycAdult Otherc0c0c0 ;
+    psv:P100054 wdv:QuantitycAdult Otherc0c0c0 .
+
+wds:Q65620298-54412876-f220-4221-8a36-b51d7b21ac1d a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100054 "Adult Arrest"^^xsd:decimal ;
+    psn:P100054 wdv:QuantitycAdult Arrestc0c0c0 ;
+    psv:P100054 wdv:QuantitycAdult Arrestc0c0c0 .
+
+wds:Q65620298-66708425-32a9-4fe3-a01f-bc78f587760e a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100054 "Invest Cont"^^xsd:decimal ;
+    psn:P100054 wdv:QuantitycInvest Contc0c0c0 ;
+    psv:P100054 wdv:QuantitycInvest Contc0c0c0 .
+
+wds:Q65620298-676ab4a1-03d4-4158-a86e-ef106bc89afe a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100054 "Invest Cont"^^xsd:decimal ;
+    psn:P100054 wdv:QuantitycInvest Contc0c0c0 ;
+    psv:P100054 wdv:QuantitycInvest Contc0c0c0 .
+
+wds:Q65620298-67982ae2-9f34-477b-b54a-c46683caf5e2 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100054 "Invest Cont"^^xsd:decimal ;
+    psn:P100054 wdv:QuantitycInvest Contc0c0c0 ;
+    psv:P100054 wdv:QuantitycInvest Contc0c0c0 .
+
+wds:Q65620298-6eb11da0-7a51-41e6-92ac-f5ac973752ad a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100054 "Adult Other"^^xsd:decimal ;
+    psn:P100054 wdv:QuantitycAdult Otherc0c0c0 ;
+    psv:P100054 wdv:QuantitycAdult Otherc0c0c0 .
+
+wds:Q65620298-6f1c3628-2a14-46b7-badb-5ff5e9cb5f7d a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100054 "Adult Other"^^xsd:decimal ;
+    psn:P100054 wdv:QuantitycAdult Otherc0c0c0 ;
+    psv:P100054 wdv:QuantitycAdult Otherc0c0c0 .
+
+wds:Q65620298-7b5811f5-3949-4ccb-a55b-8e95d29a1f0a a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100054 "Invest Cont"^^xsd:decimal ;
+    psn:P100054 wdv:QuantitycInvest Contc0c0c0 ;
+    psv:P100054 wdv:QuantitycInvest Contc0c0c0 .
+
+wds:Q65620298-84b40d83-a38b-4df9-b08e-0e42384577de a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100054 "Adult Other"^^xsd:decimal ;
+    psn:P100054 wdv:QuantitycAdult Otherc0c0c0 ;
+    psv:P100054 wdv:QuantitycAdult Otherc0c0c0 .
+
+wds:Q65620298-84da7b37-c174-4bfc-8824-28f63a7a859a a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100054 "Invest Cont"^^xsd:decimal ;
+    psn:P100054 wdv:QuantitycInvest Contc0c0c0 ;
+    psv:P100054 wdv:QuantitycInvest Contc0c0c0 .
+
+wds:Q65620298-8673a468-e82b-40e7-a5c4-3c947d57e1b0 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100054 "Adult Arrest"^^xsd:decimal ;
+    psn:P100054 wdv:QuantitycAdult Arrestc0c0c0 ;
+    psv:P100054 wdv:QuantitycAdult Arrestc0c0c0 .
+
+wds:Q65620298-873a26a5-3dfc-4d4f-9aac-dc02f1bb94eb a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100054 "Invest Cont"^^xsd:decimal ;
+    psn:P100054 wdv:QuantitycInvest Contc0c0c0 ;
+    psv:P100054 wdv:QuantitycInvest Contc0c0c0 .
+
+wds:Q65620298-8bfda890-d19d-4ab8-8e6b-6abd325325e1 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100054 "Invest Cont"^^xsd:decimal ;
+    psn:P100054 wdv:QuantitycInvest Contc0c0c0 ;
+    psv:P100054 wdv:QuantitycInvest Contc0c0c0 .
+
+wds:Q65620298-8e5636a7-3d8d-4fb4-ac46-61497e8ffc50 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100054 "Adult Arrest"^^xsd:decimal ;
+    psn:P100054 wdv:QuantitycAdult Arrestc0c0c0 ;
+    psv:P100054 wdv:QuantitycAdult Arrestc0c0c0 .
+
+wds:Q65620298-9f8ffaee-57bf-4d5b-b6b8-84cd778400e4 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100054 "Invest Cont"^^xsd:decimal ;
+    psn:P100054 wdv:QuantitycInvest Contc0c0c0 ;
+    psv:P100054 wdv:QuantitycInvest Contc0c0c0 .
+
+wds:Q65620298-a5326b4a-31ce-4f0d-ba5f-5005ccebfd4c a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100054 "Adult Other"^^xsd:decimal ;
+    psn:P100054 wdv:QuantitycAdult Otherc0c0c0 ;
+    psv:P100054 wdv:QuantitycAdult Otherc0c0c0 .
+
+wds:Q65620298-a5e15ee1-89d7-4547-a820-43f4f8ae97d2 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100054 "Adult Arrest"^^xsd:decimal ;
+    psn:P100054 wdv:QuantitycAdult Arrestc0c0c0 ;
+    psv:P100054 wdv:QuantitycAdult Arrestc0c0c0 .
+
+wds:Q65620298-a747e450-3154-48ff-874b-ab896dbf9522 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100054 "Adult Arrest"^^xsd:decimal ;
+    psn:P100054 wdv:QuantitycAdult Arrestc0c0c0 ;
+    psv:P100054 wdv:QuantitycAdult Arrestc0c0c0 .
+
+wds:Q65620298-ab6393ae-fea6-44c4-96cb-772ffc411abc a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100054 "Invest Cont"^^xsd:decimal ;
+    psn:P100054 wdv:QuantitycInvest Contc0c0c0 ;
+    psv:P100054 wdv:QuantitycInvest Contc0c0c0 .
+
+wds:Q65620298-b0015669-14c9-4456-b07b-03fb40d5aaf8 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100054 "Invest Cont"^^xsd:decimal ;
+    psn:P100054 wdv:QuantitycInvest Contc0c0c0 ;
+    psv:P100054 wdv:QuantitycInvest Contc0c0c0 .
+
+wds:Q65620298-b29a89d5-55b7-449b-b0ba-2f94f276701f a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100054 "Invest Cont"^^xsd:decimal ;
+    psn:P100054 wdv:QuantitycInvest Contc0c0c0 ;
+    psv:P100054 wdv:QuantitycInvest Contc0c0c0 .
+
+wds:Q65620298-b59830ca-0a63-4047-8a2c-88631a778c1f a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100054 "Invest Cont"^^xsd:decimal ;
+    psn:P100054 wdv:QuantitycInvest Contc0c0c0 ;
+    psv:P100054 wdv:QuantitycInvest Contc0c0c0 .
+
+wds:Q65620298-bbdf9519-1c19-4591-a1ff-01a289215042 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100054 "Invest Cont"^^xsd:decimal ;
+    psn:P100054 wdv:QuantitycInvest Contc0c0c0 ;
+    psv:P100054 wdv:QuantitycInvest Contc0c0c0 .
+
+wds:Q65620298-bc4e55d3-db0c-4043-bcf9-0504eb760f3d a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100054 "Invest Cont"^^xsd:decimal ;
+    psn:P100054 wdv:QuantitycInvest Contc0c0c0 ;
+    psv:P100054 wdv:QuantitycInvest Contc0c0c0 .
+
+wds:Q65620298-bdb61f1b-da74-4b15-8213-27caede01988 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100054 "Adult Arrest"^^xsd:decimal ;
+    psn:P100054 wdv:QuantitycAdult Arrestc0c0c0 ;
+    psv:P100054 wdv:QuantitycAdult Arrestc0c0c0 .
+
+wds:Q65620298-c345a68b-1d50-4653-b522-f1c3fa00ff07 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100054 "Adult Arrest"^^xsd:decimal ;
+    psn:P100054 wdv:QuantitycAdult Arrestc0c0c0 ;
+    psv:P100054 wdv:QuantitycAdult Arrestc0c0c0 .
+
+wds:Q65620298-c36d2870-81b0-41f7-b754-375ab7f9eb50 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100054 "Invest Cont"^^xsd:decimal ;
+    psn:P100054 wdv:QuantitycInvest Contc0c0c0 ;
+    psv:P100054 wdv:QuantitycInvest Contc0c0c0 .
+
+wds:Q65620298-c5186c3f-3b87-4356-a99f-98e81820efda a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100054 "Invest Cont"^^xsd:decimal ;
+    psn:P100054 wdv:QuantitycInvest Contc0c0c0 ;
+    psv:P100054 wdv:QuantitycInvest Contc0c0c0 .
+
+wds:Q65620298-c84b577a-7fe9-451b-81bf-317fd367722e a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100054 "Invest Cont"^^xsd:decimal ;
+    psn:P100054 wdv:QuantitycInvest Contc0c0c0 ;
+    psv:P100054 wdv:QuantitycInvest Contc0c0c0 .
+
+wds:Q65620298-cac0f61d-8802-43bc-880b-1b0e0473afc6 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100054 "Adult Arrest"^^xsd:decimal ;
+    psn:P100054 wdv:QuantitycAdult Arrestc0c0c0 ;
+    psv:P100054 wdv:QuantitycAdult Arrestc0c0c0 .
+
+wds:Q65620298-d15380fa-192f-4244-bc8d-f421c4826ab6 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100054 "Invest Cont"^^xsd:decimal ;
+    psn:P100054 wdv:QuantitycInvest Contc0c0c0 ;
+    psv:P100054 wdv:QuantitycInvest Contc0c0c0 .
+
+wds:Q65620298-d273333d-93df-4236-a54b-bcf2c63cf274 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100054 "Invest Cont"^^xsd:decimal ;
+    psn:P100054 wdv:QuantitycInvest Contc0c0c0 ;
+    psv:P100054 wdv:QuantitycInvest Contc0c0c0 .
+
+wds:Q65620298-db53c73c-3b95-4b4f-a732-b446cd0fade9 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100054 "Invest Cont"^^xsd:decimal ;
+    psn:P100054 wdv:QuantitycInvest Contc0c0c0 ;
+    psv:P100054 wdv:QuantitycInvest Contc0c0c0 .
+
+wds:Q65620298-db708c45-cc09-4a6d-9fee-784ae78f22e9 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100054 "Invest Cont"^^xsd:decimal ;
+    psn:P100054 wdv:QuantitycInvest Contc0c0c0 ;
+    psv:P100054 wdv:QuantitycInvest Contc0c0c0 .
+
+wds:Q65620298-e05785f8-baec-4e37-a749-02b091c4e4e3 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100054 "Invest Cont"^^xsd:decimal ;
+    psn:P100054 wdv:QuantitycInvest Contc0c0c0 ;
+    psv:P100054 wdv:QuantitycInvest Contc0c0c0 .
+
+wds:Q65620298-e815b6a0-e7ad-4771-ae32-4a17f23f916c a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100054 "Invest Cont"^^xsd:decimal ;
+    psn:P100054 wdv:QuantitycInvest Contc0c0c0 ;
+    psv:P100054 wdv:QuantitycInvest Contc0c0c0 .
+
+wds:Q65620298-f85df9d7-d8b0-40b4-abb6-db679ae77a14 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100054 "Adult Arrest"^^xsd:decimal ;
+    psn:P100054 wdv:QuantitycAdult Arrestc0c0c0 ;
+    psv:P100054 wdv:QuantitycAdult Arrestc0c0c0 .
+
+wds:Q65620298-fab42d7b-1211-41bb-89b1-787b97b1140a a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100054 "Adult Arrest"^^xsd:decimal ;
+    psn:P100054 wdv:QuantitycAdult Arrestc0c0c0 ;
+    psv:P100054 wdv:QuantitycAdult Arrestc0c0c0 .
+
+wds:Q65620338-60827596-1b53-4740-b98e-4c988cea6bc3 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100054 "Adult Arrest"^^xsd:decimal ;
+    psn:P100054 wdv:QuantitycAdult Arrestc0c0c0 ;
+    psv:P100054 wdv:QuantitycAdult Arrestc0c0c0 .
+
+wdv:QuantitycAdult Otherc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "Adult Other"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:QuantitycAdult Otherc0c0c0 .
+
+wdv:QuantitycAdult Arrestc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "Adult Arrest"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:QuantitycAdult Arrestc0c0c0 .
+
+wdv:QuantitycInvest Contc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "Invest Cont"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:QuantitycInvest Contc0c0c0 .
+

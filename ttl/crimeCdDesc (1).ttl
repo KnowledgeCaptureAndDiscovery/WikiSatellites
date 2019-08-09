@@ -1,0 +1,495 @@
+@prefix : <http://isi.edu/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+@prefix wdref: <http://www.wikidata.org/reference/> .
+@prefix wds: <http://www.wikidata.org/entity/statement/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix wdv: <http://www.wikidata.org/value/> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+wd:Q65620298 a wikibase:Item ;
+    p:P100042 wds:Q65620298-0468f9ff-ba00-4562-9693-20cb1afbf13e,
+        wds:Q65620298-059699c4-3121-4b3b-aa11-42f0b6bb83c9,
+        wds:Q65620298-05c3f09c-c20d-42d4-8548-467d2c9e58d3,
+        wds:Q65620298-06929a76-b927-4202-954e-9833b3668780,
+        wds:Q65620298-096dc9f3-e7ef-4fd6-bc26-f659887687d1,
+        wds:Q65620298-0b6e62d7-ba44-4034-b3bb-42153ab89081,
+        wds:Q65620298-0d2d022b-9a4f-4afc-9378-96399f363d0f,
+        wds:Q65620298-1eaae5c4-7d73-4bcb-92f4-b942542d6e54,
+        wds:Q65620298-27f19fce-d104-436c-b35c-16c9d262df29,
+        wds:Q65620298-334940d6-42d7-437a-a8c6-461db00c23e1,
+        wds:Q65620298-371f22bd-1be0-4c6d-a6b7-a1e6bec0e6ca,
+        wds:Q65620298-38d8390b-6353-46ad-bc72-07cb217d7d8a,
+        wds:Q65620298-39a96c96-68cd-4c36-b74b-541eb9472d3d,
+        wds:Q65620298-3b5a18b6-fca7-4217-9d48-6efe962e3a06,
+        wds:Q65620298-42363db4-ab10-4955-96cc-9d210e08f167,
+        wds:Q65620298-470ca2cd-a510-416c-883e-344a84f6c923,
+        wds:Q65620298-51f8d634-ff58-41a0-aabd-6736e669b8a6,
+        wds:Q65620298-58bb1d93-44e5-4b78-abc6-f965192212f4,
+        wds:Q65620298-6960d125-2f7b-43c0-9d8d-a76b5181e8fa,
+        wds:Q65620298-6b46ff39-f80a-4464-b4ee-f40be501072d,
+        wds:Q65620298-6b802002-eb96-45ac-8e2f-cf93ac3be8c6,
+        wds:Q65620298-78728fc9-5063-4359-bed4-c3bddb33953a,
+        wds:Q65620298-798f37c0-5d53-473e-b14a-5b327c5048d7,
+        wds:Q65620298-85646c4f-8e05-4bcd-b455-7814ce55c4ab,
+        wds:Q65620298-88935353-5d21-48d7-aff6-3d4967332e06,
+        wds:Q65620298-8cdf0f54-d6bd-4458-a672-4ee0c7dd17c6,
+        wds:Q65620298-8d226bf1-5dee-4484-9721-6aa1282e88eb,
+        wds:Q65620298-90253ee4-15fd-47d7-a66e-f0d9559def15,
+        wds:Q65620298-96926762-f67f-4b3b-805d-3f2f675f2888,
+        wds:Q65620298-9b46c459-3330-4211-8b2d-b3b5c46c0acc,
+        wds:Q65620298-9f9a7703-89d2-4baa-b26c-9e08423b9adf,
+        wds:Q65620298-a391447f-0819-4eeb-a3ac-136593255e5d,
+        wds:Q65620298-aa99b89a-e4fc-4d9f-9c21-03f087bcddf7,
+        wds:Q65620298-b472c968-6353-4106-b8b4-9bf5af5ccc0e,
+        wds:Q65620298-b5d5375c-3849-4c37-bffb-6c3504841a08,
+        wds:Q65620298-b846d92a-bcd5-4cd6-af41-f24327ff8e74,
+        wds:Q65620298-b89e236d-c7ac-41e7-8072-a25978520158,
+        wds:Q65620298-bb8ebd8f-e5eb-4c65-bb5a-74f95a065663,
+        wds:Q65620298-bc70ee2b-d6b6-4da4-84ec-b44d28969491,
+        wds:Q65620298-c7cb05c2-8264-4520-b09b-711d316aa8af,
+        wds:Q65620298-d1944be1-3403-4035-9eb6-eae0d3f48d83,
+        wds:Q65620298-d22fb5f6-e73b-4058-b39f-a0848c1d9331,
+        wds:Q65620298-d97d9713-8210-4aca-9375-0f779f0641a5,
+        wds:Q65620298-dc2126ca-f0b3-40e9-8a72-690967aa88c6,
+        wds:Q65620298-de8f0cfe-8f63-4c67-96af-ec8987fcdaa2,
+        wds:Q65620298-e313f992-aaee-4d5e-b372-7ca3d598490d,
+        wds:Q65620298-ed45af78-4966-431a-b98a-398e99e268ee,
+        wds:Q65620298-eff20571-a2ca-47b6-873e-26ccd7fdb084 .
+
+wd:Q65620338 a wikibase:Item ;
+    p:P100042 wds:Q65620338-1c7a483d-df80-4a80-a0c9-620954f6d0e2 .
+
+wds:Q65620298-0468f9ff-ba00-4562-9693-20cb1afbf13e a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100042 "BURGLARY FROM VEHICLE"^^xsd:decimal ;
+    psn:P100042 wdv:QuantitycBURGLARY FROM VEHICLEc0c0c0 ;
+    psv:P100042 wdv:QuantitycBURGLARY FROM VEHICLEc0c0c0 .
+
+wds:Q65620298-059699c4-3121-4b3b-aa11-42f0b6bb83c9 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100042 "THEFT PLAIN - PETTY ($950 & UNDER)"^^xsd:decimal ;
+    psn:P100042 wdv:QuantitycTHEFT PLAIN - PETTY ($950 & UNDER)c0c0c0 ;
+    psv:P100042 wdv:QuantitycTHEFT PLAIN - PETTY ($950 & UNDER)c0c0c0 .
+
+wds:Q65620298-05c3f09c-c20d-42d4-8548-467d2c9e58d3 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100042 "INTIMATE PARTNER - SIMPLE ASSAULT"^^xsd:decimal ;
+    psn:P100042 wdv:QuantitycINTIMATE PARTNER - SIMPLE ASSAULTc0c0c0 ;
+    psv:P100042 wdv:QuantitycINTIMATE PARTNER - SIMPLE ASSAULTc0c0c0 .
+
+wds:Q65620298-06929a76-b927-4202-954e-9833b3668780 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100042 "ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT"^^xsd:decimal ;
+    psn:P100042 wdv:QuantitycASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULTc0c0c0 ;
+    psv:P100042 wdv:QuantitycASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULTc0c0c0 .
+
+wds:Q65620298-096dc9f3-e7ef-4fd6-bc26-f659887687d1 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100042 "THEFT-GRAND ($950.01 & OVER)EXCPT,GUNS,FOWL,LIVESTK,PROD"^^xsd:decimal ;
+    psn:P100042 wdv:QuantitycTHEFT-GRAND ($950-01 & OVER)EXCPT,GUNS,FOWL,LIVESTK,PRODc0c0c0 ;
+    psv:P100042 wdv:QuantitycTHEFT-GRAND ($950-01 & OVER)EXCPT,GUNS,FOWL,LIVESTK,PRODc0c0c0 .
+
+wds:Q65620298-0b6e62d7-ba44-4034-b3bb-42153ab89081 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100042 "INTIMATE PARTNER - SIMPLE ASSAULT"^^xsd:decimal ;
+    psn:P100042 wdv:QuantitycINTIMATE PARTNER - SIMPLE ASSAULTc0c0c0 ;
+    psv:P100042 wdv:QuantitycINTIMATE PARTNER - SIMPLE ASSAULTc0c0c0 .
+
+wds:Q65620298-0d2d022b-9a4f-4afc-9378-96399f363d0f a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100042 "BATTERY - SIMPLE ASSAULT"^^xsd:decimal ;
+    psn:P100042 wdv:QuantitycBATTERY - SIMPLE ASSAULTc0c0c0 ;
+    psv:P100042 wdv:QuantitycBATTERY - SIMPLE ASSAULTc0c0c0 .
+
+wds:Q65620298-1eaae5c4-7d73-4bcb-92f4-b942542d6e54 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100042 "ROBBERY"^^xsd:decimal ;
+    psn:P100042 wdv:QuantitycROBBERYc0c0c0 ;
+    psv:P100042 wdv:QuantitycROBBERYc0c0c0 .
+
+wds:Q65620298-27f19fce-d104-436c-b35c-16c9d262df29 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100042 "VIOLATION OF COURT ORDER"^^xsd:decimal ;
+    psn:P100042 wdv:QuantitycVIOLATION OF COURT ORDERc0c0c0 ;
+    psv:P100042 wdv:QuantitycVIOLATION OF COURT ORDERc0c0c0 .
+
+wds:Q65620298-334940d6-42d7-437a-a8c6-461db00c23e1 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100042 "ATTEMPTED ROBBERY"^^xsd:decimal ;
+    psn:P100042 wdv:QuantitycATTEMPTED ROBBERYc0c0c0 ;
+    psv:P100042 wdv:QuantitycATTEMPTED ROBBERYc0c0c0 .
+
+wds:Q65620298-371f22bd-1be0-4c6d-a6b7-a1e6bec0e6ca a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100042 "VANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS)"^^xsd:decimal ;
+    psn:P100042 wdv:QuantitycVANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS)c0c0c0 ;
+    psv:P100042 wdv:QuantitycVANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS)c0c0c0 .
+
+wds:Q65620298-38d8390b-6353-46ad-bc72-07cb217d7d8a a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100042 "INTIMATE PARTNER - SIMPLE ASSAULT"^^xsd:decimal ;
+    psn:P100042 wdv:QuantitycINTIMATE PARTNER - SIMPLE ASSAULTc0c0c0 ;
+    psv:P100042 wdv:QuantitycINTIMATE PARTNER - SIMPLE ASSAULTc0c0c0 .
+
+wds:Q65620298-39a96c96-68cd-4c36-b74b-541eb9472d3d a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100042 "BATTERY - SIMPLE ASSAULT"^^xsd:decimal ;
+    psn:P100042 wdv:QuantitycBATTERY - SIMPLE ASSAULTc0c0c0 ;
+    psv:P100042 wdv:QuantitycBATTERY - SIMPLE ASSAULTc0c0c0 .
+
+wds:Q65620298-3b5a18b6-fca7-4217-9d48-6efe962e3a06 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100042 "VIOLATION OF COURT ORDER"^^xsd:decimal ;
+    psn:P100042 wdv:QuantitycVIOLATION OF COURT ORDERc0c0c0 ;
+    psv:P100042 wdv:QuantitycVIOLATION OF COURT ORDERc0c0c0 .
+
+wds:Q65620298-42363db4-ab10-4955-96cc-9d210e08f167 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100042 "VANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS)"^^xsd:decimal ;
+    psn:P100042 wdv:QuantitycVANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS)c0c0c0 ;
+    psv:P100042 wdv:QuantitycVANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS)c0c0c0 .
+
+wds:Q65620298-470ca2cd-a510-416c-883e-344a84f6c923 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100042 "OTHER MISCELLANEOUS CRIME"^^xsd:decimal ;
+    psn:P100042 wdv:QuantitycOTHER MISCELLANEOUS CRIMEc0c0c0 ;
+    psv:P100042 wdv:QuantitycOTHER MISCELLANEOUS CRIMEc0c0c0 .
+
+wds:Q65620298-51f8d634-ff58-41a0-aabd-6736e669b8a6 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100042 "BATTERY - SIMPLE ASSAULT"^^xsd:decimal ;
+    psn:P100042 wdv:QuantitycBATTERY - SIMPLE ASSAULTc0c0c0 ;
+    psv:P100042 wdv:QuantitycBATTERY - SIMPLE ASSAULTc0c0c0 .
+
+wds:Q65620298-58bb1d93-44e5-4b78-abc6-f965192212f4 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100042 "SHOPLIFTING - PETTY THEFT ($950 & UNDER)"^^xsd:decimal ;
+    psn:P100042 wdv:QuantitycSHOPLIFTING - PETTY THEFT ($950 & UNDER)c0c0c0 ;
+    psv:P100042 wdv:QuantitycSHOPLIFTING - PETTY THEFT ($950 & UNDER)c0c0c0 .
+
+wds:Q65620298-6960d125-2f7b-43c0-9d8d-a76b5181e8fa a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100042 "THEFT-GRAND ($950.01 & OVER)EXCPT,GUNS,FOWL,LIVESTK,PROD"^^xsd:decimal ;
+    psn:P100042 wdv:QuantitycTHEFT-GRAND ($950-01 & OVER)EXCPT,GUNS,FOWL,LIVESTK,PRODc0c0c0 ;
+    psv:P100042 wdv:QuantitycTHEFT-GRAND ($950-01 & OVER)EXCPT,GUNS,FOWL,LIVESTK,PRODc0c0c0 .
+
+wds:Q65620298-6b46ff39-f80a-4464-b4ee-f40be501072d a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100042 "ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT"^^xsd:decimal ;
+    psn:P100042 wdv:QuantitycASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULTc0c0c0 ;
+    psv:P100042 wdv:QuantitycASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULTc0c0c0 .
+
+wds:Q65620298-6b802002-eb96-45ac-8e2f-cf93ac3be8c6 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100042 "THEFT-GRAND ($950.01 & OVER)EXCPT,GUNS,FOWL,LIVESTK,PROD"^^xsd:decimal ;
+    psn:P100042 wdv:QuantitycTHEFT-GRAND ($950-01 & OVER)EXCPT,GUNS,FOWL,LIVESTK,PRODc0c0c0 ;
+    psv:P100042 wdv:QuantitycTHEFT-GRAND ($950-01 & OVER)EXCPT,GUNS,FOWL,LIVESTK,PRODc0c0c0 .
+
+wds:Q65620298-78728fc9-5063-4359-bed4-c3bddb33953a a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100042 "INTIMATE PARTNER - SIMPLE ASSAULT"^^xsd:decimal ;
+    psn:P100042 wdv:QuantitycINTIMATE PARTNER - SIMPLE ASSAULTc0c0c0 ;
+    psv:P100042 wdv:QuantitycINTIMATE PARTNER - SIMPLE ASSAULTc0c0c0 .
+
+wds:Q65620298-798f37c0-5d53-473e-b14a-5b327c5048d7 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100042 "VANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS)"^^xsd:decimal ;
+    psn:P100042 wdv:QuantitycVANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS)c0c0c0 ;
+    psv:P100042 wdv:QuantitycVANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS)c0c0c0 .
+
+wds:Q65620298-85646c4f-8e05-4bcd-b455-7814ce55c4ab a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100042 "SHOPLIFTING - PETTY THEFT ($950 & UNDER)"^^xsd:decimal ;
+    psn:P100042 wdv:QuantitycSHOPLIFTING - PETTY THEFT ($950 & UNDER)c0c0c0 ;
+    psv:P100042 wdv:QuantitycSHOPLIFTING - PETTY THEFT ($950 & UNDER)c0c0c0 .
+
+wds:Q65620298-88935353-5d21-48d7-aff6-3d4967332e06 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100042 "INTIMATE PARTNER - AGGRAVATED ASSAULT"^^xsd:decimal ;
+    psn:P100042 wdv:QuantitycINTIMATE PARTNER - AGGRAVATED ASSAULTc0c0c0 ;
+    psv:P100042 wdv:QuantitycINTIMATE PARTNER - AGGRAVATED ASSAULTc0c0c0 .
+
+wds:Q65620298-8cdf0f54-d6bd-4458-a672-4ee0c7dd17c6 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100042 "BATTERY - SIMPLE ASSAULT"^^xsd:decimal ;
+    psn:P100042 wdv:QuantitycBATTERY - SIMPLE ASSAULTc0c0c0 ;
+    psv:P100042 wdv:QuantitycBATTERY - SIMPLE ASSAULTc0c0c0 .
+
+wds:Q65620298-8d226bf1-5dee-4484-9721-6aa1282e88eb a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100042 "OTHER MISCELLANEOUS CRIME"^^xsd:decimal ;
+    psn:P100042 wdv:QuantitycOTHER MISCELLANEOUS CRIMEc0c0c0 ;
+    psv:P100042 wdv:QuantitycOTHER MISCELLANEOUS CRIMEc0c0c0 .
+
+wds:Q65620298-90253ee4-15fd-47d7-a66e-f0d9559def15 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100042 "VANDALISM - MISDEAMEANOR ($399 OR UNDER)"^^xsd:decimal ;
+    psn:P100042 wdv:QuantitycVANDALISM - MISDEAMEANOR ($399 OR UNDER)c0c0c0 ;
+    psv:P100042 wdv:QuantitycVANDALISM - MISDEAMEANOR ($399 OR UNDER)c0c0c0 .
+
+wds:Q65620298-96926762-f67f-4b3b-805d-3f2f675f2888 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100042 "BOMB SCARE"^^xsd:decimal ;
+    psn:P100042 wdv:QuantitycBOMB SCAREc0c0c0 ;
+    psv:P100042 wdv:QuantitycBOMB SCAREc0c0c0 .
+
+wds:Q65620298-9b46c459-3330-4211-8b2d-b3b5c46c0acc a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100042 "BATTERY - SIMPLE ASSAULT"^^xsd:decimal ;
+    psn:P100042 wdv:QuantitycBATTERY - SIMPLE ASSAULTc0c0c0 ;
+    psv:P100042 wdv:QuantitycBATTERY - SIMPLE ASSAULTc0c0c0 .
+
+wds:Q65620298-9f9a7703-89d2-4baa-b26c-9e08423b9adf a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100042 "VANDALISM - MISDEAMEANOR ($399 OR UNDER)"^^xsd:decimal ;
+    psn:P100042 wdv:QuantitycVANDALISM - MISDEAMEANOR ($399 OR UNDER)c0c0c0 ;
+    psv:P100042 wdv:QuantitycVANDALISM - MISDEAMEANOR ($399 OR UNDER)c0c0c0 .
+
+wds:Q65620298-a391447f-0819-4eeb-a3ac-136593255e5d a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100042 "BATTERY - SIMPLE ASSAULT"^^xsd:decimal ;
+    psn:P100042 wdv:QuantitycBATTERY - SIMPLE ASSAULTc0c0c0 ;
+    psv:P100042 wdv:QuantitycBATTERY - SIMPLE ASSAULTc0c0c0 .
+
+wds:Q65620298-aa99b89a-e4fc-4d9f-9c21-03f087bcddf7 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100042 "INTIMATE PARTNER - SIMPLE ASSAULT"^^xsd:decimal ;
+    psn:P100042 wdv:QuantitycINTIMATE PARTNER - SIMPLE ASSAULTc0c0c0 ;
+    psv:P100042 wdv:QuantitycINTIMATE PARTNER - SIMPLE ASSAULTc0c0c0 .
+
+wds:Q65620298-b472c968-6353-4106-b8b4-9bf5af5ccc0e a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100042 "BURGLARY FROM VEHICLE"^^xsd:decimal ;
+    psn:P100042 wdv:QuantitycBURGLARY FROM VEHICLEc0c0c0 ;
+    psv:P100042 wdv:QuantitycBURGLARY FROM VEHICLEc0c0c0 .
+
+wds:Q65620298-b5d5375c-3849-4c37-bffb-6c3504841a08 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100042 "OTHER MISCELLANEOUS CRIME"^^xsd:decimal ;
+    psn:P100042 wdv:QuantitycOTHER MISCELLANEOUS CRIMEc0c0c0 ;
+    psv:P100042 wdv:QuantitycOTHER MISCELLANEOUS CRIMEc0c0c0 .
+
+wds:Q65620298-b846d92a-bcd5-4cd6-af41-f24327ff8e74 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100042 "ROBBERY"^^xsd:decimal ;
+    psn:P100042 wdv:QuantitycROBBERYc0c0c0 ;
+    psv:P100042 wdv:QuantitycROBBERYc0c0c0 .
+
+wds:Q65620298-b89e236d-c7ac-41e7-8072-a25978520158 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100042 "THEFT PLAIN - PETTY ($950 & UNDER)"^^xsd:decimal ;
+    psn:P100042 wdv:QuantitycTHEFT PLAIN - PETTY ($950 & UNDER)c0c0c0 ;
+    psv:P100042 wdv:QuantitycTHEFT PLAIN - PETTY ($950 & UNDER)c0c0c0 .
+
+wds:Q65620298-bb8ebd8f-e5eb-4c65-bb5a-74f95a065663 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100042 "RAPE, ATTEMPTED"^^xsd:decimal ;
+    psn:P100042 wdv:QuantitycRAPE, ATTEMPTEDc0c0c0 ;
+    psv:P100042 wdv:QuantitycRAPE, ATTEMPTEDc0c0c0 .
+
+wds:Q65620298-bc70ee2b-d6b6-4da4-84ec-b44d28969491 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100042 "BURGLARY FROM VEHICLE"^^xsd:decimal ;
+    psn:P100042 wdv:QuantitycBURGLARY FROM VEHICLEc0c0c0 ;
+    psv:P100042 wdv:QuantitycBURGLARY FROM VEHICLEc0c0c0 .
+
+wds:Q65620298-c7cb05c2-8264-4520-b09b-711d316aa8af a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100042 "BATTERY - SIMPLE ASSAULT"^^xsd:decimal ;
+    psn:P100042 wdv:QuantitycBATTERY - SIMPLE ASSAULTc0c0c0 ;
+    psv:P100042 wdv:QuantitycBATTERY - SIMPLE ASSAULTc0c0c0 .
+
+wds:Q65620298-d1944be1-3403-4035-9eb6-eae0d3f48d83 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100042 "ROBBERY"^^xsd:decimal ;
+    psn:P100042 wdv:QuantitycROBBERYc0c0c0 ;
+    psv:P100042 wdv:QuantitycROBBERYc0c0c0 .
+
+wds:Q65620298-d22fb5f6-e73b-4058-b39f-a0848c1d9331 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100042 "BATTERY - SIMPLE ASSAULT"^^xsd:decimal ;
+    psn:P100042 wdv:QuantitycBATTERY - SIMPLE ASSAULTc0c0c0 ;
+    psv:P100042 wdv:QuantitycBATTERY - SIMPLE ASSAULTc0c0c0 .
+
+wds:Q65620298-d97d9713-8210-4aca-9375-0f779f0641a5 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100042 "CRIMINAL THREATS - NO WEAPON DISPLAYED"^^xsd:decimal ;
+    psn:P100042 wdv:QuantitycCRIMINAL THREATS - NO WEAPON DISPLAYEDc0c0c0 ;
+    psv:P100042 wdv:QuantitycCRIMINAL THREATS - NO WEAPON DISPLAYEDc0c0c0 .
+
+wds:Q65620298-dc2126ca-f0b3-40e9-8a72-690967aa88c6 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100042 "BATTERY - SIMPLE ASSAULT"^^xsd:decimal ;
+    psn:P100042 wdv:QuantitycBATTERY - SIMPLE ASSAULTc0c0c0 ;
+    psv:P100042 wdv:QuantitycBATTERY - SIMPLE ASSAULTc0c0c0 .
+
+wds:Q65620298-de8f0cfe-8f63-4c67-96af-ec8987fcdaa2 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100042 "ROBBERY"^^xsd:decimal ;
+    psn:P100042 wdv:QuantitycROBBERYc0c0c0 ;
+    psv:P100042 wdv:QuantitycROBBERYc0c0c0 .
+
+wds:Q65620298-e313f992-aaee-4d5e-b372-7ca3d598490d a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100042 "ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT"^^xsd:decimal ;
+    psn:P100042 wdv:QuantitycASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULTc0c0c0 ;
+    psv:P100042 wdv:QuantitycASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULTc0c0c0 .
+
+wds:Q65620298-ed45af78-4966-431a-b98a-398e99e268ee a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100042 "ROBBERY"^^xsd:decimal ;
+    psn:P100042 wdv:QuantitycROBBERYc0c0c0 ;
+    psv:P100042 wdv:QuantitycROBBERYc0c0c0 .
+
+wds:Q65620298-eff20571-a2ca-47b6-873e-26ccd7fdb084 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100042 "CHILD NEGLECT (SEE 300 W.I.C.)"^^xsd:decimal ;
+    psn:P100042 wdv:QuantitycCHILD NEGLECT (SEE 300 W-I-C-)c0c0c0 ;
+    psv:P100042 wdv:QuantitycCHILD NEGLECT (SEE 300 W-I-C-)c0c0c0 .
+
+wds:Q65620338-1c7a483d-df80-4a80-a0c9-620954f6d0e2 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100042 "ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT"^^xsd:decimal ;
+    psn:P100042 wdv:QuantitycASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULTc0c0c0 ;
+    psv:P100042 wdv:QuantitycASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULTc0c0c0 .
+
+wdv:QuantitycATTEMPTED ROBBERYc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "ATTEMPTED ROBBERY"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:QuantitycATTEMPTED ROBBERYc0c0c0 .
+
+wdv:QuantitycBOMB SCAREc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "BOMB SCARE"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:QuantitycBOMB SCAREc0c0c0 .
+
+wdv:QuantitycCHILD NEGLECT (SEE 300 W-I-C-)c0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "CHILD NEGLECT (SEE 300 W.I.C.)"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:QuantitycCHILD NEGLECT (SEE 300 W-I-C-)c0c0c0 .
+
+wdv:QuantitycCRIMINAL THREATS - NO WEAPON DISPLAYEDc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "CRIMINAL THREATS - NO WEAPON DISPLAYED"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:QuantitycCRIMINAL THREATS - NO WEAPON DISPLAYEDc0c0c0 .
+
+wdv:QuantitycINTIMATE PARTNER - AGGRAVATED ASSAULTc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "INTIMATE PARTNER - AGGRAVATED ASSAULT"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:QuantitycINTIMATE PARTNER - AGGRAVATED ASSAULTc0c0c0 .
+
+wdv:QuantitycRAPE, ATTEMPTEDc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "RAPE, ATTEMPTED"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:QuantitycRAPE, ATTEMPTEDc0c0c0 .
+
+wdv:QuantitycSHOPLIFTING - PETTY THEFT ($950 & UNDER)c0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "SHOPLIFTING - PETTY THEFT ($950 & UNDER)"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:QuantitycSHOPLIFTING - PETTY THEFT ($950 & UNDER)c0c0c0 .
+
+wdv:QuantitycTHEFT PLAIN - PETTY ($950 & UNDER)c0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "THEFT PLAIN - PETTY ($950 & UNDER)"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:QuantitycTHEFT PLAIN - PETTY ($950 & UNDER)c0c0c0 .
+
+wdv:QuantitycVANDALISM - MISDEAMEANOR ($399 OR UNDER)c0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "VANDALISM - MISDEAMEANOR ($399 OR UNDER)"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:QuantitycVANDALISM - MISDEAMEANOR ($399 OR UNDER)c0c0c0 .
+
+wdv:QuantitycVIOLATION OF COURT ORDERc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "VIOLATION OF COURT ORDER"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:QuantitycVIOLATION OF COURT ORDERc0c0c0 .
+
+wdv:QuantitycBURGLARY FROM VEHICLEc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "BURGLARY FROM VEHICLE"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:QuantitycBURGLARY FROM VEHICLEc0c0c0 .
+
+wdv:QuantitycOTHER MISCELLANEOUS CRIMEc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "OTHER MISCELLANEOUS CRIME"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:QuantitycOTHER MISCELLANEOUS CRIMEc0c0c0 .
+
+wdv:QuantitycTHEFT-GRAND ($950-01 & OVER)EXCPT,GUNS,FOWL,LIVESTK,PRODc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "THEFT-GRAND ($950.01 & OVER)EXCPT,GUNS,FOWL,LIVESTK,PROD"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:QuantitycTHEFT-GRAND ($950-01 & OVER)EXCPT,GUNS,FOWL,LIVESTK,PRODc0c0c0 .
+
+wdv:QuantitycVANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS)c0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "VANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS)"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:QuantitycVANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS)c0c0c0 .
+
+wdv:QuantitycASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULTc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:QuantitycASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULTc0c0c0 .
+
+wdv:QuantitycINTIMATE PARTNER - SIMPLE ASSAULTc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "INTIMATE PARTNER - SIMPLE ASSAULT"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:QuantitycINTIMATE PARTNER - SIMPLE ASSAULTc0c0c0 .
+
+wdv:QuantitycROBBERYc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "ROBBERY"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:QuantitycROBBERYc0c0c0 .
+
+wdv:QuantitycBATTERY - SIMPLE ASSAULTc0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "BATTERY - SIMPLE ASSAULT"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:QuantitycBATTERY - SIMPLE ASSAULTc0c0c0 .
+
