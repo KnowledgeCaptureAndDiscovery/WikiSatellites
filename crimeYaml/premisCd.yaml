@@ -6,5 +6,5 @@ statementMapping:
       bottom: 52
   template:
       item: item(A/$row)
-      property: P100052 # premise description 
+      property: P100052 # premise code
       value: value(O/$row) 

@@ -3,7 +3,7 @@ statementMapping:
     - left: AA
       right: AC
       top: 1
-      bottom: 51
+      bottom: 52
   template:
       item: item(A/$row)
       property: P625 #geographic coordinate

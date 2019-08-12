@@ -9,5 +9,5 @@ statementMapping:
       property: P100041 # reported district number
       value: value(E/$row) #area
       qualifier:
-        - property: P2561 # name (of district)
+        - property: P131 # located in district
           value: value(F/$row)

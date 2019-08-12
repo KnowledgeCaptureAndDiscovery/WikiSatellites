@@ -3,7 +3,7 @@ statementMapping:
    - left: C
      right: E
      top: 1
-     bottom: 51
+     bottom: 52
   template:
      item: item(A/$row)
      property: P580 # start time

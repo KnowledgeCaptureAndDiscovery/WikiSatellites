@@ -2,13 +2,13 @@
    {
       "cell": "E2",
       "statement": {
-         "item": "Q65620298",
+         "item": "CR1307355",
          "cell": "A2",
-         "property": "P131",
+         "property": "P100041",
          "value": "13",
          "qualifier": [
             {
-               "property": "P2561",
+               "property": "P131",
                "value": "Newton",
                "cell": "F2"
             }
@@ -18,13 +18,13 @@
    {
       "cell": "E3",
       "statement": {
-         "item": "Q65620298",
+         "item": "CR11401303",
          "cell": "A3",
-         "property": "P131",
+         "property": "P100041",
          "value": "14",
          "qualifier": [
             {
-               "property": "P2561",
+               "property": "P131",
                "value": "Pacific",
                "cell": "F3"
             }
@@ -34,13 +34,13 @@
    {
       "cell": "E4",
       "statement": {
-         "item": "Q65620298",
+         "item": "CR70309629",
          "cell": "A4",
-         "property": "P131",
+         "property": "P100041",
          "value": "13",
          "qualifier": [
             {
-               "property": "P2561",
+               "property": "P131",
                "value": "Newton",
                "cell": "F4"
             }
@@ -50,13 +50,13 @@
    {
       "cell": "E5",
       "statement": {
-         "item": "Q65620298",
+         "item": "CR90631215",
          "cell": "A5",
-         "property": "P131",
+         "property": "P100041",
          "value": "6",
          "qualifier": [
             {
-               "property": "P2561",
+               "property": "P131",
                "value": "Hollywood",
                "cell": "F5"
             }
@@ -66,13 +66,13 @@
    {
       "cell": "E6",
       "statement": {
-         "item": "Q65620298",
+         "item": "CR100100501",
          "cell": "A6",
-         "property": "P131",
+         "property": "P100041",
          "value": "1",
          "qualifier": [
             {
-               "property": "P2561",
+               "property": "P131",
                "value": "Central",
                "cell": "F6"
             }
@@ -82,13 +82,13 @@
    {
       "cell": "E7",
       "statement": {
-         "item": "Q65620298",
+         "item": "CR100100506",
          "cell": "A7",
-         "property": "P131",
+         "property": "P100041",
          "value": "1",
          "qualifier": [
             {
-               "property": "P2561",
+               "property": "P131",
                "value": "Central",
                "cell": "F7"
             }
@@ -98,13 +98,13 @@
    {
       "cell": "E8",
       "statement": {
-         "item": "Q65620298",
+         "item": "CR100100508",
          "cell": "A8",
-         "property": "P131",
+         "property": "P100041",
          "value": "1",
          "qualifier": [
             {
-               "property": "P2561",
+               "property": "P131",
                "value": "Central",
                "cell": "F8"
             }
@@ -114,13 +114,13 @@
    {
       "cell": "E9",
       "statement": {
-         "item": "Q65620298",
+         "item": "CR100100509",
          "cell": "A9",
-         "property": "P131",
+         "property": "P100041",
          "value": "1",
          "qualifier": [
             {
-               "property": "P2561",
+               "property": "P131",
                "value": "Central",
                "cell": "F9"
             }
@@ -130,13 +130,13 @@
    {
       "cell": "E10",
       "statement": {
-         "item": "Q65620298",
+         "item": "CR100100510",
          "cell": "A10",
-         "property": "P131",
+         "property": "P100041",
          "value": "1",
          "qualifier": [
             {
-               "property": "P2561",
+               "property": "P131",
                "value": "Central",
                "cell": "F10"
             }
@@ -146,13 +146,13 @@
    {
       "cell": "E11",
       "statement": {
-         "item": "Q65620298",
+         "item": "CR100100511",
          "cell": "A11",
-         "property": "P131",
+         "property": "P100041",
          "value": "1",
          "qualifier": [
             {
-               "property": "P2561",
+               "property": "P131",
                "value": "Central",
                "cell": "F11"
             }
@@ -162,13 +162,13 @@
    {
       "cell": "E12",
       "statement": {
-         "item": "Q65620298",
+         "item": "CR100100521",
          "cell": "A12",
-         "property": "P131",
+         "property": "P100041",
          "value": "1",
          "qualifier": [
             {
-               "property": "P2561",
+               "property": "P131",
                "value": "Central",
                "cell": "F12"
             }
@@ -178,13 +178,13 @@
    {
       "cell": "E13",
       "statement": {
-         "item": "Q65620298",
+         "item": "CR100100522",
          "cell": "A13",
-         "property": "P131",
+         "property": "P100041",
          "value": "1",
          "qualifier": [
             {
-               "property": "P2561",
+               "property": "P131",
                "value": "Central",
                "cell": "F13"
             }
@@ -194,13 +194,13 @@
    {
       "cell": "E14",
       "statement": {
-         "item": "Q65620298",
+         "item": "CR100100523",
          "cell": "A14",
-         "property": "P131",
+         "property": "P100041",
          "value": "1",
          "qualifier": [
             {
-               "property": "P2561",
+               "property": "P131",
                "value": "Central",
                "cell": "F14"
             }
@@ -210,13 +210,13 @@
    {
       "cell": "E15",
       "statement": {
-         "item": "Q65620298",
+         "item": "CR100100529",
          "cell": "A15",
-         "property": "P131",
+         "property": "P100041",
          "value": "1",
          "qualifier": [
             {
-               "property": "P2561",
+               "property": "P131",
                "value": "Central",
                "cell": "F15"
             }
@@ -226,13 +226,13 @@
    {
       "cell": "E16",
       "statement": {
-         "item": "Q65620298",
+         "item": "CR100100531",
          "cell": "A16",
-         "property": "P131",
+         "property": "P100041",
          "value": "1",
          "qualifier": [
             {
-               "property": "P2561",
+               "property": "P131",
                "value": "Central",
                "cell": "F16"
             }
@@ -242,13 +242,13 @@
    {
       "cell": "E17",
       "statement": {
-         "item": "Q65620298",
+         "item": "CR100100535",
          "cell": "A17",
-         "property": "P131",
+         "property": "P100041",
          "value": "1",
          "qualifier": [
             {
-               "property": "P2561",
+               "property": "P131",
                "value": "Central",
                "cell": "F17"
             }
@@ -258,13 +258,13 @@
    {
       "cell": "E18",
       "statement": {
-         "item": "Q65620298",
+         "item": "CR100100552",
          "cell": "A18",
-         "property": "P131",
+         "property": "P100041",
          "value": "1",
          "qualifier": [
             {
-               "property": "P2561",
+               "property": "P131",
                "value": "Central",
                "cell": "F18"
             }
@@ -274,13 +274,13 @@
    {
       "cell": "E19",
       "statement": {
-         "item": "Q65620298",
+         "item": "CR100100553",
          "cell": "A19",
-         "property": "P131",
+         "property": "P100041",
          "value": "1",
          "qualifier": [
             {
-               "property": "P2561",
+               "property": "P131",
                "value": "Central",
                "cell": "F19"
             }
@@ -290,13 +290,13 @@
    {
       "cell": "E20",
       "statement": {
-         "item": "Q65620298",
+         "item": "CR100100555",
          "cell": "A20",
-         "property": "P131",
+         "property": "P100041",
          "value": "1",
          "qualifier": [
             {
-               "property": "P2561",
+               "property": "P131",
                "value": "Central",
                "cell": "F20"
             }
@@ -306,13 +306,13 @@
    {
       "cell": "E21",
       "statement": {
-         "item": "Q65620298",
+         "item": "CR100100561",
          "cell": "A21",
-         "property": "P131",
+         "property": "P100041",
          "value": "1",
          "qualifier": [
             {
-               "property": "P2561",
+               "property": "P131",
                "value": "Central",
                "cell": "F21"
             }
@@ -322,13 +322,13 @@
    {
       "cell": "E22",
       "statement": {
-         "item": "Q65620298",
+         "item": "CR100100562",
          "cell": "A22",
-         "property": "P131",
+         "property": "P100041",
          "value": "1",
          "qualifier": [
             {
-               "property": "P2561",
+               "property": "P131",
                "value": "Central",
                "cell": "F22"
             }
@@ -338,13 +338,13 @@
    {
       "cell": "E23",
       "statement": {
-         "item": "Q65620298",
+         "item": "CR100100564",
          "cell": "A23",
-         "property": "P131",
+         "property": "P100041",
          "value": "1",
          "qualifier": [
             {
-               "property": "P2561",
+               "property": "P131",
                "value": "Central",
                "cell": "F23"
             }
@@ -354,13 +354,13 @@
    {
       "cell": "E24",
       "statement": {
-         "item": "Q65620298",
+         "item": "CR100100570",
          "cell": "A24",
-         "property": "P131",
+         "property": "P100041",
          "value": "1",
          "qualifier": [
             {
-               "property": "P2561",
+               "property": "P131",
                "value": "Central",
                "cell": "F24"
             }
@@ -370,13 +370,13 @@
    {
       "cell": "E25",
       "statement": {
-         "item": "Q65620298",
+         "item": "CR100100571",
          "cell": "A25",
-         "property": "P131",
+         "property": "P100041",
          "value": "1",
          "qualifier": [
             {
-               "property": "P2561",
+               "property": "P131",
                "value": "Central",
                "cell": "F25"
             }
@@ -386,13 +386,13 @@
    {
       "cell": "E26",
       "statement": {
-         "item": "Q65620298",
+         "item": "CR100100572",
          "cell": "A26",
-         "property": "P131",
+         "property": "P100041",
          "value": "1",
          "qualifier": [
             {
-               "property": "P2561",
+               "property": "P131",
                "value": "Central",
                "cell": "F26"
             }
@@ -402,13 +402,13 @@
    {
       "cell": "E27",
       "statement": {
-         "item": "Q65620298",
+         "item": "CR100100573",
          "cell": "A27",
-         "property": "P131",
+         "property": "P100041",
          "value": "1",
          "qualifier": [
             {
-               "property": "P2561",
+               "property": "P131",
                "value": "Central",
                "cell": "F27"
             }
@@ -418,13 +418,13 @@
    {
       "cell": "E28",
       "statement": {
-         "item": "Q65620298",
+         "item": "CR100100574",
          "cell": "A28",
-         "property": "P131",
+         "property": "P100041",
          "value": "1",
          "qualifier": [
             {
-               "property": "P2561",
+               "property": "P131",
                "value": "Central",
                "cell": "F28"
             }
@@ -434,13 +434,13 @@
    {
       "cell": "E29",
       "statement": {
-         "item": "Q65620298",
+         "item": "CR100100575",
          "cell": "A29",
-         "property": "P131",
+         "property": "P100041",
          "value": "1",
          "qualifier": [
             {
-               "property": "P2561",
+               "property": "P131",
                "value": "Central",
                "cell": "F29"
             }
@@ -450,13 +450,13 @@
    {
       "cell": "E30",
       "statement": {
-         "item": "Q65620298",
+         "item": "CR100100578",
          "cell": "A30",
-         "property": "P131",
+         "property": "P100041",
          "value": "1",
          "qualifier": [
             {
-               "property": "P2561",
+               "property": "P131",
                "value": "Central",
                "cell": "F30"
             }
@@ -466,13 +466,13 @@
    {
       "cell": "E31",
       "statement": {
-         "item": "Q65620298",
+         "item": "CR100100580",
          "cell": "A31",
-         "property": "P131",
+         "property": "P100041",
          "value": "1",
          "qualifier": [
             {
-               "property": "P2561",
+               "property": "P131",
                "value": "Central",
                "cell": "F31"
             }
@@ -482,13 +482,13 @@
    {
       "cell": "E32",
       "statement": {
-         "item": "Q65620298",
+         "item": "CR100100581",
          "cell": "A32",
-         "property": "P131",
+         "property": "P100041",
          "value": "1",
          "qualifier": [
             {
-               "property": "P2561",
+               "property": "P131",
                "value": "Central",
                "cell": "F32"
             }
@@ -498,13 +498,13 @@
    {
       "cell": "E33",
       "statement": {
-         "item": "Q65620298",
+         "item": "CR100100586",
          "cell": "A33",
-         "property": "P131",
+         "property": "P100041",
          "value": "1",
          "qualifier": [
             {
-               "property": "P2561",
+               "property": "P131",
                "value": "Central",
                "cell": "F33"
             }
@@ -514,13 +514,13 @@
    {
       "cell": "E34",
       "statement": {
-         "item": "Q65620298",
+         "item": "CR100100587",
          "cell": "A34",
-         "property": "P131",
+         "property": "P100041",
          "value": "1",
          "qualifier": [
             {
-               "property": "P2561",
+               "property": "P131",
                "value": "Central",
                "cell": "F34"
             }
@@ -530,13 +530,13 @@
    {
       "cell": "E35",
       "statement": {
-         "item": "Q65620298",
+         "item": "CR100100591",
          "cell": "A35",
-         "property": "P131",
+         "property": "P100041",
          "value": "1",
          "qualifier": [
             {
-               "property": "P2561",
+               "property": "P131",
                "value": "Central",
                "cell": "F35"
             }
@@ -546,13 +546,13 @@
    {
       "cell": "E36",
       "statement": {
-         "item": "Q65620298",
+         "item": "CR100100592",
          "cell": "A36",
-         "property": "P131",
+         "property": "P100041",
          "value": "1",
          "qualifier": [
             {
-               "property": "P2561",
+               "property": "P131",
                "value": "Central",
                "cell": "F36"
             }
@@ -562,13 +562,13 @@
    {
       "cell": "E37",
       "statement": {
-         "item": "Q65620298",
+         "item": "CR100100608",
          "cell": "A37",
-         "property": "P131",
+         "property": "P100041",
          "value": "1",
          "qualifier": [
             {
-               "property": "P2561",
+               "property": "P131",
                "value": "Central",
                "cell": "F37"
             }
@@ -578,13 +578,13 @@
    {
       "cell": "E38",
       "statement": {
-         "item": "Q65620298",
+         "item": "CR100100610",
          "cell": "A38",
-         "property": "P131",
+         "property": "P100041",
          "value": "1",
          "qualifier": [
             {
-               "property": "P2561",
+               "property": "P131",
                "value": "Central",
                "cell": "F38"
             }
@@ -594,13 +594,13 @@
    {
       "cell": "E39",
       "statement": {
-         "item": "Q65620298",
+         "item": "CR100100616",
          "cell": "A39",
-         "property": "P131",
+         "property": "P100041",
          "value": "1",
          "qualifier": [
             {
-               "property": "P2561",
+               "property": "P131",
                "value": "Central",
                "cell": "F39"
             }
@@ -610,13 +610,13 @@
    {
       "cell": "E40",
       "statement": {
-         "item": "Q65620298",
+         "item": "CR100100622",
          "cell": "A40",
-         "property": "P131",
+         "property": "P100041",
          "value": "1",
          "qualifier": [
             {
-               "property": "P2561",
+               "property": "P131",
                "value": "Central",
                "cell": "F40"
             }
@@ -626,13 +626,13 @@
    {
       "cell": "E41",
       "statement": {
-         "item": "Q65620298",
+         "item": "CR100100623",
          "cell": "A41",
-         "property": "P131",
+         "property": "P100041",
          "value": "1",
          "qualifier": [
             {
-               "property": "P2561",
+               "property": "P131",
                "value": "Central",
                "cell": "F41"
             }
@@ -642,13 +642,13 @@
    {
       "cell": "E42",
       "statement": {
-         "item": "Q65620338",
+         "item": "CR100100628",
          "cell": "A42",
-         "property": "P131",
+         "property": "P100041",
          "value": "1",
          "qualifier": [
             {
-               "property": "P2561",
+               "property": "P131",
                "value": "Central",
                "cell": "F42"
             }
@@ -658,13 +658,13 @@
    {
       "cell": "E43",
       "statement": {
-         "item": "Q65620298",
+         "item": "CR100100630",
          "cell": "A43",
-         "property": "P131",
+         "property": "P100041",
          "value": "1",
          "qualifier": [
             {
-               "property": "P2561",
+               "property": "P131",
                "value": "Central",
                "cell": "F43"
             }
@@ -674,13 +674,13 @@
    {
       "cell": "E44",
       "statement": {
-         "item": "Q65620298",
+         "item": "CR100100632",
          "cell": "A44",
-         "property": "P131",
+         "property": "P100041",
          "value": "1",
          "qualifier": [
             {
-               "property": "P2561",
+               "property": "P131",
                "value": "Central",
                "cell": "F44"
             }
@@ -690,13 +690,13 @@
    {
       "cell": "E45",
       "statement": {
-         "item": "Q65620298",
+         "item": "CR100100633",
          "cell": "A45",
-         "property": "P131",
+         "property": "P100041",
          "value": "1",
          "qualifier": [
             {
-               "property": "P2561",
+               "property": "P131",
                "value": "Central",
                "cell": "F45"
             }
@@ -706,13 +706,13 @@
    {
       "cell": "E46",
       "statement": {
-         "item": "Q65620298",
+         "item": "CR100100634",
          "cell": "A46",
-         "property": "P131",
+         "property": "P100041",
          "value": "1",
          "qualifier": [
             {
-               "property": "P2561",
+               "property": "P131",
                "value": "Central",
                "cell": "F46"
             }
@@ -722,13 +722,13 @@
    {
       "cell": "E47",
       "statement": {
-         "item": "Q65620298",
+         "item": "CR100100635",
          "cell": "A47",
-         "property": "P131",
+         "property": "P100041",
          "value": "1",
          "qualifier": [
             {
-               "property": "P2561",
+               "property": "P131",
                "value": "Central",
                "cell": "F47"
             }
@@ -738,13 +738,13 @@
    {
       "cell": "E48",
       "statement": {
-         "item": "Q65620298",
+         "item": "CR100100638",
          "cell": "A48",
-         "property": "P131",
+         "property": "P100041",
          "value": "1",
          "qualifier": [
             {
-               "property": "P2561",
+               "property": "P131",
                "value": "Central",
                "cell": "F48"
             }
@@ -754,13 +754,13 @@
    {
       "cell": "E49",
       "statement": {
-         "item": "Q65620298",
+         "item": "CR100100639",
          "cell": "A49",
-         "property": "P131",
+         "property": "P100041",
          "value": "1",
          "qualifier": [
             {
-               "property": "P2561",
+               "property": "P131",
                "value": "Central",
                "cell": "F49"
             }
@@ -770,15 +770,31 @@
    {
       "cell": "E50",
       "statement": {
-         "item": "Q65620298",
+         "item": "CR100100642",
          "cell": "A50",
-         "property": "P131",
+         "property": "P100041",
          "value": "1",
          "qualifier": [
             {
-               "property": "P2561",
+               "property": "P131",
                "value": "Central",
                "cell": "F50"
+            }
+         ]
+      }
+   },
+   {
+      "cell": "E51",
+      "statement": {
+         "item": "CR100100650",
+         "cell": "A51",
+         "property": "P100041",
+         "value": "1",
+         "qualifier": [
+            {
+               "property": "P131",
+               "value": "Central",
+               "cell": "F51"
             }
          ]
       }

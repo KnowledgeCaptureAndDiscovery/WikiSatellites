@@ -7,4 +7,4 @@ statementMapping:
   template:
       item: item(A/$row)
       property: P100057 # weapon used
-      value: value(R/$row) #area
+      value: value(R/$row)
