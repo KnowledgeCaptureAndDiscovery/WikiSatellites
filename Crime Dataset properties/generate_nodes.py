@@ -2,8 +2,8 @@ import os
 import yaml
 import sys
 from pathlib import Path
-CWD = os.getcwd() 
-from Code.utility_functions import get_property_type, translate_precision_to_integer
+CWD = os.getcwd()
+from utility_functions import get_property_type, translate_precision_to_integer
 # sys.path.insert(0, Path(CWD + "/etk"))
 from etk.etk import ETK
 from etk.knowledge_graph.schema import KGSchema
@@ -18,8 +18,7 @@ def model_data() -> None:
 	This function generates triples for user defined properties for uploading them to wikidata
 	:return:
 	"""
-
-	stream = open(Path.cwd() / "Datasets/willThisWork.yaml", 'r', encoding='utf8')
+	stream = open(Path.cwd() / "Datasets/crimeDataProperties.yaml", 'r', encoding='utf8')
 	yaml_data = yaml.safe_load(stream)
 	# initialize
 	kg_schema = KGSchema()
@@ -49,21 +48,18 @@ def model_data() -> None:
 	doc.kg.bind('skos', 'http://www.w3.org/2004/02/skos/core#')
 	doc.kg.bind('prov', 'http://www.w3.org/ns/prov#')
 	doc.kg.bind('schema', 'http://schema.org/')
-
+	sparql_endpoint = "https://query.wikidata.org/sparql"
 	type_map = {
 		'quantity': Datatype.QuantityValue,
-		'url': Datatype.URLValue,
+		'url': URLValue,
 		'item': Datatype.Item,
 		'time': Datatype.TimeValue,
 		'string': Datatype.StringValue
 	}
-	
 	property_type_cache = {}
-
-	# getting key value pairs from yaml dictionaries
 	for k, v in yaml_data.items():
 		print(k)
-		p = WDProperty(k, type_map[v['type']], creator='http://www.isi.edu/t2wml')
+		p = WDProperty(k, type_map[v['type']], creator='http://www.isi.edu/crime_data')
 		for lang, value in v['label'].items():
 			for val in value:
 				p.add_label(val, lang=lang)
@@ -75,9 +71,9 @@ def model_data() -> None:
 				try:
 					property_type = property_type_cache[pnode]
 				except KeyError:
-					property_type = get_property_type(pnode)
+					property_type = get_property_type(pnode, sparql_endpoint)
 					property_type_cache[pnode] = property_type
-				if property_type == "WikibaseItem":		
+				if property_type == "WikibaseItem":
 					value = Item(str(item['value']))
 				elif property_type == "WikibaseProperty":
 					value = Property(item['value'])
@@ -96,15 +92,20 @@ def model_data() -> None:
 				elif property_type == "GlobeCoordinate":
 					value = GlobeCoordinate(item["latitude"], item["longitude"], item["precision"])
 
+				# for valoo in value:
+				# 	print("value" + valoo)
 				p.add_statement(pnode, value)
 
 		doc.kg.add_subject(p)
 
-	with open(Path.cwd() / "new_properties/newResult.ttl", "w") as f:
+	with open(Path.cwd() / "new_properties/triples.ttl", "w") as f:
 		data = doc.kg.serialize('ttl')
 		f.write(data)
 
 
 model_data()
-with open(Path.cwd() / "new_properties/newChanges.tsv", "w") as fp:
+with open(Path.cwd() / "new_properties/changes.tsv", "w") as fp:
 	serialize_change_record(fp)
+
+
+

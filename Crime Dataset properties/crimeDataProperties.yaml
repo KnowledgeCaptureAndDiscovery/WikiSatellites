@@ -1,8 +1,17 @@
-# PROPERTIES: has crime, date reported, has victim, has age, has crime code,
-# has crime code 2, has crime code 3, has crime code 4, MO code, premise description, 
-# premise code, status code, status description, DR number, reported district number,
-# weapon used code, weapon
-
+# properties added: date reported, reported district number, has crime, has victim, has age, has crime code, 
+# has crime code 2, has crime code 3, has crime code 4, MO code, premise description, premise code, status code,
+# status description, DR number, weapon used code, weapon used
+P100043:
+  type: time
+  label:
+    en: 
+    - date reported
+  description:
+    en:
+    - the date a crime was reported
+  statements:
+    P31:              # instance of
+    - value: Q22984026 # Wikidata property related to law and justice
 P100041:
   type: string
   label:
@@ -26,17 +35,6 @@ P100042:
     P1629:             # subject item of this property
     - value: Q83267    # crime
     P31:               # instance of
-    - value: Q22984026 # Wikidata property related to law and justice
-P100043:
-  type: time
-  label:
-    en: 
-    - date reported
-  description:
-    en:
-    - the date a crime was reported
-  statements:
-    P31:              # instance of
     - value: Q22984026 # Wikidata property related to law and justice
 P100044:
   type: item
