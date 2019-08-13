@@ -1,0 +1,10 @@
+statementMapping:
+  region:
+    - left: J
+      right: L
+      top: 1
+      bottom: 52
+  template:
+      item: item(A/$row)
+      property: P100050 # MO code
+      value: value(K/$row)

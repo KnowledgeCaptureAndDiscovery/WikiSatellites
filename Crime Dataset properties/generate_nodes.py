@@ -52,11 +52,12 @@ def model_data() -> None:
 
 	type_map = {
 		'quantity': Datatype.QuantityValue,
-		'url': URLValue,
+		'url': Datatype.URLValue,
 		'item': Datatype.Item,
-		'time': TimeValue,
-		'string': StringValue
+		'time': Datatype.TimeValue,
+		'string': Datatype.StringValue
 	}
+	
 	property_type_cache = {}
 
 	# getting key value pairs from yaml dictionaries

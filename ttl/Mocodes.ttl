@@ -1,0 +1,611 @@
+@prefix : <http://isi.edu/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+@prefix wdref: <http://www.wikidata.org/reference/> .
+@prefix wds: <http://www.wikidata.org/entity/statement/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix wdv: <http://www.wikidata.org/value/> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+wd:CR100100501 a wikibase:Item ;
+    p:P100050 wds:CR100100501-04e19f1d-dd84-4237-a02b-0cb173f87a17 .
+
+wd:CR100100506 a wikibase:Item ;
+    p:P100050 wds:CR100100506-15b3c3a4-8d26-4b8b-8e41-1ec61a2ff45b .
+
+wd:CR100100508 a wikibase:Item ;
+    p:P100050 wds:CR100100508-29a26e38-a109-48f6-bce5-e94979824fd0 .
+
+wd:CR100100509 a wikibase:Item ;
+    p:P100050 wds:CR100100509-8c4edc64-a57e-4ddc-b259-fdd6f50274a8 .
+
+wd:CR100100510 a wikibase:Item ;
+    p:P100050 wds:CR100100510-7d768dc4-9c36-4f6f-8678-2981be273121 .
+
+wd:CR100100511 a wikibase:Item ;
+    p:P100050 wds:CR100100511-71639bf3-3b43-49d2-9cfb-3453ff03c545 .
+
+wd:CR100100521 a wikibase:Item ;
+    p:P100050 wds:CR100100521-f6e253f2-8047-4e22-bb50-fe9ff292c64b .
+
+wd:CR100100522 a wikibase:Item ;
+    p:P100050 wds:CR100100522-d42298b0-bdfa-44c6-9e8c-9a9030d75fe7 .
+
+wd:CR100100523 a wikibase:Item ;
+    p:P100050 wds:CR100100523-f0d80af7-2bcd-4b74-9f2b-da5d80faded4 .
+
+wd:CR100100529 a wikibase:Item ;
+    p:P100050 wds:CR100100529-93effa58-a3eb-454e-8ad1-289a5c82eb46 .
+
+wd:CR100100531 a wikibase:Item ;
+    p:P100050 wds:CR100100531-1f576198-83f7-4664-8e54-a1e123529e22 .
+
+wd:CR100100552 a wikibase:Item ;
+    p:P100050 wds:CR100100552-af2fe4dc-61bd-40a3-bf53-f3abe750083f .
+
+wd:CR100100553 a wikibase:Item ;
+    p:P100050 wds:CR100100553-7f6fdfe4-9077-432b-9a48-a5955e3df766 .
+
+wd:CR100100555 a wikibase:Item ;
+    p:P100050 wds:CR100100555-77eebbcd-cf89-4ed0-9697-ed49ea049b06 .
+
+wd:CR100100561 a wikibase:Item ;
+    p:P100050 wds:CR100100561-b83a71dd-7929-4609-bb31-ef4482fd745a .
+
+wd:CR100100562 a wikibase:Item ;
+    p:P100050 wds:CR100100562-42defaa9-97b5-4da8-b173-0f2883044976 .
+
+wd:CR100100564 a wikibase:Item ;
+    p:P100050 wds:CR100100564-0a255339-a09b-44c4-a1c4-3daea8d14976 .
+
+wd:CR100100570 a wikibase:Item ;
+    p:P100050 wds:CR100100570-001bf5d9-2ff5-4d97-84c6-143f7b9b3dea .
+
+wd:CR100100571 a wikibase:Item ;
+    p:P100050 wds:CR100100571-96927db6-15d2-41c5-bc50-e51d95ca16ee .
+
+wd:CR100100572 a wikibase:Item ;
+    p:P100050 wds:CR100100572-d5d8d098-af83-4731-a45e-2a0e8e8ac15d .
+
+wd:CR100100573 a wikibase:Item ;
+    p:P100050 wds:CR100100573-2487cc1a-7b3d-4e2b-9b72-fbef95789965 .
+
+wd:CR100100574 a wikibase:Item ;
+    p:P100050 wds:CR100100574-851fdf7a-071c-415f-ac0a-d5fd1c0dae0b .
+
+wd:CR100100575 a wikibase:Item ;
+    p:P100050 wds:CR100100575-6e1d2ca6-a9d8-46c7-8e13-9c4c06a8a83c .
+
+wd:CR100100580 a wikibase:Item ;
+    p:P100050 wds:CR100100580-27003b1d-6f06-443c-a2bc-3bc87cdc765c .
+
+wd:CR100100581 a wikibase:Item ;
+    p:P100050 wds:CR100100581-b1c285ed-e8e3-410d-a2c4-4633eb5d06bd .
+
+wd:CR100100586 a wikibase:Item ;
+    p:P100050 wds:CR100100586-963b63a6-5bc2-41e1-b27c-140bdf2d988a .
+
+wd:CR100100587 a wikibase:Item ;
+    p:P100050 wds:CR100100587-2c0c8059-25e9-4528-b25b-c32fb01b2408 .
+
+wd:CR100100591 a wikibase:Item ;
+    p:P100050 wds:CR100100591-b0cf5f4c-62a0-4454-9cae-ab056f1f6eb3 .
+
+wd:CR100100592 a wikibase:Item ;
+    p:P100050 wds:CR100100592-03b0c64a-77dc-4326-a0a8-26486c7fd8f6 .
+
+wd:CR100100608 a wikibase:Item ;
+    p:P100050 wds:CR100100608-748e6a12-e579-4207-b773-3c88a84ab6ef .
+
+wd:CR100100610 a wikibase:Item ;
+    p:P100050 wds:CR100100610-fac1d19d-8388-4751-a0a7-cc9a5022f9d4 .
+
+wd:CR100100616 a wikibase:Item ;
+    p:P100050 wds:CR100100616-28b897e5-ad8d-4aa9-9c11-789492e09c8c .
+
+wd:CR100100622 a wikibase:Item ;
+    p:P100050 wds:CR100100622-dfcb8ac3-95f8-47ea-8788-216c6660f721 .
+
+wd:CR100100623 a wikibase:Item ;
+    p:P100050 wds:CR100100623-7ca80f6a-a38d-4cfc-974e-c9ecb8c6e4a6 .
+
+wd:CR100100628 a wikibase:Item ;
+    p:P100050 wds:CR100100628-1108bdc6-8a53-4689-8222-dece294a2ba2 .
+
+wd:CR100100630 a wikibase:Item ;
+    p:P100050 wds:CR100100630-47f09722-0ff2-4019-8330-8115f97138ed .
+
+wd:CR100100632 a wikibase:Item ;
+    p:P100050 wds:CR100100632-8cbb92b8-4700-412e-ac15-72198d459c8e .
+
+wd:CR100100633 a wikibase:Item ;
+    p:P100050 wds:CR100100633-4a2f08bb-722f-4d97-a4f3-95721a5e6c00 .
+
+wd:CR100100634 a wikibase:Item ;
+    p:P100050 wds:CR100100634-87905624-9063-4dd0-aba1-3ae913edbf0e .
+
+wd:CR100100635 a wikibase:Item ;
+    p:P100050 wds:CR100100635-d9659544-ec37-417a-bfbd-3ca06cc4ded9 .
+
+wd:CR100100638 a wikibase:Item ;
+    p:P100050 wds:CR100100638-3bc53d82-bcb8-4147-9991-17de3e041aec .
+
+wd:CR100100639 a wikibase:Item ;
+    p:P100050 wds:CR100100639-5441f65c-fc1a-434c-b136-7e4989eb64ba .
+
+wd:CR100100642 a wikibase:Item ;
+    p:P100050 wds:CR100100642-2e8dea50-3e00-441e-8152-be6d5d102a94 .
+
+wd:CR100100650 a wikibase:Item ;
+    p:P100050 wds:CR100100650-3a330726-9ca9-4cf3-95c3-c33fdcc6495d .
+
+wd:CR11401303 a wikibase:Item ;
+    p:P100050 wds:CR11401303-d12c03c9-ee05-4500-bda0-66634ce77229 .
+
+wd:CR1307355 a wikibase:Item ;
+    p:P100050 wds:CR1307355-6625b74e-d110-4157-8a1d-73ff7a741ae6 .
+
+wd:CR70309629 a wikibase:Item ;
+    p:P100050 wds:CR70309629-19aea05d-90a7-4a8d-82fd-8d15ad25cef0 .
+
+wd:CR90631215 a wikibase:Item ;
+    p:P100050 wds:CR90631215-17b58193-5959-4866-8100-5edf34916b45 .
+
+wds:CR100100501-04e19f1d-dd84-4237-a02b-0cb173f87a17 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100050 400.0 ;
+    psn:P100050 wdv:Quantityc400c0c0c0 ;
+    psv:P100050 wdv:Quantityc400c0c0c0 .
+
+wds:CR100100506-15b3c3a4-8d26-4b8b-8e41-1ec61a2ff45b a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100050 "0344 1402"^^xsd:decimal ;
+    psn:P100050 wdv:Quantityc0344 1402c0c0c0 ;
+    psv:P100050 wdv:Quantityc0344 1402c0c0c0 .
+
+wds:CR100100508-29a26e38-a109-48f6-bce5-e94979824fd0 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100050 344.0 ;
+    psn:P100050 wdv:Quantityc344c0c0c0 ;
+    psv:P100050 wdv:Quantityc344c0c0c0 .
+
+wds:CR100100509-8c4edc64-a57e-4ddc-b259-fdd6f50274a8 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100050 416.0 ;
+    psn:P100050 wdv:Quantityc416c0c0c0 ;
+    psv:P100050 wdv:Quantityc416c0c0c0 .
+
+wds:CR100100510-7d768dc4-9c36-4f6f-8678-2981be273121 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100050 "0400 0416"^^xsd:decimal ;
+    psn:P100050 wdv:Quantityc0400 0416c0c0c0 ;
+    psv:P100050 wdv:Quantityc0400 0416c0c0c0 .
+
+wds:CR100100511-71639bf3-3b43-49d2-9cfb-3453ff03c545 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100050 "0344 1402"^^xsd:decimal ;
+    psn:P100050 wdv:Quantityc0344 1402c0c0c0 ;
+    psv:P100050 wdv:Quantityc0344 1402c0c0c0 .
+
+wds:CR100100521-f6e253f2-8047-4e22-bb50-fe9ff292c64b a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100050 "0400 0429 2000"^^xsd:decimal ;
+    psn:P100050 wdv:Quantityc0400 0429 2000c0c0c0 ;
+    psv:P100050 wdv:Quantityc0400 0429 2000c0c0c0 .
+
+wds:CR100100522-d42298b0-bdfa-44c6-9e8c-9a9030d75fe7 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100050 344.0 ;
+    psn:P100050 wdv:Quantityc344c0c0c0 ;
+    psv:P100050 wdv:Quantityc344c0c0c0 .
+
+wds:CR100100523-f0d80af7-2bcd-4b74-9f2b-da5d80faded4 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100050 329.0 ;
+    psn:P100050 wdv:Quantityc329c0c0c0 ;
+    psv:P100050 wdv:Quantityc329c0c0c0 .
+
+wds:CR100100529-93effa58-a3eb-454e-8ad1-289a5c82eb46 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100050 404.0 ;
+    psn:P100050 wdv:Quantityc404c0c0c0 ;
+    psv:P100050 wdv:Quantityc404c0c0c0 .
+
+wds:CR100100531-1f576198-83f7-4664-8e54-a1e123529e22 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100050 "0344 0416 1218"^^xsd:decimal ;
+    psn:P100050 wdv:Quantityc0344 0416 1218c0c0c0 ;
+    psv:P100050 wdv:Quantityc0344 0416 1218c0c0c0 .
+
+wds:CR100100552-af2fe4dc-61bd-40a3-bf53-f3abe750083f a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100050 1251.0 ;
+    psn:P100050 wdv:Quantityc1251c0c0c0 ;
+    psv:P100050 wdv:Quantityc1251c0c0c0 .
+
+wds:CR100100553-7f6fdfe4-9077-432b-9a48-a5955e3df766 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100050 "0344 0416"^^xsd:decimal ;
+    psn:P100050 wdv:Quantityc0344 0416c0c0c0 ;
+    psv:P100050 wdv:Quantityc0344 0416c0c0c0 .
+
+wds:CR100100555-77eebbcd-cf89-4ed0-9697-ed49ea049b06 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100050 2000.0 ;
+    psn:P100050 wdv:Quantityc2000c0c0c0 ;
+    psv:P100050 wdv:Quantityc2000c0c0c0 .
+
+wds:CR100100561-b83a71dd-7929-4609-bb31-ef4482fd745a a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100050 "0346 0400"^^xsd:decimal ;
+    psn:P100050 wdv:Quantityc0346 0400c0c0c0 ;
+    psv:P100050 wdv:Quantityc0346 0400c0c0c0 .
+
+wds:CR100100562-42defaa9-97b5-4da8-b173-0f2883044976 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100050 "0416 2000"^^xsd:decimal ;
+    psn:P100050 wdv:Quantityc0416 2000c0c0c0 ;
+    psv:P100050 wdv:Quantityc0416 2000c0c0c0 .
+
+wds:CR100100564-0a255339-a09b-44c4-a1c4-3daea8d14976 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100050 "0344 1609"^^xsd:decimal ;
+    psn:P100050 wdv:Quantityc0344 1609c0c0c0 ;
+    psv:P100050 wdv:Quantityc0344 1609c0c0c0 .
+
+wds:CR100100570-001bf5d9-2ff5-4d97-84c6-143f7b9b3dea a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100050 344.0 ;
+    psn:P100050 wdv:Quantityc344c0c0c0 ;
+    psv:P100050 wdv:Quantityc344c0c0c0 .
+
+wds:CR100100571-96927db6-15d2-41c5-bc50-e51d95ca16ee a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100050 400.0 ;
+    psn:P100050 wdv:Quantityc400c0c0c0 ;
+    psv:P100050 wdv:Quantityc400c0c0c0 .
+
+wds:CR100100572-d5d8d098-af83-4731-a45e-2a0e8e8ac15d a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100050 416.0 ;
+    psn:P100050 wdv:Quantityc416c0c0c0 ;
+    psv:P100050 wdv:Quantityc416c0c0c0 .
+
+wds:CR100100573-2487cc1a-7b3d-4e2b-9b72-fbef95789965 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100050 416.0 ;
+    psn:P100050 wdv:Quantityc416c0c0c0 ;
+    psv:P100050 wdv:Quantityc416c0c0c0 .
+
+wds:CR100100574-851fdf7a-071c-415f-ac0a-d5fd1c0dae0b a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100050 416.0 ;
+    psn:P100050 wdv:Quantityc416c0c0c0 ;
+    psv:P100050 wdv:Quantityc416c0c0c0 .
+
+wds:CR100100575-6e1d2ca6-a9d8-46c7-8e13-9c4c06a8a83c a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100050 1402.0 ;
+    psn:P100050 wdv:Quantityc1402c0c0c0 ;
+    psv:P100050 wdv:Quantityc1402c0c0c0 .
+
+wds:CR100100580-27003b1d-6f06-443c-a2bc-3bc87cdc765c a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100050 521.0 ;
+    psn:P100050 wdv:Quantityc521c0c0c0 ;
+    psv:P100050 wdv:Quantityc521c0c0c0 .
+
+wds:CR100100581-b1c285ed-e8e3-410d-a2c4-4633eb5d06bd a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100050 "0400 0417"^^xsd:decimal ;
+    psn:P100050 wdv:Quantityc0400 0417c0c0c0 ;
+    psv:P100050 wdv:Quantityc0400 0417c0c0c0 .
+
+wds:CR100100586-963b63a6-5bc2-41e1-b27c-140bdf2d988a a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100050 416.0 ;
+    psn:P100050 wdv:Quantityc416c0c0c0 ;
+    psv:P100050 wdv:Quantityc416c0c0c0 .
+
+wds:CR100100587-2c0c8059-25e9-4528-b25b-c32fb01b2408 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100050 "0400 0416"^^xsd:decimal ;
+    psn:P100050 wdv:Quantityc0400 0416c0c0c0 ;
+    psv:P100050 wdv:Quantityc0400 0416c0c0c0 .
+
+wds:CR100100591-b0cf5f4c-62a0-4454-9cae-ab056f1f6eb3 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100050 "0344 1609"^^xsd:decimal ;
+    psn:P100050 wdv:Quantityc0344 1609c0c0c0 ;
+    psv:P100050 wdv:Quantityc0344 1609c0c0c0 .
+
+wds:CR100100592-03b0c64a-77dc-4326-a0a8-26486c7fd8f6 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100050 344.0 ;
+    psn:P100050 wdv:Quantityc344c0c0c0 ;
+    psv:P100050 wdv:Quantityc344c0c0c0 .
+
+wds:CR100100608-748e6a12-e579-4207-b773-3c88a84ab6ef a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100050 416.0 ;
+    psn:P100050 wdv:Quantityc416c0c0c0 ;
+    psv:P100050 wdv:Quantityc416c0c0c0 .
+
+wds:CR100100610-fac1d19d-8388-4751-a0a7-cc9a5022f9d4 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100050 "0325 1402"^^xsd:decimal ;
+    psn:P100050 wdv:Quantityc0325 1402c0c0c0 ;
+    psv:P100050 wdv:Quantityc0325 1402c0c0c0 .
+
+wds:CR100100616-28b897e5-ad8d-4aa9-9c11-789492e09c8c a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100050 1212.0 ;
+    psn:P100050 wdv:Quantityc1212c0c0c0 ;
+    psv:P100050 wdv:Quantityc1212c0c0c0 .
+
+wds:CR100100622-dfcb8ac3-95f8-47ea-8788-216c6660f721 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100050 416.0 ;
+    psn:P100050 wdv:Quantityc416c0c0c0 ;
+    psv:P100050 wdv:Quantityc416c0c0c0 .
+
+wds:CR100100623-7ca80f6a-a38d-4cfc-974e-c9ecb8c6e4a6 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100050 329.0 ;
+    psn:P100050 wdv:Quantityc329c0c0c0 ;
+    psv:P100050 wdv:Quantityc329c0c0c0 .
+
+wds:CR100100628-1108bdc6-8a53-4689-8222-dece294a2ba2 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100050 408.0 ;
+    psn:P100050 wdv:Quantityc408c0c0c0 ;
+    psv:P100050 wdv:Quantityc408c0c0c0 .
+
+wds:CR100100630-47f09722-0ff2-4019-8330-8115f97138ed a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100050 400.0 ;
+    psn:P100050 wdv:Quantityc400c0c0c0 ;
+    psv:P100050 wdv:Quantityc400c0c0c0 .
+
+wds:CR100100632-8cbb92b8-4700-412e-ac15-72198d459c8e a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100050 "0400 2000"^^xsd:decimal ;
+    psn:P100050 wdv:Quantityc0400 2000c0c0c0 ;
+    psv:P100050 wdv:Quantityc0400 2000c0c0c0 .
+
+wds:CR100100633-4a2f08bb-722f-4d97-a4f3-95721a5e6c00 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100050 329.0 ;
+    psn:P100050 wdv:Quantityc329c0c0c0 ;
+    psv:P100050 wdv:Quantityc329c0c0c0 .
+
+wds:CR100100634-87905624-9063-4dd0-aba1-3ae913edbf0e a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100050 400.0 ;
+    psn:P100050 wdv:Quantityc400c0c0c0 ;
+    psv:P100050 wdv:Quantityc400c0c0c0 .
+
+wds:CR100100635-d9659544-ec37-417a-bfbd-3ca06cc4ded9 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100050 400.0 ;
+    psn:P100050 wdv:Quantityc400c0c0c0 ;
+    psv:P100050 wdv:Quantityc400c0c0c0 .
+
+wds:CR100100638-3bc53d82-bcb8-4147-9991-17de3e041aec a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100050 329.0 ;
+    psn:P100050 wdv:Quantityc329c0c0c0 ;
+    psv:P100050 wdv:Quantityc329c0c0c0 .
+
+wds:CR100100639-5441f65c-fc1a-434c-b136-7e4989eb64ba a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100050 2000.0 ;
+    psn:P100050 wdv:Quantityc2000c0c0c0 ;
+    psv:P100050 wdv:Quantityc2000c0c0c0 .
+
+wds:CR100100642-2e8dea50-3e00-441e-8152-be6d5d102a94 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100050 "0400 0408"^^xsd:decimal ;
+    psn:P100050 wdv:Quantityc0400 0408c0c0c0 ;
+    psv:P100050 wdv:Quantityc0400 0408c0c0c0 .
+
+wds:CR100100650-3a330726-9ca9-4cf3-95c3-c33fdcc6495d a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100050 "0344 1251"^^xsd:decimal ;
+    psn:P100050 wdv:Quantityc0344 1251c0c0c0 ;
+    psv:P100050 wdv:Quantityc0344 1251c0c0c0 .
+
+wds:CR11401303-d12c03c9-ee05-4500-bda0-66634ce77229 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100050 329.0 ;
+    psn:P100050 wdv:Quantityc329c0c0c0 ;
+    psv:P100050 wdv:Quantityc329c0c0c0 .
+
+wds:CR1307355-6625b74e-d110-4157-8a1d-73ff7a741ae6 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100050 "0913 1814 2000"^^xsd:decimal ;
+    psn:P100050 wdv:Quantityc0913 1814 2000c0c0c0 ;
+    psv:P100050 wdv:Quantityc0913 1814 2000c0c0c0 .
+
+wds:CR70309629-19aea05d-90a7-4a8d-82fd-8d15ad25cef0 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100050 344.0 ;
+    psn:P100050 wdv:Quantityc344c0c0c0 ;
+    psv:P100050 wdv:Quantityc344c0c0c0 .
+
+wds:CR90631215-17b58193-5959-4866-8100-5edf34916b45 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/t2wml> ;
+    ps:P100050 "1100 0400 1402"^^xsd:decimal ;
+    psn:P100050 wdv:Quantityc1100 0400 1402c0c0c0 ;
+    psv:P100050 wdv:Quantityc1100 0400 1402c0c0c0 .
+
+wdv:Quantityc0325 1402c0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "0325 1402"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:Quantityc0325 1402c0c0c0 .
+
+wdv:Quantityc0344 0416 1218c0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "0344 0416 1218"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:Quantityc0344 0416 1218c0c0c0 .
+
+wdv:Quantityc0344 0416c0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "0344 0416"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:Quantityc0344 0416c0c0c0 .
+
+wdv:Quantityc0344 1251c0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "0344 1251"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:Quantityc0344 1251c0c0c0 .
+
+wdv:Quantityc0346 0400c0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "0346 0400"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:Quantityc0346 0400c0c0c0 .
+
+wdv:Quantityc0400 0408c0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "0400 0408"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:Quantityc0400 0408c0c0c0 .
+
+wdv:Quantityc0400 0417c0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "0400 0417"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:Quantityc0400 0417c0c0c0 .
+
+wdv:Quantityc0400 0429 2000c0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "0400 0429 2000"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:Quantityc0400 0429 2000c0c0c0 .
+
+wdv:Quantityc0400 2000c0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "0400 2000"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:Quantityc0400 2000c0c0c0 .
+
+wdv:Quantityc0416 2000c0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "0416 2000"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:Quantityc0416 2000c0c0c0 .
+
+wdv:Quantityc0913 1814 2000c0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "0913 1814 2000"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:Quantityc0913 1814 2000c0c0c0 .
+
+wdv:Quantityc1100 0400 1402c0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "1100 0400 1402"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:Quantityc1100 0400 1402c0c0c0 .
+
+wdv:Quantityc1212c0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount 1212.0 ;
+    wikibase:quantityNormalized wdv:Quantityc1212c0c0c0 .
+
+wdv:Quantityc1251c0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount 1251.0 ;
+    wikibase:quantityNormalized wdv:Quantityc1251c0c0c0 .
+
+wdv:Quantityc1402c0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount 1402.0 ;
+    wikibase:quantityNormalized wdv:Quantityc1402c0c0c0 .
+
+wdv:Quantityc404c0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount 404.0 ;
+    wikibase:quantityNormalized wdv:Quantityc404c0c0c0 .
+
+wdv:Quantityc408c0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount 408.0 ;
+    wikibase:quantityNormalized wdv:Quantityc408c0c0c0 .
+
+wdv:Quantityc521c0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount 521.0 ;
+    wikibase:quantityNormalized wdv:Quantityc521c0c0c0 .
+
+wdv:Quantityc0344 1402c0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "0344 1402"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:Quantityc0344 1402c0c0c0 .
+
+wdv:Quantityc0344 1609c0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "0344 1609"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:Quantityc0344 1609c0c0c0 .
+
+wdv:Quantityc0400 0416c0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount "0400 0416"^^xsd:decimal ;
+    wikibase:quantityNormalized wdv:Quantityc0400 0416c0c0c0 .
+
+wdv:Quantityc2000c0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount 2000.0 ;
+    wikibase:quantityNormalized wdv:Quantityc2000c0c0c0 .
+
+wdv:Quantityc329c0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount 329.0 ;
+    wikibase:quantityNormalized wdv:Quantityc329c0c0c0 .
+
+wdv:Quantityc344c0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount 344.0 ;
+    wikibase:quantityNormalized wdv:Quantityc344c0c0c0 .
+
+wdv:Quantityc400c0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount 400.0 ;
+    wikibase:quantityNormalized wdv:Quantityc400c0c0c0 .
+
+wdv:Quantityc416c0c0c0 a wikibase:QuantityValue ;
+    wikibase:quantityAmount 416.0 ;
+    wikibase:quantityNormalized wdv:Quantityc416c0c0c0 .
+

@@ -1,0 +1,434 @@
+[
+   {
+      "cell": "K2",
+      "statement": {
+         "item": "CR1307355",
+         "cell": "A2",
+         "property": "P100050",
+         "value": "0913 1814 2000"
+      }
+   },
+   {
+      "cell": "K3",
+      "statement": {
+         "item": "CR11401303",
+         "cell": "A3",
+         "property": "P100050",
+         "value": "329"
+      }
+   },
+   {
+      "cell": "K4",
+      "statement": {
+         "item": "CR70309629",
+         "cell": "A4",
+         "property": "P100050",
+         "value": "344"
+      }
+   },
+   {
+      "cell": "K5",
+      "statement": {
+         "item": "CR90631215",
+         "cell": "A5",
+         "property": "P100050",
+         "value": "1100 0400 1402"
+      }
+   },
+   {
+      "cell": "K6",
+      "statement": {
+         "item": "CR100100501",
+         "cell": "A6",
+         "property": "P100050",
+         "value": "400"
+      }
+   },
+   {
+      "cell": "K7",
+      "statement": {
+         "item": "CR100100506",
+         "cell": "A7",
+         "property": "P100050",
+         "value": "0344 1402"
+      }
+   },
+   {
+      "cell": "K8",
+      "statement": {
+         "item": "CR100100508",
+         "cell": "A8",
+         "property": "P100050",
+         "value": "344"
+      }
+   },
+   {
+      "cell": "K9",
+      "statement": {
+         "item": "CR100100509",
+         "cell": "A9",
+         "property": "P100050",
+         "value": "416"
+      }
+   },
+   {
+      "cell": "K10",
+      "statement": {
+         "item": "CR100100510",
+         "cell": "A10",
+         "property": "P100050",
+         "value": "0400 0416"
+      }
+   },
+   {
+      "cell": "K11",
+      "statement": {
+         "item": "CR100100511",
+         "cell": "A11",
+         "property": "P100050",
+         "value": "0344 1402"
+      }
+   },
+   {
+      "cell": "K12",
+      "statement": {
+         "item": "CR100100521",
+         "cell": "A12",
+         "property": "P100050",
+         "value": "0400 0429 2000"
+      }
+   },
+   {
+      "cell": "K13",
+      "statement": {
+         "item": "CR100100522",
+         "cell": "A13",
+         "property": "P100050",
+         "value": "344"
+      }
+   },
+   {
+      "cell": "K14",
+      "statement": {
+         "item": "CR100100523",
+         "cell": "A14",
+         "property": "P100050",
+         "value": "329"
+      }
+   },
+   {
+      "cell": "K15",
+      "statement": {
+         "item": "CR100100529",
+         "cell": "A15",
+         "property": "P100050",
+         "value": "404"
+      }
+   },
+   {
+      "cell": "K16",
+      "statement": {
+         "item": "CR100100531",
+         "cell": "A16",
+         "property": "P100050",
+         "value": "0344 0416 1218"
+      }
+   },
+   {
+      "cell": "K18",
+      "statement": {
+         "item": "CR100100552",
+         "cell": "A18",
+         "property": "P100050",
+         "value": "1251"
+      }
+   },
+   {
+      "cell": "K19",
+      "statement": {
+         "item": "CR100100553",
+         "cell": "A19",
+         "property": "P100050",
+         "value": "0344 0416"
+      }
+   },
+   {
+      "cell": "K20",
+      "statement": {
+         "item": "CR100100555",
+         "cell": "A20",
+         "property": "P100050",
+         "value": "2000"
+      }
+   },
+   {
+      "cell": "K21",
+      "statement": {
+         "item": "CR100100561",
+         "cell": "A21",
+         "property": "P100050",
+         "value": "0346 0400"
+      }
+   },
+   {
+      "cell": "K22",
+      "statement": {
+         "item": "CR100100562",
+         "cell": "A22",
+         "property": "P100050",
+         "value": "0416 2000"
+      }
+   },
+   {
+      "cell": "K23",
+      "statement": {
+         "item": "CR100100564",
+         "cell": "A23",
+         "property": "P100050",
+         "value": "0344 1609"
+      }
+   },
+   {
+      "cell": "K24",
+      "statement": {
+         "item": "CR100100570",
+         "cell": "A24",
+         "property": "P100050",
+         "value": "344"
+      }
+   },
+   {
+      "cell": "K25",
+      "statement": {
+         "item": "CR100100571",
+         "cell": "A25",
+         "property": "P100050",
+         "value": "400"
+      }
+   },
+   {
+      "cell": "K26",
+      "statement": {
+         "item": "CR100100572",
+         "cell": "A26",
+         "property": "P100050",
+         "value": "416"
+      }
+   },
+   {
+      "cell": "K27",
+      "statement": {
+         "item": "CR100100573",
+         "cell": "A27",
+         "property": "P100050",
+         "value": "416"
+      }
+   },
+   {
+      "cell": "K28",
+      "statement": {
+         "item": "CR100100574",
+         "cell": "A28",
+         "property": "P100050",
+         "value": "416"
+      }
+   },
+   {
+      "cell": "K29",
+      "statement": {
+         "item": "CR100100575",
+         "cell": "A29",
+         "property": "P100050",
+         "value": "1402"
+      }
+   },
+   {
+      "cell": "K31",
+      "statement": {
+         "item": "CR100100580",
+         "cell": "A31",
+         "property": "P100050",
+         "value": "521"
+      }
+   },
+   {
+      "cell": "K32",
+      "statement": {
+         "item": "CR100100581",
+         "cell": "A32",
+         "property": "P100050",
+         "value": "0400 0417"
+      }
+   },
+   {
+      "cell": "K33",
+      "statement": {
+         "item": "CR100100586",
+         "cell": "A33",
+         "property": "P100050",
+         "value": "416"
+      }
+   },
+   {
+      "cell": "K34",
+      "statement": {
+         "item": "CR100100587",
+         "cell": "A34",
+         "property": "P100050",
+         "value": "0400 0416"
+      }
+   },
+   {
+      "cell": "K35",
+      "statement": {
+         "item": "CR100100591",
+         "cell": "A35",
+         "property": "P100050",
+         "value": "0344 1609"
+      }
+   },
+   {
+      "cell": "K36",
+      "statement": {
+         "item": "CR100100592",
+         "cell": "A36",
+         "property": "P100050",
+         "value": "344"
+      }
+   },
+   {
+      "cell": "K37",
+      "statement": {
+         "item": "CR100100608",
+         "cell": "A37",
+         "property": "P100050",
+         "value": "416"
+      }
+   },
+   {
+      "cell": "K38",
+      "statement": {
+         "item": "CR100100610",
+         "cell": "A38",
+         "property": "P100050",
+         "value": "0325 1402"
+      }
+   },
+   {
+      "cell": "K39",
+      "statement": {
+         "item": "CR100100616",
+         "cell": "A39",
+         "property": "P100050",
+         "value": "1212"
+      }
+   },
+   {
+      "cell": "K40",
+      "statement": {
+         "item": "CR100100622",
+         "cell": "A40",
+         "property": "P100050",
+         "value": "416"
+      }
+   },
+   {
+      "cell": "K41",
+      "statement": {
+         "item": "CR100100623",
+         "cell": "A41",
+         "property": "P100050",
+         "value": "329"
+      }
+   },
+   {
+      "cell": "K42",
+      "statement": {
+         "item": "CR100100628",
+         "cell": "A42",
+         "property": "P100050",
+         "value": "408"
+      }
+   },
+   {
+      "cell": "K43",
+      "statement": {
+         "item": "CR100100630",
+         "cell": "A43",
+         "property": "P100050",
+         "value": "400"
+      }
+   },
+   {
+      "cell": "K44",
+      "statement": {
+         "item": "CR100100632",
+         "cell": "A44",
+         "property": "P100050",
+         "value": "0400 2000"
+      }
+   },
+   {
+      "cell": "K45",
+      "statement": {
+         "item": "CR100100633",
+         "cell": "A45",
+         "property": "P100050",
+         "value": "329"
+      }
+   },
+   {
+      "cell": "K46",
+      "statement": {
+         "item": "CR100100634",
+         "cell": "A46",
+         "property": "P100050",
+         "value": "400"
+      }
+   },
+   {
+      "cell": "K47",
+      "statement": {
+         "item": "CR100100635",
+         "cell": "A47",
+         "property": "P100050",
+         "value": "400"
+      }
+   },
+   {
+      "cell": "K48",
+      "statement": {
+         "item": "CR100100638",
+         "cell": "A48",
+         "property": "P100050",
+         "value": "329"
+      }
+   },
+   {
+      "cell": "K49",
+      "statement": {
+         "item": "CR100100639",
+         "cell": "A49",
+         "property": "P100050",
+         "value": "2000"
+      }
+   },
+   {
+      "cell": "K50",
+      "statement": {
+         "item": "CR100100642",
+         "cell": "A50",
+         "property": "P100050",
+         "value": "0400 0408"
+      }
+   },
+   {
+      "cell": "K51",
+      "statement": {
+         "item": "CR100100650",
+         "cell": "A51",
+         "property": "P100050",
+         "value": "0344 1251"
+      }
+   }
+]
