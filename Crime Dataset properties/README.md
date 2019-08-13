@@ -1,1 +1,1 @@
-This folder contains a yaml specification file of properties to be uploaded to the Wiki Satellite. It also includes the automatically generated ttl & tsv files and the program used to generate them.
+This folder contains a yaml specification file of properties to be uploaded to the Wiki Satellite/ Wikidata Store. It also includes the automatically generated ttl & tsv files and the program used to generate them.
