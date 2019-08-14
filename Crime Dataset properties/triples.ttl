@@ -44,7 +44,7 @@ wd:P100041 a wikibase:Property ;
     wikibase:statementValue psv:P100041 ;
     wikibase:statementValueNormalized psn:P100041 ;
     skos:prefLabel "reported district number"@en ;
-    p:P31 wds:P100041-ba0c1672-52bd-4498-9be9-6f306f2fb2df .
+    p:P31 wds:P100041-48afbdaf-f353-43f9-a635-1ce64dd0a061 .
 
 wd:P100042 a wikibase:Property ;
     rdfs:label "has crime"@en ;
@@ -65,8 +65,8 @@ wd:P100042 a wikibase:Property ;
     wikibase:statementValue psv:P100042 ;
     wikibase:statementValueNormalized psn:P100042 ;
     skos:prefLabel "has crime"@en ;
-    p:P1629 wds:P100042-0de00cd2-7fc5-4388-bcfe-6ad369ca4494 ;
-    p:P31 wds:P100042-56996da1-655a-4141-a2df-87cfd13b89c4 .
+    p:P1629 wds:P100042-cdbd1220-7c9e-48e5-ac57-5874b8c49af0 ;
+    p:P31 wds:P100042-3a87ddc9-23f1-40a4-83a7-21973a1b8f68 .
 
 wd:P100043 a wikibase:Property ;
     rdfs:label "date reported"@en ;
@@ -87,7 +87,7 @@ wd:P100043 a wikibase:Property ;
     wikibase:statementValue psv:P100043 ;
     wikibase:statementValueNormalized psn:P100043 ;
     skos:prefLabel "date reported"@en ;
-    p:P31 wds:P100043-70a31040-2bf0-4b42-b836-52a8c428d022 .
+    p:P31 wds:P100043-9068057b-c227-4c81-9a11-e90c6d0f51dd .
 
 wd:P100044 a wikibase:Property ;
     rdfs:label "has victim"@en ;
@@ -108,9 +108,9 @@ wd:P100044 a wikibase:Property ;
     wikibase:statementValue psv:P100044 ;
     wikibase:statementValueNormalized psn:P100044 ;
     skos:prefLabel "has victim"@en ;
-    p:P1629 wds:P100044-84e7c4c2-9fb0-4f19-b08a-e0d8231bea6d ;
-    p:P31 wds:P100044-5bd6c5b8-4c90-48f3-a106-c7a125da1dba,
-        wds:P100044-73663ef1-40b1-4132-a412-e97418e8b0c4 .
+    p:P1629 wds:P100044-c3369b25-3935-4b1e-b592-da8f731d3e9c ;
+    p:P31 wds:P100044-088068de-011e-4ee8-85ce-eecbd44c4064,
+        wds:P100044-62dade7f-7677-4a3c-bb9a-5e50c8f6abf8 .
 
 wd:P100045 a wikibase:Property ;
     rdfs:label "has age"@en ;
@@ -131,7 +131,7 @@ wd:P100045 a wikibase:Property ;
     wikibase:statementValue psv:P100045 ;
     wikibase:statementValueNormalized psn:P100045 ;
     skos:prefLabel "has age"@en ;
-    p:P31 wds:P100045-9654ca37-2fd2-4f25-814d-5336c59e2380 .
+    p:P31 wds:P100045-8910bec0-2e02-451d-8152-9588f5045fec .
 
 wd:P100046 a wikibase:Property ;
     rdfs:label "has crime code"@en ;
@@ -152,7 +152,7 @@ wd:P100046 a wikibase:Property ;
     wikibase:statementValue psv:P100046 ;
     wikibase:statementValueNormalized psn:P100046 ;
     skos:prefLabel "has crime code"@en ;
-    p:P31 wds:P100046-12179522-aec8-4097-b78f-b4e584f2da03 .
+    p:P31 wds:P100046-ed565fa8-d8f8-4e49-b2c4-73aac7395b0a .
 
 wd:P100047 a wikibase:Property ;
     rdfs:label "has crime code 2"@en ;
@@ -173,7 +173,7 @@ wd:P100047 a wikibase:Property ;
     wikibase:statementValue psv:P100047 ;
     wikibase:statementValueNormalized psn:P100047 ;
     skos:prefLabel "has crime code 2"@en ;
-    p:P31 wds:P100047-482faa74-d34c-4f4b-a24c-5f3062854538 .
+    p:P31 wds:P100047-1ed234a9-f394-4ae4-9998-faa408298513 .
 
 wd:P100048 a wikibase:Property ;
     rdfs:label "has crime code 3"@en ;
@@ -194,7 +194,7 @@ wd:P100048 a wikibase:Property ;
     wikibase:statementValue psv:P100048 ;
     wikibase:statementValueNormalized psn:P100048 ;
     skos:prefLabel "has crime code 3"@en ;
-    p:P31 wds:P100048-9db8f756-a4bb-4287-ac85-c28aeb3c56db .
+    p:P31 wds:P100048-96f73948-27a3-4c8b-a131-4668e98da3cb .
 
 wd:P100049 a wikibase:Property ;
     rdfs:label "has crime code 4"@en ;
@@ -215,7 +215,7 @@ wd:P100049 a wikibase:Property ;
     wikibase:statementValue psv:P100049 ;
     wikibase:statementValueNormalized psn:P100049 ;
     skos:prefLabel "has crime code 4"@en ;
-    p:P31 wds:P100049-30b28ebb-6a42-4730-9e99-490a2c317cd5 .
+    p:P31 wds:P100049-a627a2ae-4b5d-45b3-8776-6822e9107bbb .
 
 wd:P100050 a wikibase:Property ;
     rdfs:label "MO code"@en ;
@@ -236,7 +236,7 @@ wd:P100050 a wikibase:Property ;
     wikibase:statementValue psv:P100050 ;
     wikibase:statementValueNormalized psn:P100050 ;
     skos:prefLabel "MO code"@en ;
-    p:P31 wds:P100050-527c1c90-0cb2-4f3d-82f7-0564f4c24961 .
+    p:P31 wds:P100050-6c09a454-c8ee-4500-95ac-7a3dc4126867 .
 
 wd:P100051 a wikibase:Property ;
     rdfs:label "premise description"@en ;
@@ -257,7 +257,7 @@ wd:P100051 a wikibase:Property ;
     wikibase:statementValue psv:P100051 ;
     wikibase:statementValueNormalized psn:P100051 ;
     skos:prefLabel "premise description"@en ;
-    p:P31 wds:P100051-da2c6150-2407-4176-9d28-33cf9034e29a .
+    p:P31 wds:P100051-bda8d10b-be4e-4a9a-9025-a36341dc1d0b .
 
 wd:P100052 a wikibase:Property ;
     rdfs:label "premise code"@en ;
@@ -278,7 +278,7 @@ wd:P100052 a wikibase:Property ;
     wikibase:statementValue psv:P100052 ;
     wikibase:statementValueNormalized psn:P100052 ;
     skos:prefLabel "premise code"@en ;
-    p:P31 wds:P100052-1b9284fa-af4f-49a8-8fea-258ee07f6a2c .
+    p:P31 wds:P100052-52b1eb68-96fb-423f-9681-ccdebdbb32c6 .
 
 wd:P100053 a wikibase:Property ;
     rdfs:label "status code"@en ;
@@ -299,7 +299,7 @@ wd:P100053 a wikibase:Property ;
     wikibase:statementValue psv:P100053 ;
     wikibase:statementValueNormalized psn:P100053 ;
     skos:prefLabel "status code"@en ;
-    p:P31 wds:P100053-42797aa2-7a48-4dfa-8e38-79e0abc4e85f .
+    p:P31 wds:P100053-beb5fbd8-934a-4e94-a593-ea421d14d776 .
 
 wd:P100054 a wikibase:Property ;
     rdfs:label "status description"@en ;
@@ -320,7 +320,7 @@ wd:P100054 a wikibase:Property ;
     wikibase:statementValue psv:P100054 ;
     wikibase:statementValueNormalized psn:P100054 ;
     skos:prefLabel "status description"@en ;
-    p:P31 wds:P100054-19159bea-0fbd-4bef-b7f9-22511e9b8cf0 .
+    p:P31 wds:P100054-a520f29f-15dd-4a8b-9b3f-0bfcfb6e004d .
 
 wd:P100055 a wikibase:Property ;
     rdfs:label "DR number"@en ;
@@ -341,7 +341,7 @@ wd:P100055 a wikibase:Property ;
     wikibase:statementValue psv:P100055 ;
     wikibase:statementValueNormalized psn:P100055 ;
     skos:prefLabel "DR number"@en ;
-    p:P31 wds:P100055-2a3603b1-a8e0-4afd-98aa-a55b9473db76 .
+    p:P31 wds:P100055-11ffa93d-a3c8-475d-beb2-40837c6fbde0 .
 
 wd:P100056 a wikibase:Property ;
     rdfs:label "weapon used code"@en ;
@@ -362,7 +362,7 @@ wd:P100056 a wikibase:Property ;
     wikibase:statementValue psv:P100056 ;
     wikibase:statementValueNormalized psn:P100056 ;
     skos:prefLabel "weapon used code"@en ;
-    p:P31 wds:P100056-724a3aba-366e-47fd-9d77-e52cd4be9917 .
+    p:P31 wds:P100056-d9994f60-2713-4011-8d4f-1e2dbebceca8 .
 
 wd:P100057 a wikibase:Property ;
     rdfs:label "weapon used"@en ;
@@ -383,111 +383,111 @@ wd:P100057 a wikibase:Property ;
     wikibase:statementValue psv:P100057 ;
     wikibase:statementValueNormalized psn:P100057 ;
     skos:prefLabel "weapon used"@en ;
-    p:P1629 wds:P100057-ac103b8d-20cd-45f6-8905-a5a5bea6509f ;
-    p:P31 wds:P100057-96241d1f-5ccd-4102-986e-6193d29f041b .
+    p:P1629 wds:P100057-f08fef1c-9f75-472d-8048-035e9e3e3306 ;
+    p:P31 wds:P100057-c3935be4-9cb4-4242-9121-080b0d2629e4 .
 
-wds:P100041-ba0c1672-52bd-4498-9be9-6f306f2fb2df a wikibase:Statement ;
+wds:P100041-48afbdaf-f353-43f9-a635-1ce64dd0a061 a wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
-    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/crime_data> ;
+    prov:wasAttributedTo :Naomi Perez ;
     ps:P31 wd:Q22984026 .
 
-wds:P100042-0de00cd2-7fc5-4388-bcfe-6ad369ca4494 a wikibase:Statement ;
+wds:P100042-3a87ddc9-23f1-40a4-83a7-21973a1b8f68 a wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
-    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/crime_data> ;
+    prov:wasAttributedTo :Naomi Perez ;
+    ps:P31 wd:Q22984026 .
+
+wds:P100042-cdbd1220-7c9e-48e5-ac57-5874b8c49af0 a wikibase:Statement ;
+    wikibase:rank wikibase:NormalRank ;
+    prov:wasAttributedTo :Naomi Perez ;
     ps:P1629 wd:Q83267 .
 
-wds:P100042-56996da1-655a-4141-a2df-87cfd13b89c4 a wikibase:Statement ;
+wds:P100043-9068057b-c227-4c81-9a11-e90c6d0f51dd a wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
-    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/crime_data> ;
+    prov:wasAttributedTo :Naomi Perez ;
     ps:P31 wd:Q22984026 .
 
-wds:P100043-70a31040-2bf0-4b42-b836-52a8c428d022 a wikibase:Statement ;
+wds:P100044-088068de-011e-4ee8-85ce-eecbd44c4064 a wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
-    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/crime_data> ;
-    ps:P31 wd:Q22984026 .
-
-wds:P100044-5bd6c5b8-4c90-48f3-a106-c7a125da1dba a wikibase:Statement ;
-    wikibase:rank wikibase:NormalRank ;
-    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/crime_data> ;
+    prov:wasAttributedTo :Naomi Perez ;
     ps:P31 wd:Q64830420 .
 
-wds:P100044-73663ef1-40b1-4132-a412-e97418e8b0c4 a wikibase:Statement ;
+wds:P100044-62dade7f-7677-4a3c-bb9a-5e50c8f6abf8 a wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
-    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/crime_data> ;
+    prov:wasAttributedTo :Naomi Perez ;
     ps:P31 wd:Q22984026 .
 
-wds:P100044-84e7c4c2-9fb0-4f19-b08a-e0d8231bea6d a wikibase:Statement ;
+wds:P100044-c3369b25-3935-4b1e-b592-da8f731d3e9c a wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
-    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/crime_data> ;
+    prov:wasAttributedTo :Naomi Perez ;
     ps:P1629 wd:Q24238356 .
 
-wds:P100045-9654ca37-2fd2-4f25-814d-5336c59e2380 a wikibase:Statement ;
+wds:P100045-8910bec0-2e02-451d-8152-9588f5045fec a wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
-    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/crime_data> ;
+    prov:wasAttributedTo :Naomi Perez ;
     ps:P31 wd:Q64830420 .
 
-wds:P100046-12179522-aec8-4097-b78f-b4e584f2da03 a wikibase:Statement ;
+wds:P100046-ed565fa8-d8f8-4e49-b2c4-73aac7395b0a a wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
-    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/crime_data> ;
+    prov:wasAttributedTo :Naomi Perez ;
     ps:P31 wd:Q22984026 .
 
-wds:P100047-482faa74-d34c-4f4b-a24c-5f3062854538 a wikibase:Statement ;
+wds:P100047-1ed234a9-f394-4ae4-9998-faa408298513 a wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
-    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/crime_data> ;
+    prov:wasAttributedTo :Naomi Perez ;
     ps:P31 wd:Q22984026 .
 
-wds:P100048-9db8f756-a4bb-4287-ac85-c28aeb3c56db a wikibase:Statement ;
+wds:P100048-96f73948-27a3-4c8b-a131-4668e98da3cb a wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
-    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/crime_data> ;
+    prov:wasAttributedTo :Naomi Perez ;
     ps:P31 wd:Q22984026 .
 
-wds:P100049-30b28ebb-6a42-4730-9e99-490a2c317cd5 a wikibase:Statement ;
+wds:P100049-a627a2ae-4b5d-45b3-8776-6822e9107bbb a wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
-    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/crime_data> ;
+    prov:wasAttributedTo :Naomi Perez ;
     ps:P31 wd:Q22984026 .
 
-wds:P100050-527c1c90-0cb2-4f3d-82f7-0564f4c24961 a wikibase:Statement ;
+wds:P100050-6c09a454-c8ee-4500-95ac-7a3dc4126867 a wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
-    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/crime_data> ;
+    prov:wasAttributedTo :Naomi Perez ;
     ps:P31 wd:Q22984026 .
 
-wds:P100051-da2c6150-2407-4176-9d28-33cf9034e29a a wikibase:Statement ;
+wds:P100051-bda8d10b-be4e-4a9a-9025-a36341dc1d0b a wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
-    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/crime_data> ;
+    prov:wasAttributedTo :Naomi Perez ;
     ps:P31 wd:Q22984026 .
 
-wds:P100052-1b9284fa-af4f-49a8-8fea-258ee07f6a2c a wikibase:Statement ;
+wds:P100052-52b1eb68-96fb-423f-9681-ccdebdbb32c6 a wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
-    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/crime_data> ;
+    prov:wasAttributedTo :Naomi Perez ;
     ps:P31 wd:Q22984026 .
 
-wds:P100053-42797aa2-7a48-4dfa-8e38-79e0abc4e85f a wikibase:Statement ;
+wds:P100053-beb5fbd8-934a-4e94-a593-ea421d14d776 a wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
-    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/crime_data> ;
+    prov:wasAttributedTo :Naomi Perez ;
     ps:P31 wd:Q22984026 .
 
-wds:P100054-19159bea-0fbd-4bef-b7f9-22511e9b8cf0 a wikibase:Statement ;
+wds:P100054-a520f29f-15dd-4a8b-9b3f-0bfcfb6e004d a wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
-    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/crime_data> ;
+    prov:wasAttributedTo :Naomi Perez ;
     ps:P31 wd:Q22984026 .
 
-wds:P100055-2a3603b1-a8e0-4afd-98aa-a55b9473db76 a wikibase:Statement ;
+wds:P100055-11ffa93d-a3c8-475d-beb2-40837c6fbde0 a wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
-    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/crime_data> ;
+    prov:wasAttributedTo :Naomi Perez ;
     ps:P31 wd:Q22984026 .
 
-wds:P100056-724a3aba-366e-47fd-9d77-e52cd4be9917 a wikibase:Statement ;
+wds:P100056-d9994f60-2713-4011-8d4f-1e2dbebceca8 a wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
-    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/crime_data> ;
+    prov:wasAttributedTo :Naomi Perez ;
     ps:P31 wd:Q22984026 .
 
-wds:P100057-96241d1f-5ccd-4102-986e-6193d29f041b a wikibase:Statement ;
+wds:P100057-c3935be4-9cb4-4242-9121-080b0d2629e4 a wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
-    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/crime_data> ;
+    prov:wasAttributedTo :Naomi Perez ;
     ps:P31 wd:Q22984026 .
 
-wds:P100057-ac103b8d-20cd-45f6-8905-a5a5bea6509f a wikibase:Statement ;
+wds:P100057-f08fef1c-9f75-472d-8048-035e9e3e3306 a wikibase:Statement ;
     wikibase:rank wikibase:NormalRank ;
-    <http://www.isi.edu/etk/createdBy> <http://www.isi.edu/crime_data> ;
+    prov:wasAttributedTo :Naomi Perez ;
     ps:P1629 wd:Q728 .
 
